@@ -1,0 +1,88 @@
+{
+  "quarters": [
+    {
+      "Q": "Fall",
+      "year": "2012",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Winter",
+      "year": "2013",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Spring",
+      "year": "2013",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Fall",
+      "year": "2013",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Winter",
+      "year": "2014",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Spring",
+      "year": "2014",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Fall",
+      "year": "2014",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Winter",
+      "year": "2015",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Spring",
+      "year": "2015",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Fall",
+      "year": "2015",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Winter",
+      "year": "2016",
+      "classes": [
+        "CSE8A"
+      ]
+    },
+    {
+      "Q": "Spring",
+      "year": "2016",
+      "classes": [
+        "CSE8A"
+      ]
+    }
+  ]
+}

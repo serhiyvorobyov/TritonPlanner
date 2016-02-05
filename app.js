@@ -6,11 +6,13 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var hbs = require('express3-handlebars');
+var handlebars = require('express3-handlebars');
 
 var index = require('./routes/index');
 
 var app = express();
+
+
 
 // all environment
 app.set('port', process.env.PORT || 3000);

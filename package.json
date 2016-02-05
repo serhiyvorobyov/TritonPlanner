@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/serhiyvorobyov/TritonPlanner#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "express3-handlebars": "^0.5.2"
+    "express": "3.x",
+    "express3-handlebars": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
