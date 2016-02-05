@@ -1,0 +1,24 @@
+{
+	"diversity": [
+		{ "courseNumber": "MGT 18",
+			"courseTitle": "Managing Diverse Teams",
+			"description": "A management course...",
+			"units": "4"
+		},
+		{ "courseNumber": "MGT 18",
+			"courseTitle": "Managing Diverse Teams",
+			"description": "A management course...",
+			"units": "4"
+		},
+		{ "courseNumber": "MGT 18",
+			"courseTitle": "Managing Diverse Teams",
+			"description": "A management course...",
+			"units": "4"
+		},
+		{ "courseNumber": "MGT 18",
+			"courseTitle": "Managing Diverse Teams",
+			"description": "A management course...",
+			"units": "4"
+		}
+	]
+}

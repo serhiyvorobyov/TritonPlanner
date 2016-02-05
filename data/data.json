@@ -84,5 +84,12 @@
         "CSE8A"
       ]
     }
-  ]
+  ],
+  "info": {
+  	"college": "Warren",
+  	"major": "Computer Science",
+  	"gpa": "4.0",
+  	"totalUnits": "148",
+  	"ucUnits": "120"
+  }
 }

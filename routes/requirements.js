@@ -3,9 +3,8 @@
  */
 
 var data = require('../data/data.json');
-data.header = "Welcome, Serhiy!";
-data.image = "/images/TritonPlannerLogo.jpg";
+data.header = "Triton Planner";
 
 exports.view = function(req, res) {
-    res.render('index', data);
+    res.render('requirements', data);
 }

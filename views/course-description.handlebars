@@ -10,28 +10,15 @@
     <header>
 
         <h1><a href="/"><img id="logo" src="/images/TritonPlannerLogo.jpg"></a>
-            <span>Welcome, Serhiy!</span>
+            <span>Triton Planner</span>
             <img id="menu-btn" src="/images/gear.png">
         </h1>
 
     </header>
 
-    <center><a href="/requirements"><button style="margin: 20px 0;" class="btn btn-large btn-inverse">View Requirements</button></a></center>
-
-    <div class="container">
-        {{#each quarters}}
-            <div class="col-xs-4">
-                <h4 style="text-align: center;">{{Q}} {{year}}</h4>
-                <ul style="list-style-type: none; text-align: center; padding-left: 0;">
-                    {{#each classes}}
-                        <li>{{this}}</li>
-                    {{/each}}
-                </ul>
-            </div>
-        {{/each}}
-    </div>
-
-    <center><a href="/field-listing"><button class="btn btn-large btn-success">Add a Class</button></a></center>
+    <h2>MGT 18: Managing Diverse Teams</h2>
+    <button class="btn">Description</button>
+    <a href="/"><button class="btn">Add to Planner</button></a>
 
     <script src="/js/jquery-1.11.0.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
