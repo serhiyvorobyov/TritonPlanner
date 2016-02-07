@@ -5,5 +5,5 @@
 var data = require('../data/data.json');
 
 exports.view = function(req, res) {
-    res.render('field-listing', data);
+    res.render('partials/department-listing', data);
 }

@@ -12,7 +12,7 @@ var index = require('./routes/index');
 var requirements = require('./routes/requirements');
 var course_display = require('./routes/course-display');
 var course_description = require('./routes/course-description');
-var field_listing = require('./routes/field-listing');
+var department_listing = require('./routes/department-listing');
 
 var app = express();
 
@@ -35,11 +35,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Add routes here
 app.get('/', index.view);
-app.get('/requirements', requirements.view);
 app.get('/courses', course_display.view);
 app.get('/course-description', course_description.view);
-app.get('/field-listing', field_listing.view);
-app.get('/parts/requirements-view', requirements.content);
+app.get('/parts/department-listing-view', department_listing.view);
+app.get('/parts/requirements-view', requirements.view);
 app.get('/parts/planner-view', index.calendar);
 
 http.createServer(app).listen(app.get('port'), function() {

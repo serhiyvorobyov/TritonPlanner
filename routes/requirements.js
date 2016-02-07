@@ -3,12 +3,7 @@
  */
 
 var data = require('../data/data.json');
-data.header = "Triton Planner";
 
 exports.view = function(req, res) {
-    res.render('requirements', data);
-}
-
-exports.content = function(req, res) {
     res.render('partials/requirements-content', data);
 }
