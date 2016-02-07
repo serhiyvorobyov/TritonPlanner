@@ -39,6 +39,8 @@ app.get('/requirements', requirements.view);
 app.get('/courses', course_display.view);
 app.get('/course-description', course_description.view);
 app.get('/field-listing', field_listing.view);
+app.get('/parts/requirements-view', requirements.content);
+app.get('/parts/planner-view', index.calendar);
 
 http.createServer(app).listen(app.get('port'), function() {
     console.log('Express server listening on port ' + app.get('port'));

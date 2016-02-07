@@ -20,61 +20,8 @@
     </h1>
 
   </header>
-  
-  <div class="container">
-        <div class='general-info'>
-            <p>College: {{info.college}}</p>
-            <p>Major: {{info.major}}</p>
-            <p>UC GPA: {{info.gpa}}</p>
-            <p>Total Units Completed: {{info.unitsTotal}}</p>
-            <p>UC Graded Units: {{info.ucUnits}}</p>
-        </div>
 
-
-
-        <div class="accordion" id="accordion2">
-          <div class="accordion-group">
-            <div class="accordion-heading">
-              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                University Requirements
-              </a>
-            </div>
-            <div id="collapseOne" class="accordion-body collapse">
-              <div class="accordion-inner">
-                <ul>
-                    <li>Diversity Course <span style="color: red;">3/4</span> <br/>
-                        <a href="/courses">Add a course to fullfil requirement</a>
-                    </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-group">
-            <div class="accordion-heading">
-              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                {{info.college}} College Requirements
-              </a>
-            </div>
-            <div id="collapseTwo" class="accordion-body collapse">
-              <div class="accordion-inner">
-                Anim pariatur cliche...
-              </div>
-            </div>
-          </div>
-          <div class="accordion-group">
-            <div class="accordion-heading">
-              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
-                {{info.major}} Requirements
-              </a>
-            </div>
-            <div id="collapseThree" class="accordion-body collapse">
-              <div class="accordion-inner">
-                Anim pariatur cliche...
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
+  {{>requirements-content}}
 
     <script src="/js/jquery-1.11.0.js"></script>
     <script src="/js/bootstrap.js"></script>
