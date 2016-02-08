@@ -1,6 +1,7 @@
-<div class="department-list">
+<div class="department-list container">
     <ul style="list-style-type:none; padding-left: 0;">
-        <li><a href="/courses">Management Science</a></li>
-        <li>Computer Science</li>
+        {{#each departments}}
+            <li><a class="{{id}}" href="#">{{name}}</a></li>
+        {{/each}}
     </ul>
 </div>

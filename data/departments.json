@@ -1,0 +1,12 @@
+{
+  "departments": [
+    {
+      "id": "MGT",
+      "name": "Management Science"
+    },
+    {
+      "id": "CSE",
+      "name": "Computer Science"
+    }
+  ]
+}

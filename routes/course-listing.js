@@ -7,5 +7,7 @@ courses.header = "List of Courses";
 courses.image = "https://cdn4.iconfinder.com/data/icons/dot/256/arrow_left.png";
 
 exports.view = function(req, res) {
-    res.render('course-display', courses);
+    var department = req.query.department;
+    console.log(courses[department]);
+    res.render('partials/course-listing', { "courses": courses[department] });
 }
