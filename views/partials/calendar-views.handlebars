@@ -17,16 +17,34 @@
     <!-- Tab panes -->
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="quarter">
-            Current Quarter view!
+            {{#each currQuarter}}
+                <div>
+                    <h2 style="text-align: center;">{{Q}} {{year}}</h2>
+                    <ul style="list-style-type: none; text-align: center; padding-left: 0;">
+                        {{#each classes}}
+                            <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            {{/each}}
         </div>
         <div role="tabpanel" class="tab-pane" id="year">
-            Current Year view!
+            {{#each currYear}}
+                <div>
+                    <h3 style="text-align: center;">{{Q}} {{year}}</h3>
+                    <ul style="list-style-type: none; text-align: center; padding-left: 0;">
+                        {{#each classes}}
+                            <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            {{/each}}
         </div>
         <div role="tabpanel" class="tab-pane" id="all-years">
             <div class="container">
                 {{#each quarters}}
                     <div class="col-xs-4">
-                        <h4 style="text-align: center;">{{Q}} {{year}}</h4>
+                        <h5 style="text-align: center;">{{Q}} {{year}}</h5>
                         <ul style="list-style-type: none; text-align: center; padding-left: 0;">
                             {{#each classes}}
                                 <li>{{this}}</li>
