@@ -13,6 +13,7 @@ var requirements = require('./routes/requirements');
 var course_listing = require('./routes/course-listing');
 var course_description = require('./routes/course-description');
 var department_listing = require('./routes/department-listing');
+var login = require('./routes/login');
 
 var app = express();
 
@@ -34,12 +35,15 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Add routes here
-app.get('/', index.view);
+app.get('/', login.view);
 app.get('/course-description', course_description.view);
 app.get('/parts/department-listing-view', department_listing.view);
 app.get('/parts/requirements-view', requirements.view);
 app.get('/parts/planner-view', index.calendar);
 app.get('/parts/course-listing/mgt', course_listing.mgt);
+
+// Validate login
+app.post('/validate', login.validate);
 
 http.createServer(app).listen(app.get('port'), function() {
     console.log('Express server listening on port ' + app.get('port'));

@@ -2,12 +2,30 @@
  * Created by Seiji on 1/28/2016.
  */
 
-$('#requirements')[0].addEventListener('click', showRequirements);
-$('#planner')[0].addEventListener('click', showPlanner);
-$('#add-class')[0].addEventListener('click', showDepartments);
+$('form .btn').addEventListener('click', function(e){e.preventDefault(); console.log('wtf.');});
+/****************************** LOGIN CONTROLS **********************************/
+function validateLogin(e) {
+    console.log("entering validation...");
+
+    /*$.ajax({
+        'type': 'POST',
+        'url': '/validate',
+        'success': function(response)
+        {
+            $("body").html(response);
+        },
+        'error': function(jqXHR, textStatus, errorThrown)
+        {
+            console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+        }
+    });*/
+
+    e.preventDefault();
+}
 
 
-/******************************************* NAV BUTTON CONTROLS ***********************************************/
+
+/**************************** NAV BUTTON CONTROLS ********************************/
 function showRequirements(e) {
     e.preventDefault();
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Triton Planner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container login">
+        <h1 id="title">TritonPlanner</h1>
+        <form action="/validate" method="post">
+            <fieldset>
+                <input type="text" id="pid" name="pid" placeholder="PID (Ex. A12345678)">
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="submit" class="btn" value="Log In">
+            </fieldset>
+        </form>
+        <p id="forgot-pwd"><a href="https://act.ucsd.edu/manage-sso/password">Forgot Password?</a></p>
+    </div>
+</body>
+</html>
