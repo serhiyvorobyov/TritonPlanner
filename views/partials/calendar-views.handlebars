@@ -19,7 +19,7 @@
         <div role="tabpanel" class="tab-pane active" id="quarter">
             {{#each currQuarter}}
                 <div>
-                    <h2 style="text-align: center;">{{Q}} {{year}}</h2>
+                    <h1 style="text-align: center;">{{Q}} {{year}}</h1>
                     <ul style="list-style-type: none; text-align: center; padding-left: 0;">
                         {{#each classes}}
                             <li>{{this}}</li>
@@ -44,8 +44,8 @@
             <div class="container">
                 {{#each quarters}}
                     <div class="col-xs-4">
-                        <h5 style="text-align: center;">{{Q}} {{year}}</h5>
-                        <ul style="list-style-type: none; text-align: center; padding-left: 0;">
+                        <h5>{{Q}}<br/>{{year}}</h5>
+                        <ul>
                             {{#each classes}}
                                 <li>{{this}}</li>
                             {{/each}}
