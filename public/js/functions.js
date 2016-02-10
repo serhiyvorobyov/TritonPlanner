@@ -1,8 +1,8 @@
 /**
  * Created by Seiji on 1/28/2016.
  */
+var backBtnFunction;
 
-$('form .btn').addEventListener('click', function(e){e.preventDefault(); console.log('wtf.');});
 /****************************** LOGIN CONTROLS **********************************/
 function validateLogin(e) {
     console.log("entering validation...");
@@ -35,6 +35,10 @@ function showRequirements(e) {
         'success': function(response)
         {
             $(".main-content").html(response);
+            $('#logo').hide();
+            $('.back-btn').show();
+            backBtnFunction = showPlanner;
+            $('.back-btn')[0].addEventListener('click', backBtnFunction);
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {
@@ -52,6 +56,8 @@ function showPlanner(e) {
         'success': function(response)
         {
             $(".main-content").html(response);
+            $('#logo').show();
+            $('.back-btn').hide();
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {

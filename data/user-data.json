@@ -1,7 +1,6 @@
 {
   "quarters": [
     {
-      "index": 0,
       "Q": "Fall",
       "year": "2012",
       "classes": [
@@ -9,7 +8,6 @@
       ]
     },
     {
-      "index": 1,
       "Q": "Winter",
       "year": "2013",
       "classes": [
@@ -17,7 +15,6 @@
       ]
     },
     {
-      "index": 2,
       "Q": "Spring",
       "year": "2013",
       "classes": [
@@ -25,7 +22,21 @@
       ]
     },
     {
-      "index": 3,
+      "Q": "Summer I",
+      "year": "2013",
+      "classes": []
+    },
+    {
+      "Q": "Summer II",
+      "year": "2013",
+      "classes": []
+    },
+    {
+      "Q": "Special SS",
+      "year": "2013",
+      "classes": []
+    },
+    {
       "Q": "Fall",
       "year": "2013",
       "classes": [
@@ -33,7 +44,6 @@
       ]
     },
     {
-      "index": 4,
       "Q": "Winter",
       "year": "2014",
       "classes": [
@@ -41,7 +51,6 @@
       ]
     },
     {
-      "index": 5,
       "Q": "Spring",
       "year": "2014",
       "classes": [
@@ -49,7 +58,21 @@
       ]
     },
     {
-      "index": 6,
+      "Q": "Summer I",
+      "year": "2014",
+      "classes": []
+    },
+    {
+      "Q": "Summer II",
+      "year": "2014",
+      "classes": []
+    },
+    {
+      "Q": "Special SS",
+      "year": "2014",
+      "classes": []
+    },
+    {
       "Q": "Fall",
       "year": "2014",
       "classes": [
@@ -57,7 +80,6 @@
       ]
     },
     {
-      "index": 7,
       "Q": "Winter",
       "year": "2015",
       "classes": [
@@ -65,7 +87,6 @@
       ]
     },
     {
-      "index": 8,
       "Q": "Spring",
       "year": "2015",
       "classes": [
@@ -73,7 +94,21 @@
       ]
     },
     {
-      "index": 9,
+      "Q": "Summer I",
+      "year": "2015",
+      "classes": []
+    },
+    {
+      "Q": "Summer II",
+      "year": "2015",
+      "classes": []
+    },
+    {
+      "Q": "Special SS",
+      "year": "2015",
+      "classes": []
+    },
+    {
       "Q": "Fall",
       "year": "2015",
       "classes": [
@@ -81,7 +116,6 @@
       ]
     },
     {
-      "index": 10,
       "Q": "Winter",
       "year": "2016",
       "classes": [
@@ -89,12 +123,26 @@
       ]
     },
     {
-      "index": 11,
       "Q": "Spring",
       "year": "2016",
       "classes": [
         "CSE8A"
       ]
+    },
+    {
+      "Q": "Summer I",
+      "year": "2016",
+      "classes": []
+    },
+    {
+      "Q": "Summer II",
+      "year": "2016",
+      "classes": []
+    },
+    {
+      "Q": "Special SS",
+      "year": "2016",
+      "classes": []
     }
   ],
   "info": {

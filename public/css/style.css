@@ -14,12 +14,12 @@ header h1 {
     height: 100%;
     margin-top: 0;
     color: #EF7000;
-    text-align: center;
 }
 
 header h1 span {
     padding-top: 10px;
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
 
 header #logo {
@@ -107,7 +107,7 @@ color: white !important;
 }
 
 .login .btn {
-    padding: 14px 122px;
+    padding: 14px 106px;
     margin-top: 30px;
     background-color: #ef7000;
     color: white;
@@ -141,5 +141,9 @@ color: white !important;
 
 .back-btn {
     display: none;
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 16px;
 }
 
