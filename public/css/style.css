@@ -166,3 +166,12 @@ color: white !important;
     overflow-y: scroll;
 }
 
+.current h5 {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.past {
+    opacity: 0.7;
+}
+

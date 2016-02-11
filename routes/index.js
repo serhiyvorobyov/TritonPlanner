@@ -12,6 +12,12 @@ var currQuarter = [];
 var i;
 var length = data.quarters.length;
 for( i=0; i < length; i++ ) {
+    if( data.quarters[i].year < year ||
+        (data.quarters[i].year == year-1 && data.quarters[i].Q !== "Fall") )
+    {
+        data.quarters[i].qState = "past";
+    }
+
     if( (data.quarters[i].year == year && data.quarters[i].Q !== "Fall") ||
         (data.quarters[i].year == year-1 && data.quarters[i].Q === "Fall")    )
     {
@@ -19,19 +25,21 @@ for( i=0; i < length; i++ ) {
     }
 }
 
-data.currYear = currYear;
-
 length = currYear.length;
 for( i=0; i < length; i++ ) {
     if( month <= 11 && month >= 9 && currYear[i].Q === "Fall" ) {
+        currYear[i].qState = "current";
         currQuarter.push(currYear[i]);
     } else if( month >= 0 && month <= 2 && currYear[i].Q === "Winter" ) {
+        currYear[i].qState = "current";
         currQuarter.push(currYear[i]);
     } else if( month <= 5 && month >= 3 && currYear[i].Q === "Spring" ) {
+        currYear[i].qState = "current";
         currQuarter.push(currYear[i]);
     }
 }
 
+data.currYear = currYear;
 data.currQuarter = currQuarter;
 
 exports.view = function(req, res) {
