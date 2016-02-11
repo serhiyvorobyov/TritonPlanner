@@ -36,11 +36,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Add routes here
 app.get('/', login.view);
-app.get('/course-description', course_description.view);
+app.get('/parts/course-description/:course', course_description.view);
 app.get('/parts/department-listing-view', department_listing.view);
 app.get('/parts/requirements-view', requirements.view);
 app.get('/parts/planner-view', index.calendar);
-app.get('/parts/course-listing/mgt', course_listing.mgt);
+app.get('/parts/course-listing/:department', course_listing.mgt);
 
 // Validate login
 app.post('/planner', login.validate);

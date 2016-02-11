@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>{{name}} ({{units}})</h2>
+    <p>{{description}}</p>
+    <h4>Prerequisites</h4>
+    <ul>
+        {{#each prereqs}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+    <a href="{{evalsURL}}"><button class="btn">Evaluations</button></a>
+    <a href="{{addURL}}"><button class="btn">Add to Planner</button></a>
+</div>

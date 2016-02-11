@@ -3,7 +3,9 @@
  */
 
 var courses = require('../data/courses.json');
+var sanitizer = require('sanitizer');
 
 exports.view = function(req, res) {
-    res.render('course-description', courses);
+    var course = "" + sanitizer.escape(req.params.course);
+    res.render('partials/course-description', courses[course]);
 }

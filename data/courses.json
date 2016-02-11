@@ -1,10 +1,10 @@
 {
-	"mgt": [
-        {
-          "id": "mgt18",
-          "name": "MGT 18: Managing Diverse Teams",
-          "units": 4
-        }
-    ]
-
+  "mgt18": {
+    "name": "MGT 18: Managing Diverse Teams",
+    "units": 4,
+    "description": "This is a cool course.",
+    "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=TDMV+2",
+    "addURL": "/",
+    "prereqs": ["none"]
+  }
 }

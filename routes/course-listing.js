@@ -3,9 +3,11 @@
  */
 
 // Grabs all course data for all departments
-var courses = require('../data/courses.json');
+var dept_courses = require('../data/dept-courses.json');
+var sanitizer = require('sanitizer');
 
 exports.mgt = function(req, res) {
     // Send only that department's courses
-    res.render('partials/course-listing', {"courses": courses.mgt});
+    var department = "" + sanitizer.escape(req.params.department);
+    res.render('partials/course-listing', {"courses": dept_courses[department]});
 }

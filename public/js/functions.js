@@ -77,8 +77,15 @@ function showDepartments(e) {
             // Update displayed content
             $(".main-content").html(response);
 
+            $('#logo').hide();
+            $('.back-btn').show();
+            backBtnFunction = showPlanner;
+            $('.back-btn')[0].addEventListener('click', backBtnFunction);
+
             // Link all departments to the proper next page
-            $('.department-list #mgt')[0].addEventListener('click', showMGTClasses);
+            $.each( $('.department-list ul li'), function(index, elem) {
+                elem.addEventListener('click', showDeptClasses);
+            });
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {
@@ -87,17 +94,19 @@ function showDepartments(e) {
     });
 }
 
-/***************************************** CONTROLS FOR DEPARTMENT PAGES *******************************************/
-function showMGTClasses(e) {
+/************************** CONTROLS FOR DEPARTMENT PAGES ***********************************/
+function showDeptClasses(e) {
     e.preventDefault();
 
     $.ajax({
         'type': 'GET',
-        'url': '/parts/course-listing/mgt',
+        'url': '/parts/course-listing/' + e.srcElement.id,
         'success': function(response)
         {
             $(".main-content").html(response);
-            $('.department-list #mgt18')[0].addEventListener('click', showMGTClasses);
+            $.each( $('.course-list ul li'), function(index, elem) {
+                elem.addEventListener('click', showCourseDescription);
+            });
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {
@@ -106,14 +115,13 @@ function showMGTClasses(e) {
     });
 }
 
-/***************************************** CONTROLS FOR CLASS PAGES *******************************************/
-// MGT Classes
-function showMGT18Description(e) {
+/************************** CONTROLS FOR CLASS PAGES *************************************/
+function showCourseDescription(e) {
     e.preventDefault();
 
     $.ajax({
         'type': 'GET',
-        'url': '/parts/requirements-view',
+        'url': '/parts/course-description/'+ e.srcElement.id,
         'success': function(response)
         {
             $(".main-content").html(response);
