@@ -49,3 +49,7 @@ exports.view = function(req, res) {
 exports.calendar = function (req, res) {
     res.render('partials/calendar-views', data);
 };
+
+exports.pickQuarter = function(req,res) {
+    res.render('partials/choose-quarter', data);
+};

@@ -41,6 +41,7 @@ app.get('/parts/department-listing-view', department_listing.view);
 app.get('/parts/requirements-view', requirements.view);
 app.get('/parts/planner-view', index.calendar);
 app.get('/parts/course-listing/:department', course_listing.mgt);
+app.get('/parts/choose-quarter', index.pickQuarter);
 
 // Validate login
 app.post('/planner', login.validate);

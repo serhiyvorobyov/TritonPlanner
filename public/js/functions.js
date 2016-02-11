@@ -115,13 +115,36 @@ function showDeptClasses(e) {
     });
 }
 
-/************************** CONTROLS FOR CLASS PAGES *************************************/
+/*
+ * Handles redirection to the proper course description
+ */
 function showCourseDescription(e) {
     e.preventDefault();
 
     $.ajax({
         'type': 'GET',
         'url': '/parts/course-description/'+ e.srcElement.id,
+        'success': function(response)
+        {
+            $(".main-content").html(response);
+            $(".course-description .add")[0].addEventListener('click', showQuarterSelection);
+        },
+        'error': function(jqXHR, textStatus, errorThrown)
+        {
+            console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+        }
+    });
+}
+
+/*
+ * Display all quarters and allow adding selected class to specified quarter.
+ */
+function showQuarterSelection(e) {
+    e.preventDefault();
+
+    $.ajax({
+        'type': 'GET',
+        'url': '/parts/choose-quarter',
         'success': function(response)
         {
             $(".main-content").html(response);
@@ -132,7 +155,6 @@ function showCourseDescription(e) {
         }
     });
 }
-
 
 
 

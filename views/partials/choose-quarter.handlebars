@@ -1,0 +1,14 @@
+<div id="all-years" class="container choose-quarter">
+    {{#each quarters}}
+        <div id="{{id}}" class="col-xs-4 {{qState}}">
+            <h5>{{Q}}<br/>{{year}}</h5>
+            <ul>
+                {{#each classes}}
+                    <li>{{this}}</li>
+                {{/each}}
+                <a href="/"><button class="btn btn-success addToQuarter">Add Here</button></a>
+            </ul>
+
+        </div>
+    {{/each}}
+</div>

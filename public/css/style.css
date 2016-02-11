@@ -166,12 +166,17 @@ color: white !important;
     overflow-y: scroll;
 }
 
-.current h5 {
+.current h5, .current h3 {
     background-color: yellow !important;
     color: black !important;
 }
 
 .past {
     opacity: 0.7;
+}
+
+.choose-quarter {
+    max-height: 505px;
+    overflow-y: scroll;
 }
 

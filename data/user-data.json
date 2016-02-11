@@ -1,6 +1,7 @@
 {
   "quarters": [
     {
+      "id": "fa12",
       "Q": "Fall",
       "year": "2012",
       "classes": [
@@ -8,6 +9,7 @@
       ]
     },
     {
+      "id": "wi13",
       "Q": "Winter",
       "year": "2013",
       "classes": [
@@ -15,6 +17,7 @@
       ]
     },
     {
+      "id": "sp13",
       "Q": "Spring",
       "year": "2013",
       "classes": [
@@ -22,21 +25,25 @@
       ]
     },
     {
+      "id": "s113",
       "Q": "Summer I",
       "year": "2013",
       "classes": []
     },
     {
+      "id": "s213",
       "Q": "Summer II",
       "year": "2013",
       "classes": []
     },
     {
+      "id": "sss13",
       "Q": "Special SS",
       "year": "2013",
       "classes": []
     },
     {
+      "id": "fa13",
       "Q": "Fall",
       "year": "2013",
       "classes": [
@@ -44,6 +51,7 @@
       ]
     },
     {
+      "id": "wi14",
       "Q": "Winter",
       "year": "2014",
       "classes": [
@@ -51,6 +59,7 @@
       ]
     },
     {
+      "id": "sp14",
       "Q": "Spring",
       "year": "2014",
       "classes": [
@@ -58,21 +67,25 @@
       ]
     },
     {
+      "id": "s114",
       "Q": "Summer I",
       "year": "2014",
       "classes": []
     },
     {
+      "id": "s214",
       "Q": "Summer II",
       "year": "2014",
       "classes": []
     },
     {
+      "id": "sss14",
       "Q": "Special SS",
       "year": "2014",
       "classes": []
     },
     {
+      "id": "fa14",
       "Q": "Fall",
       "year": "2014",
       "classes": [
@@ -80,6 +93,7 @@
       ]
     },
     {
+      "id": "wi15",
       "Q": "Winter",
       "year": "2015",
       "classes": [
@@ -87,6 +101,7 @@
       ]
     },
     {
+      "id": "sp15",
       "Q": "Spring",
       "year": "2015",
       "classes": [
@@ -94,21 +109,25 @@
       ]
     },
     {
+      "id": "s115",
       "Q": "Summer I",
       "year": "2015",
       "classes": []
     },
     {
+      "id": "s215",
       "Q": "Summer II",
       "year": "2015",
       "classes": []
     },
     {
+      "id": "sss15",
       "Q": "Special SS",
       "year": "2015",
       "classes": []
     },
     {
+      "id": "fa15",
       "Q": "Fall",
       "year": "2015",
       "classes": [
@@ -116,6 +135,7 @@
       ]
     },
     {
+      "id": "wi16",
       "Q": "Winter",
       "year": "2016",
       "classes": [
@@ -123,6 +143,7 @@
       ]
     },
     {
+      "id": "sp16",
       "Q": "Spring",
       "year": "2016",
       "classes": [
@@ -130,16 +151,19 @@
       ]
     },
     {
+      "id": "s116",
       "Q": "Summer I",
       "year": "2016",
       "classes": []
     },
     {
+      "id": "s216",
       "Q": "Summer II",
       "year": "2016",
       "classes": []
     },
     {
+      "id": "sss16",
       "Q": "Special SS",
       "year": "2016",
       "classes": []
