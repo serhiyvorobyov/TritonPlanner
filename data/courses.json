@@ -8,10 +8,7 @@
     "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=TDMV+2",
     "addURL": "/",
     "prereqs": ["none"]
-  }
-}
-
-{
+  },
   "cse8A": {
     "name": "CSE 8A: Introduction To Computer Science: Java I",
     "nameShort": "CSE 8A",
@@ -20,10 +17,7 @@
     "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+8A",
     "addURL": "/",
     "prereqs": ["none"]
-  }
-}
-
-{
+  },
   "cse8B": {
     "name": "CSE 8B: Introduction To Computer Science: Java II",
     "nameShort": "CSE 8B",
@@ -32,11 +26,8 @@
     "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+8B",
     "addURL": "/",
     "prereqs": ["CSE 8A"]
-  }
-}
-
-{
-"cse12": {
+  },
+  "cse12": {
     "name": "CSE 12: Basic Data Structures and Object Oriented Design",
     "nameShort": "CSE 12",
     "units": 4,
@@ -44,10 +35,7 @@
     "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+12",
     "addURL": "/",
     "prereqs": ["CSE 8A or CSE 8B or CSE 11. CSE 8B or CSE 11 may be taken concurrently with CSE 20/ Math 15A"]
-  }
-}
-
-{
+  },
   "cse15L": {
     "name": "CSE 15L: Software Tools and Techniques Lab",
     "nameShort": "CSE 15L",
@@ -56,13 +44,10 @@
     "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+15L",
     "addURL": "/",
     "prereqs": ["CSE 8B or CSE 11, and concurrent enrollment with CSE 12."]
-  }
-}
-
-{
-  "MGT45": {
+  },
+  "mgt45": {
     "name": "MGT 45: Principles of Accounting",
-    "nameShort": "CSE 8B",
+    "nameShort": "MGT 45",
     "units": 4,
     "description": "This is a cool course.",
     "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=MGT+45",
