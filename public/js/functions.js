@@ -142,9 +142,35 @@ function showCourseDescription(e) {
 function showQuarterSelection(e) {
     e.preventDefault();
 
+    
+
     $.ajax({
         'type': 'GET',
-        'url': '/parts/choose-quarter',
+        'url': '/parts/choose-quarter/'+e.srcElement.parentNode.id,
+        'success': function(response)
+        {
+            $(".main-content").html(response);
+            $.each($(".addToQuarter"), function(index, elem) {elem.addEventListener('click', addClass)});
+        },
+        'error': function(jqXHR, textStatus, errorThrown)
+        {
+            console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+        }
+    });
+}
+
+/*
+ * Function will POST to /add-class/:class/:quarter/:year and it will be added to the user-data.json file
+ */
+function addClass(e) {
+    e.preventDefault();
+console.log(e);
+    var choosenClass = $('.choosenClass')[0].innerHTML;
+    //var quarterArr = e.srcElement.parentNode.parentNode.parentNode.childNodes[1].innerHTML.split('<br>');
+
+    $.ajax({
+        'type': 'POST',
+        'url': '/parts/add-class/'+e.srcElement.parentNode.id+'/'+choosenClass,
         'success': function(response)
         {
             $(".main-content").html(response);

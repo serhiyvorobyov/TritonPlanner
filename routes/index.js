@@ -50,6 +50,10 @@ exports.calendar = function (req, res) {
     res.render('partials/calendar-views', data);
 };
 
-exports.pickQuarter = function(req,res) {
+var sanitizer = require('sanitizer');
+exports.chooseQuarter = function(req,res) {
+    var choosenClass = sanitizer.escape(req.params.choosenClass);
+    data.choosenClass = choosenClass;
+
     res.render('partials/choose-quarter', data);
 };

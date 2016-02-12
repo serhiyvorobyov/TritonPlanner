@@ -14,6 +14,7 @@ var course_listing = require('./routes/course-listing');
 var course_description = require('./routes/course-description');
 var department_listing = require('./routes/department-listing');
 var login = require('./routes/login');
+var add_class = require('./routes/add-class');
 
 var app = express();
 
@@ -41,10 +42,12 @@ app.get('/parts/department-listing-view', department_listing.view);
 app.get('/parts/requirements-view', requirements.view);
 app.get('/parts/planner-view', index.calendar);
 app.get('/parts/course-listing/:department', course_listing.mgt);
-app.get('/parts/choose-quarter', index.pickQuarter);
+app.get('/parts/choose-quarter/:choosenClass', index.chooseQuarter);
 
 // Validate login
 app.post('/planner', login.validate);
+app.post('/parts/add-class/:choosenQuarter/:choosenClass', add_class.view);
+
 
 http.createServer(app).listen(app.get('port'), function() {
     console.log('Express server listening on port ' + app.get('port'));
