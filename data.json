@@ -5,36 +5,27 @@
       "year": "2012",
       "classes": [
         "CSE8A"
-        "MATH20A"
-        "cogs1"
       ]
     },
     {
       "Q": "Winter",
       "year": "2013",
       "classes": [
-        "CSE8B"
-        "MATH20B"
-        "Cogs8"
+        "CSE8A"
       ]
     },
     {
       "Q": "Spring",
       "year": "2013",
       "classes": [
-        "CSE12"
-        "CSE15L"
-        "MATH20C"
+        "CSE8A"
       ]
     },
     {
       "Q": "Fall",
       "year": "2013",
       "classes": [
-        "CSE30"
-        "CSE20"
-        "MATH20F"
-        "Cogs14A"
+        "CSE8A"
       ]
     },
     {
@@ -42,74 +33,55 @@
       "year": "2014",
       "classes": [
         "CSE8A"
-        "CSE21"
-        "Cogs14B"
       ]
     },
     {
       "Q": "Spring",
       "year": "2014",
       "classes": [
-        "CSE80"
-        "Cogs17"
+        "CSE8A"
       ]
     },
     {
       "Q": "Fall",
       "year": "2014",
       "classes": [
-        "CSE100"
-        "Cogs101A"
-        "Cogs102A"
-        "Cogs107A"
+        "CSE8A"
       ]
     },
     {
       "Q": "Winter",
       "year": "2015",
       "classes": [
-        "CSE101"
-        "Cogs101B"
-        "Cogs102B"
-        "Cogs107B"
+        "CSE8A"
       ]
     },
     {
       "Q": "Spring",
       "year": "2015",
       "classes": [
-        "CSE103"
-        "Cogs101C"
-        "Cogs102C"
-        "Cogs107C"
+        "CSE8A"
       ]
     },
     {
       "Q": "Fall",
       "year": "2015",
       "classes": [
-        "CSE140"
-        "CSE140L"
-        "Cogs109"
+        "CSE8A"
       ]
     },
     {
       "Q": "Winter",
       "year": "2016",
       "classes": [
-        "CSE150"
-        "Cogs120"
-        "Cogs118A"
+        "CSE8A"
       ]
     },
     {
       "Q": "Spring",
       "year": "2016",
       "classes": [
-        "CSE152"
-        "CSE153"
-        "Cogs121"
-        "Cogs118B"
+        "CSE8A"
       ]
     }
   ]
