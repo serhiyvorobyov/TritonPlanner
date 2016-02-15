@@ -1,0 +1,28 @@
+{
+  "catalog": [
+    {
+      "course_id": "aip",
+      "URL": "http://www.ucsd.edu/catalog/courses/AIP.html"
+    },
+    {
+      "course_id": "aas",
+      "URL": "http://ucsd.edu/catalog/curric/AASM.html"
+    },
+    {
+      "course_id": "anth",
+      "URL": "http://ucsd.edu/catalog/courses/ANTH.html"
+    },
+    {
+      "course_id": "beng",
+      "URL": "http://ucsd.edu/catalog/courses/BENG.html"
+    },
+    {
+      "course_id": "bnfo",
+      "URL": "http://ucsd.edu/catalog/courses/BIOI.html"
+    },
+    {
+      "course_id": "biol",
+      "URL": "http://www.ucsd.edu/catalog/courses/BIOL.html"
+    }
+  ]
+}

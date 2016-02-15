@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/serhiyvorobyov/TritonPlanner#readme",
   "dependencies": {
+    "cheerio": "^0.20.0",
     "express": "3.x",
     "express3-handlebars": "*",
     "formidable": "^1.0.17",
-    "sanitizer": "^0.1.3"
+    "request": "^2.69.0",
+    "sanitizer": "^0.1.3",
+    "yql": "^1.0.2"
   },
   "engines": {
     "node": "0.10.x"
