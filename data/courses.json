@@ -1,62 +1,2892 @@
 {
-  "mgt18": {
-  	"id": "mgt18",
-    "name": "MGT 18: Managing Diverse Teams",
-    "nameShort": "MGT 18",
-    "units": 4,
-    "description": "This is a cool course.",
-    "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=TDMV+2",
-    "addURL": "/",
-    "prereqs": ["none"]
-  },
-  "cse8A": {
-    "id": "cse8A",
-    "name": "CSE 8A: Introduction To Computer Science: Java I",
-    "nameShort": "CSE 8A",
-    "units": 4,
-    "description": "This is a cool course.",
-    "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+8A",
-    "addURL": "/",
-    "prereqs": ["none"]
-  },
-  "cse8B": {
-    "id": "cse8B",
-    "name": "CSE 8B: Introduction To Computer Science: Java II",
-    "nameShort": "CSE 8B",
-    "units": 4,
-    "description": "This is a cool course.",
-    "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+8B",
-    "addURL": "/",
-    "prereqs": ["CSE 8A"]
-  },
-  "cse12": {
-    "id": "cse12",
-    "name": "CSE 12: Basic Data Structures and Object Oriented Design",
-    "nameShort": "CSE 12",
-    "units": 4,
-    "description": "This is a cool course.",
-    "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+12",
-    "addURL": "/",
-    "prereqs": ["CSE 8A or CSE 8B or CSE 11. CSE 8B or CSE 11 may be taken concurrently with CSE 20/ Math 15A"]
-  },
-  "cse15L": {
-    "id": "cse15L",
-    "name": "CSE 15L: Software Tools and Techniques Lab",
-    "nameShort": "CSE 15L",
-    "units": 2,
-    "description": "This is a cool course.",
-    "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+15L",
-    "addURL": "/",
-    "prereqs": ["CSE 8B or CSE 11, and concurrent enrollment with CSE 12."]
-  },
-  "mgt45": {
-    "id": "mgt45",
-    "name": "MGT 45: Principles of Accounting",
-    "nameShort": "MGT 45",
-    "units": 4,
-    "description": "This is a cool course.",
-    "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=MGT+45",
-    "addURL": "/",
-    "prereqs": ["none"]
-  }
+    "mgt18": {
+        "id": "mgt18",
+        "name": "MGT 18: Managing Diverse Teams",
+        "nameShort": "MGT 18",
+        "units": 4,
+        "description": "This is a cool course.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=TDMV+2",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "mgt45": {
+        "id": "mgt45",
+        "name": "MGT 45: Principles of Accounting",
+        "nameShort": "MGT 45",
+        "units": 4,
+        "description": "This is a cool course.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=MGT+45",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cse3": {
+        "id": "cse3",
+        "name": "Fluency in Information Technology",
+        "nameShort": "CSE 3",
+        "units": "(4)",
+        "description": "Introduces the concepts and skills necessary to effectively use information technology. Includes basic concepts and some practical skills with computer and networks.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+3",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse4GS": {
+        "id": "cse4GS",
+        "name": "Mathematical Beauty in Rome",
+        "nameShort": "CSE 4GS",
+        "units": "(4)",
+        "description": "Exploration of topics in mathematics and engineering\n\t\t\t\t  as they relate to classical architecture in Rome, Italy. In\n\t\t\t\t  depth geometrical\n\t\t\t\t  analysis and computer modeling of basic structures (arches,\n\t\t\t\t  vaults, domes),\n\t\t\t\t  and on-site studies of the Colosseum, Pantheon, Roman Forum,\n\t\t\t\t  and St. Peter’s Basilica.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+4GS",
+        "addURL": "/",
+        "prereqs": [
+            "Math\n\t\t\t\t  10A or Math 20A; departmental approval, and corequisite of\n\t\t\t\t  CSE 6GS."
+        ]
+    },
+    "cse6GS": {
+        "id": "cse6GS",
+        "name": "Mathematical Beauty in Rome Lab",
+        "nameShort": "CSE 6GS",
+        "units": "(4)\t\t\t\t",
+        "description": "Companion course to CSE 4GS where theory is applied and lab experiments\n\t\t\t\t  are carried out “in the field” in Rome, Italy. For final projects,\n\t\t\t\t  students will select a complex structure (e.g., the Colosseum, the\n\t\t\t\t  Pantheon, St. Peter’s, etc.) to analyze and model, in detail, using computer-based\n\t\t\t\t  tools.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+6GS",
+        "addURL": "/",
+        "prereqs": [
+            "Math 10A or Math 20A; departmental\n\t\t\t\t  approval, and corequisite of CSE 4GS."
+        ]
+    },
+    "cse5A": {
+        "id": "cse5A",
+        "name": "Introduction to Programming I",
+        "nameShort": "CSE 5A",
+        "units": "(4)",
+        "description": "(Formerly CSE 62A) Introduction to algorithms and top-down problem solving. Introduction to the C language, including functions, arrays, and standard libraries. Basic skills for using a PC graphical user interface operating system environment. File maintenance utilities are covered. (A student may not receive credit for CSE 5A after receiving credit for CSE 10 or CSE 11 or CSE 8B or CSE 9B or CSE 62B or CSE 65.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+5A",
+        "addURL": "/",
+        "prereqs": [
+            "A familiarity with high-school level algebra is expected, but this course assumes no prior programming knowledge. "
+        ]
+    },
+    "cse7": {
+        "id": "cse7",
+        "name": "Introduction to Programming with Matlab",
+        "nameShort": "CSE 7",
+        "units": "(4)",
+        "description": "Fundamentals of computer programming and basic software design covering topics related to variables, functions, and control structures; writing, testing, and debugging programs in Matlab. Examples focus on scientific applications. Recommended preparation: high school algebra and familiarity with the computing milieu. Students with limited computing experience may take CSE 3 for preparation. Students may not take CSE 7 after completing COGS 18. Program or material fee may apply.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+7",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse8A": {
+        "id": "cse8A",
+        "name": "Introduction to Computer Science: Java I",
+        "nameShort": "CSE 8A",
+        "units": "(4)",
+        "description": "Introductory course for students interested in computer science. Fundamental concepts of applied computer science using media computation. Exercises in the theory and practice of computer science. Hands-on experience with designing, editing, compiling, and executing programming constructs and applications. CSE 8A is part of a two-course sequence (CSE 8A and CSE 8B) that is equivalent to CSE 11. Students should take CSE 8B to complete this track. Formerly offered as corequisite courses CSE 8A plus 8AL. Students who have taken CSE 8B or CSE 11 may not take CSE 8A. Recommended preparation: No prior programming experience is assumed, but comfort using computers is helpful. Students should consult the CSE Course Placement Advice web page for assistance in choosing which CSE course to take first.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+8A",
+        "addURL": "/",
+        "prereqs": [
+            "none."
+        ]
+    },
+    "cse8B": {
+        "id": "cse8B",
+        "name": "Introduction to Computer Science: Java II",
+        "nameShort": "CSE 8B",
+        "units": "(4)",
+        "description": "Continuation of the Java language. Continuation of programming techniques. More on inheritance. Exception handling. CSE 8B is part of a two-course sequence (CSE 8A and CSE 8B) that is equivalent to CSE 11. Students should consult the CSE Course Placement Advice web page for assistance in choosing which CSE course to take first. Students may not receive credit for CSE 8B and CSE 11.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+8B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 8A. "
+        ]
+    },
+    "cse11": {
+        "id": "cse11",
+        "name": "Introduction to Computer Science and Object-Oriented Programming: Java",
+        "nameShort": "CSE 11",
+        "units": "(4)",
+        "description": "An accelerated introduction to computer science and programming using the Java language. Basic UNIX. Modularity and abstraction. Documentation, testing and verification techniques. Basic object-oriented programming, including inheritance and dynamic binding. Exception handling. Event-driven programming. Experience with AWT library or other similar library. Students who have completed CSE 8B may not take CSE 11. Students should consult the CSE Course Placement Advice web page for assistance in choosing which CSE course to take first. Recommended preparation: high school algebra and familiarity with computing concepts and a course in a compiled language.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+11",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse12": {
+        "id": "cse12",
+        "name": "Basic Data\n\t\t  Structures and Object-Oriented Design",
+        "nameShort": "CSE 12",
+        "units": "(4)",
+        "description": "Use and implementation of basic data structures including linked lists, stacks, and queues. Use of advanced structures such as binary trees and hash tables. Object-oriented design including interfaces, polymorphism, encapsulation, abstract data types, pre-/post-conditions. Recursion. Uses Java and Java Collections.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+12",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 8B or CSE 11, and concurrent enrollment with CSE 15L. "
+        ]
+    },
+    "cse15L": {
+        "id": "cse15L",
+        "name": "Software Tools and Techniques Laboratory",
+        "nameShort": "CSE 15L",
+        "units": "(2)",
+        "description": "Hands-on exploration of software development\n\t\t\t\t  tools and techniques. Investigation of the scientific process\n\t\t\t\t  as applied to software development and debugging. Emphasis is on weekly\n\t\t\t\t  hands-on laboratory experiences, development of laboratory notebooking\n\t\t\t\t  techniques as applied to software design.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+15L",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 8B or CSE 11, and concurrent enrollment with CSE 12."
+        ]
+    },
+    "cse20": {
+        "id": "cse20",
+        "name": "Discrete Mathematics",
+        "nameShort": "CSE 20",
+        "units": "(4)",
+        "description": "Basic discrete mathematical structures: sets, relations, functions, sequences, equivalence relations, partial orders, and number systems. Methods of reasoning and proofs: prepositional logic, predicate logic, induction, recursion, and pigeonhole principle. Infinite sets and diagonalization. Basic counting techniques; permutation and combinations. Applications will be given to digital logic design, elementary number theory, design of programs, and proofs of program correctness. Credit not offered for both Math 15A and CSE 20. Equivalent to Math 15A.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+20",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 8A or CSE 8B or CSE 11. CSE 8B or CSE 11 may be taken concurrently with CSE 20/ Math 15A. "
+        ]
+    },
+    "cse21": {
+        "id": "cse21",
+        "name": "Mathematics for Algorithms and Systems",
+        "nameShort": "CSE 21",
+        "units": "(4)",
+        "description": "This course will provide an introduction to the discrete mathematical tools needed to analyze algorithms and systems. Enumerative combinatorics: basic counting principles, inclusion-exclusion, and generating functions. Matrix notation. Applied discrete probability. Finite automata. Credit not offered for both Math 15B and CSE 21. Equivalent to Math 15B.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+21",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 20 or Math 15A. "
+        ]
+    },
+    "cse30": {
+        "id": "cse30",
+        "name": "Computer\n\t\t  Organization and Systems Programming",
+        "nameShort": "CSE 30",
+        "units": "(4)",
+        "description": "Introduction to organization of modern digital\n\t\t\t\t  computers—understanding the various components of a computer\n\t\t\t\t  and their interrelationships. Study of a specific architecture/machine\n\t\t\t\t  with emphasis on systems programming in C and Assembly languages in a UNIX\n\t\t\t\t  environment.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+30",
+        "addURL": "/",
+        "prereqs": [
+            "CSE\n\t\t\t    12, CSE 15L, or consent of instructor.  "
+        ]
+    },
+    "cse80": {
+        "id": "cse80",
+        "name": "UNIX Lab",
+        "nameShort": "CSE 80",
+        "units": "(2)",
+        "description": "The objective of the course is to help the programmer create a productive UNIX environment. Topics include customizing the shell, file system, shell programming, process management, and UNIX tools.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+80",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 8B or CSE 11. "
+        ]
+    },
+    "cse86": {
+        "id": "cse86",
+        "name": "C++ for Java Programmers",
+        "nameShort": "CSE 86",
+        "units": "(2)",
+        "description": "Helps the Java programmer to be productive in the C++ programming environment. Topics include the similarities and differences between Java and C++ with special attention to pointers, operator overloading, templates, the STL, the preprocessor, and the C++ Runtime Environment.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+86",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 12 or consent of instructor. "
+        ]
+    },
+    "cse87": {
+        "id": "cse87",
+        "name": "Freshman Seminar",
+        "nameShort": "CSE 87",
+        "units": "(1)",
+        "description": "The Freshman Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. Freshman Seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering freshmen.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+87",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse90": {
+        "id": "cse90",
+        "name": "Undergraduate Seminar",
+        "nameShort": "CSE 90",
+        "units": "(1)",
+        "description": "A seminar providing an overview of a topic of current research interest to the instructor. The goal is to present a specialized topic in computer science and engineering students. May be taken for credit three times when topics vary.  ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+90",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cse91": {
+        "id": "cse91",
+        "name": "Perspectives\n\t\t  in Computer Science and Engineering",
+        "nameShort": "CSE 91",
+        "units": "(2)",
+        "description": "A seminar format discussion led by CSE faculty on topics in central areas of computer science, concentrating on the relation among them, recent developments, and future directions.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+91",
+        "addURL": "/",
+        "prereqs": [
+            "majors only. "
+        ]
+    },
+    "cse99": {
+        "id": "cse99",
+        "name": "Independent\n\t\t  Study in Computer Science and Engineering",
+        "nameShort": "CSE 99",
+        "units": "(4)",
+        "description": "Independent reading or research by special arrangement with a faculty member.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+99",
+        "addURL": "/",
+        "prereqs": [
+            "lower-division standing. Completion of thirty units at UC San Diego with a UC San Diego GPA of 3.0. Special Studies form required. Department stamp required. Consent of instructor and approval of the department. "
+        ]
+    },
+    "cse100": {
+        "id": "cse100",
+        "name": "Advanced Data Structures",
+        "nameShort": "CSE 100",
+        "units": "(4)",
+        "description": "High-performance data structures and supporting\n\t\t\t\t  algorithms. Use and implementation of data structures like (un)balanced\n\t\t\t\t  trees, graphs, priority queues, and hash tables. Also memory management,\n\t\t\t\t  pointers, recursion. Theoretical and practical performance analysis, both\n\t\t\t\t  average case and amortized. Uses C++ and STL. Credit not offered for both Math 176 and CSE 100. Equivalent to Math 176. Recommended preparation: background in C or C++ programming.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+100",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 12, CSE 15L, CSE 21 or Math 15B, and CSE 5A or CSE 30 or ECE 15 or MAE 9."
+        ]
+    },
+    "cse101": {
+        "id": "cse101",
+        "name": "Design and Analysis of Algorithms",
+        "nameShort": "CSE 101",
+        "units": "(4)",
+        "description": "Design and analysis of efficient algorithms with emphasis of nonnumerical algorithms such as sorting, searching, pattern matching, and graph and network algorithms. Measuring complexity of algorithms, time and storage. NP-complete problems. Credit not offered for both Math 188 and CSE 101. Equivalent to Math 188.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+101",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 12, CSE 21 or Math 15B, or Math 100A, or Math 103A and CSE 100, or Math 176. "
+        ]
+    },
+    "cse103": {
+        "id": "cse103",
+        "name": "A Practical\n\t\t  Introduction to Probability and Statistics",
+        "nameShort": "CSE 103",
+        "units": "(4)",
+        "description": "Distributions over the real line. Independence, expectation, conditional expectation, mean, variance. Hypothesis testing. Learning classifiers. Distributions over R^n, covariance matrix. Binomial, Poisson distributions. Chernoff bound. Entropy. Compression. Arithmetic coding. Maximal likelihood estimation. Bayesian estimation. CSE 103 is not duplicate credit for ECE 109, Econ 120A, or Math 183.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+103",
+        "addURL": "/",
+        "prereqs": [
+            "Math 20A and Math 20B. "
+        ]
+    },
+    "cse105": {
+        "id": "cse105",
+        "name": "Theory of Computability",
+        "nameShort": "CSE 105",
+        "units": "(4)",
+        "description": "An introduction to the mathematical theory of computability. Formal languages. Finite automata and regular expression. Push-down automata and context-free languages. Computable or recursive functions: Turing machines, the halting problem. Undecidability. Credit not offered for both Math 166 and CSE 105. Equivalent to Math 166.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+105",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 12, CSE 21 or Math 15B, or Math 100A, or Math 103A. "
+        ]
+    },
+    "cse107": {
+        "id": "cse107",
+        "name": "Introduction to Modern Cryptography",
+        "nameShort": "CSE 107",
+        "units": "(4)",
+        "description": "Topics include private and public-key cryptography, block ciphers, data encryption, authentication, key distribution and certification, pseudorandom number generators, design and analysis of protocols, zero-knowledge proofs, and advanced protocols. Emphasizes rigorous mathematical approach including formal definitions of security goals and proofs of protocol security.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+107",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 21 or Math 15B, CSE 101 or Math 188, CSE 105 or Math 166. "
+        ]
+    },
+    "cse110": {
+        "id": "cse110",
+        "name": "Software\n\t\t\t\t  Engineering",
+        "nameShort": "CSE 110",
+        "units": "(4)",
+        "description": "Introduction to software development and engineering methods,\n                  including specification, design, implementation, testing, and\n                  process. An emphasis on team development, agile methods, and\n                  use of tools such as IDE’s, version control, and test harnesses.\n                  CSE 70 is renumbered to CSE 110: students may not receive credit\n                  for both CSE 70 and CSE 110.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+110",
+        "addURL": "/",
+        "prereqs": [
+            "CSE\n                  12, CSE 21, or Math 15B."
+        ]
+    },
+    "cse112": {
+        "id": "cse112",
+        "name": "Advanced Software Engineering",
+        "nameShort": "CSE 112",
+        "units": "(4)",
+        "description": "This course will cover software engineering\n\t\t\t\t  topics associated with large systems development such as requirements\n\t\t\t\t  and specifications, testing and maintenance, and design. Specific\n\t\t\t\t  attention will be given to development tools and automated\n\t\t\t\t  support environments.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+112",
+        "addURL": "/",
+        "prereqs": [
+            "CSE\n\t\t\t    111. "
+        ]
+    },
+    "cse118": {
+        "id": "cse118",
+        "name": "Ubiquitous Computing",
+        "nameShort": "CSE 118",
+        "units": "(4)",
+        "description": "Explores emerging opportunities enabled by cheap sensors and networked computing devices. Small research projects will be conducted in teams, culminating in project presentations at the end of the term. Section will cover material relevant to the project, such as research methods, software engineering, teamwork, and project management.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+118",
+        "addURL": "/",
+        "prereqs": [
+            "any course from the following: CSE 131, CSE 132B, Cog Sci 102C, Cog Sci 121, Cog Sci 184, COMT 111B, COMT 115, ECE 111, ECE 118, ECE 191, ECE 192, or ICAM 160B; or consent of instructor. "
+        ]
+    },
+    "cse120": {
+        "id": "cse120",
+        "name": "Principles\n\t\t  of Computer Operating Systems",
+        "nameShort": "CSE 120",
+        "units": "(4)",
+        "description": "Basic functions of operating systems; basic kernel structure, concurrency, memory management, virtual memory, file systems, process scheduling, security and protection.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+120",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 30, and CSE 101 or Math 188, and CSE 70 or CSE 110. "
+        ]
+    },
+    "cse121": {
+        "id": "cse121",
+        "name": "Operating\n\t\t  Systems: Architecture and Implementation",
+        "nameShort": "CSE 121",
+        "units": "(4)",
+        "description": "(Formerly CSE 171B.) Case study of architecture and implementation of a selected modern operating system. In-depth analysis through a detailed study of source code. Topics include process creation, context-switching, memory allocation, synchronization mechanisms, interprocess communication, I/O buffering, device drivers, and file systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+121",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 120. "
+        ]
+    },
+    "cse123": {
+        "id": "cse123",
+        "name": "Computer Networks",
+        "nameShort": "CSE 123",
+        "units": "(4)",
+        "description": "(Renumbered from CSE 123A.) Introduction to concepts, principles, and practice of computer communication networks with examples from existing architectures, protocols, and standards with special emphasis on the Internet protocols. Layering and the OSI model; physical and data link layers; local and wide area networks; datagrams and virtual circuits; routing and congestion control; internetworking. Transport protocols. Credit may not be received for both CSE 123 and ECE 158A, or CSE 123A and CSE 123. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+123",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 120 or consent of instructor. Majors only."
+        ]
+    },
+    "cse124": {
+        "id": "cse124",
+        "name": "Networked Services",
+        "nameShort": "CSE 124",
+        "units": "(4)",
+        "description": "(Renumbered from CSE 123B.) The architecture of modern networked services, including data center design, enterprise storage, fault tolerance, and load balancing. Protocol software structuring, the Transmission Control Protocol (TCP), remote procedure calls, protocols for digital audio and video communication, overlay and peer-to-peer systems, secure communication. Credit may not be received for both CSE 124 and ECE 158B. Students may not receive credit for both CSE 123B and CSE 124.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+124",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 120 or consent of instructor. "
+        ]
+    },
+    "cse125": {
+        "id": "cse125",
+        "name": "Software\n\t\t  System Design and Implementation",
+        "nameShort": "CSE 125",
+        "units": "(4)",
+        "description": "Design and implementation of large, complex software systems involving multiple aspects of CSE curriculum. Emphasis is on software system design applied to a single, large group project with close interaction with instructor.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+125",
+        "addURL": "/",
+        "prereqs": [
+            "senior standing with substantial programming experience, and consent of instructor. Department stamp required.  "
+        ]
+    },
+    "cse127": {
+        "id": "cse127",
+        "name": "Introduction to Computer Security",
+        "nameShort": "CSE 127",
+        "units": "(4)",
+        "description": "Topics include basic cryptography, security/threat analysis, access control, auditing, security models, distributed systems security, and theory behind common attack and defense techniques. The class will go over formal models as well as the bits and bytes of security exploits.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+127",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 21 or Math 15B, and CSE 120. "
+        ]
+    },
+    "cse130": {
+        "id": "cse130",
+        "name": "Programming\n\t\t  Languages: Principles and Paradigms",
+        "nameShort": "CSE 130",
+        "units": "(4)",
+        "description": "(Formerly CSE 173.) Introduction to programming languages and paradigms, the components that comprise them, and the principles of language design, all through the analysis and comparison of a variety of languages (e.g., Pascal, Ada, C++, PROLOG, ML.) Will involve programming in most languages studied.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+130",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 12, and CSE 100 or Math 176, CSE 105 or Math 166."
+        ]
+    },
+    "cse131": {
+        "id": "cse131",
+        "name": "Compiler Construction",
+        "nameShort": "CSE 131",
+        "units": "(4)",
+        "description": "(Formerly CSE 131B.) Introduction to the compilation of programming languages,\n\t\t\t\t  practice of lexical and syntactic analysis, symbol tables,\n\t\t\t\t  syntax-directed translation, type checking, code generation, optimization,\n\t\t\t\t  interpretation, and compiler structure. (Students may receive repeat credit\n\t\t\t\t  for CSE 131A and CSE 131B by completing CSE 131.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+131",
+        "addURL": "/",
+        "prereqs": [
+            "CSE\n\t\t\t\t  100 or Math 176, CSE 105 or Math 166, CSE 70 or CSE 110, and CSE 130. "
+        ]
+    },
+    "cse132A": {
+        "id": "cse132A",
+        "name": "Database System Principles",
+        "nameShort": "CSE 132A",
+        "units": "(4)",
+        "description": "Basic concepts of databases, including data modeling, relational databases, query languages, optimization, dependencies, schema design, and concurrency control. Exposure to one or several commercial database systems. Advanced topics such as deductive and object-oriented databases, time allowing.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+132A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176. "
+        ]
+    },
+    "cse132B": {
+        "id": "cse132B",
+        "name": "Database Systems Applications",
+        "nameShort": "CSE 132B",
+        "units": "(4)",
+        "description": "Design of databases, transactions, use of trigger facilities and datablades. Performance measuring, organization of index structures.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+132B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 132A or equivalent."
+        ]
+    },
+    "cse134B": {
+        "id": "cse134B",
+        "name": "Web Client Languages",
+        "nameShort": "CSE 134B",
+        "units": "(4)",
+        "description": "Design and implementation of interactive World Wide Web clients using helper applications and plug-ins. The main language covered will be Java.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+134B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176."
+        ]
+    },
+    "cse135": {
+        "id": "cse135",
+        "name": "Server-side Web Applications",
+        "nameShort": "CSE 135",
+        "units": "(4)",
+        "description": "Design and implementation of dynamic web-based\n\t\t\t\t  applications. Multitier architecture, scripting languages, SQL, XML, session\n\t\t\t\t  handling, nonbrowser clients, web services, and scalability, security,\n\t\t\t\t  and usability in the web context. Credit is not offered for both CSE 135 and CSE 134A.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+135",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176. "
+        ]
+    },
+    "cse140": {
+        "id": "cse140",
+        "name": "Components\n\t\t  and Design Techniques for Digital Systems",
+        "nameShort": "CSE 140",
+        "units": "(4)",
+        "description": "(Formerly CSE 170A) Design of Boolean logic and finite state machines; two-level, multilevel combinational logic design, combinational modules and modular networks, Mealy and Moore machines, analysis and synthesis of canonical forms, sequential modules.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+140",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 20 or Math 15A, and corequisite of CSE 140L."
+        ]
+    },
+    "cse140L": {
+        "id": "cse140L",
+        "name": "Digital Systems Laboratory",
+        "nameShort": "CSE 140L",
+        "units": "(2)",
+        "description": "Implementation with computer-aided design tools for combinational logic minimization and state machine synthesis. Hardware construction of a small digital system.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+140L",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 20 or Math 15A; CSE 140 must be taken concurrently. "
+        ]
+    },
+    "cse141": {
+        "id": "cse141",
+        "name": "Introduction to Computer Architecture",
+        "nameShort": "CSE 141",
+        "units": "(4)",
+        "description": "Introduction to computer architecture. Computer system design. Processor design. Control design. Memory systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+141",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 140, CSE 140L, or consent of the instructor. CSE 141L should be taken concurrently. "
+        ]
+    },
+    "cse141L": {
+        "id": "cse141L",
+        "name": "Project in Computer Architecture",
+        "nameShort": "CSE 141L",
+        "units": "(2)",
+        "description": "Hands-on computer architecture project aiming to familiarize students with instruction set architecture, and design of process. Control and memory systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+141L",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 110, CSE 140, CSE 140L, or consent of the instructor. CSE 141 should be taken concurrently. "
+        ]
+    },
+    "cse143": {
+        "id": "cse143",
+        "name": "Microelectronic System Design",
+        "nameShort": "CSE 143",
+        "units": "(4)",
+        "description": "VSLI process technologies; circuit characterization; logic design styles; clocking strategies; computer-aided design tools; subsystem design; design case studies. System design project from hardware description, logic synthesis, physical layout to design verification. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+143",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 140 or CSE 170A or ECE 81.\t\t\t\t"
+        ]
+    },
+    "cse144": {
+        "id": "cse144",
+        "name": "Computer-Aided Design of VLSI Circuits",
+        "nameShort": "CSE 144",
+        "units": "(4)",
+        "description": "Introduction to computer-aided design. Placement, assignment and floor planning techniques. Routing. Symbolic layout and compaction. Module generation and silicon compilation.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+144",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 140 and CSE 140L."
+        ]
+    },
+    "cse145": {
+        "id": "cse145",
+        "name": "Embedded System Design Project",
+        "nameShort": "CSE 145",
+        "units": "(4)",
+        "description": "Project class building an embedded computing system. Learn fundamental knowledge of microcontrollers, sensors, and actuators. Introduction to the hardware and software tools to build project in a team environment and end-to-end system building.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+145",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 30."
+        ]
+    },
+    "cse148": {
+        "id": "cse148",
+        "name": "Advanced\n\t\t  Processor Architecture Design Project",
+        "nameShort": "CSE 148",
+        "units": "(4)",
+        "description": "Students will use hardware description language tools to add advanced architectural features to a basic processor design. These features may include pipelining, superscalar execution, branch prediction, and advanced cache features. Designs will be implemented in programmable logic devices.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+148",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 141, CSE 141L, or consent of instructor. "
+        ]
+    },
+    "cse150": {
+        "id": "cse150",
+        "name": "Introduction\n\t\t  to Artificial Intelligence: Search and Reasoning",
+        "nameShort": "CSE 150",
+        "units": "(4)",
+        "description": "Search algorithms including BFS, DFS, iterative deepening and A*, randomized search  algorithms including Walksat, syntax and semantics of first-order logic (FOL), knowledge representation in FOL including reasoning, basic reasoning with probabilities, basic Bayesian learning.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+150",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176, or consent of instructors. "
+        ]
+    },
+    "cse151": {
+        "id": "cse151",
+        "name": "Introduction\n\t\t  to Artificial Intelligence: Statistical Approaches",
+        "nameShort": "CSE 151",
+        "units": "(4)",
+        "description": "Reasoning with probabilities, reasoning and learning with Bayesian networks, decision making under uncertainty, sequential decision making, statistical learning methods, and reinforcement learning.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+151",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176, or consent of instructor. "
+        ]
+    },
+    "cse152": {
+        "id": "cse152",
+        "name": "Introduction to Computer Vision",
+        "nameShort": "CSE 152",
+        "units": "(4)",
+        "description": "The goal of computer vision is to compute scene and object properties from images and video. This introductory course includes feature detection, image segmentation, motion estimation, object recognition, and 3-D shape reconstruction through stereo, photometric stereo, and structure from motion.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+152",
+        "addURL": "/",
+        "prereqs": [
+            "Math 20F, CSE 100 or Math 176, CSE 101 or Math 188."
+        ]
+    },
+    "cse153": {
+        "id": "cse153",
+        "name": "Cognitive Modeling",
+        "nameShort": "CSE 153",
+        "units": "(4)",
+        "description": "Construction of computational models that “do the same things people do,” in terms of perception, categorization, memory, language, action, etc. and typically in a fashion that is plausibly carried out by the neural networks in our brains. The model must fit behavioral, neurophysiological, and/or neuropsychological data. Recommended preparation: background knowledge in computer science, cognitive science, psychology, or neuroscience, and a basic understanding of the most fundamental concepts of differential calculus, linear algebra, and statistics. Computer programming skills may be useful to some students as they conduct their term projects, but such skills are not required.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+153",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176 or consent of instructor."
+        ]
+    },
+    "cse160": {
+        "id": "cse160",
+        "name": "Introduction to Parallel Computing",
+        "nameShort": "CSE 160",
+        "units": "(4)",
+        "description": "Introduction to high performance parallel computing: parallel architecture, algorithms, software, and problem-solving techniques. Areas covered: Flynns’ taxonomy, processor-memory organizations, shared and nonshared memory models: message passing and multithreading, data parallelism; speedup, efficiency and Amdahl’s law, communication and synchronization, isoefficiency and scalability. Assignments given to provide practical experience.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+160",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176. "
+        ]
+    },
+    "cse164": {
+        "id": "cse164",
+        "name": "GPU Programming",
+        "nameShort": "CSE 164",
+        "units": "(4)",
+        "description": "Principles and practices of programming graphics processing units (GPUs). GPU architecture and hardware concepts, including memory and threading models. Modern hardware-accelerated graphics pipeline programming. Application of GPU programming to rendering of game graphics, including physical, deferring, and global lighting models. Recommended preparation: Practical Rendering and Computation with Direct3D 11 by Jason Zink, Matt Pettineo, and Jack Hoxley.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+164",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 167.  "
+        ]
+    },
+    "cse165": {
+        "id": "cse165",
+        "name": "3D User Interaction",
+        "nameShort": "CSE 165",
+        "units": "(4)",
+        "description": "This course focuses on design and evaluation of three-dimensional (3D) user interfaces, devices, and interaction techniques. The course consists of lectures, literature reviews, and programming assignments. Students will be expected to create interaction techniques for several different 3D interaction devices. Program or material fee may apply.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+165",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 167. "
+        ]
+    },
+    "cse166": {
+        "id": "cse166",
+        "name": "Image Processing",
+        "nameShort": "CSE 166",
+        "units": "(4)",
+        "description": "Principles of image formation, analysis, and representation. Image enhancement, restoration, and segmentation; stochastic image models. Filter design, sampling, Fourier and wavelet transforms. Selected applications in computer graphics and machine vision.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+166",
+        "addURL": "/",
+        "prereqs": [
+            "Math 20F, CSE 100 or Math 176. "
+        ]
+    },
+    "cse167": {
+        "id": "cse167",
+        "name": "Computer Graphics",
+        "nameShort": "CSE 167",
+        "units": "(4)",
+        "description": "Representation and manipulation of pictorial data. Two-dimensional and three-dimensional transformations, curves, surfaces. Projection, illumination, and shading models. Raster and vector graphic I/O devices; retained-mode and immediate-mode graphics software systems and applications. Students may not receive credit for both Math 155A and CSE 167.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+167",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176. "
+        ]
+    },
+    "cse168": {
+        "id": "cse168",
+        "name": "Computer Graphics II: Rendering",
+        "nameShort": "CSE 168",
+        "units": "(4)",
+        "description": "Weekly programming assignments that will cover graphics rendering algorithms. During the course the students will learn about ray tracing, geometry, tessellation, acceleration structures, sampling, filtering, shading models, and advanced topics such as global illumination and programmable graphics hardware.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+168",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 167.  "
+        ]
+    },
+    "cse169": {
+        "id": "cse169",
+        "name": "Computer Animation",
+        "nameShort": "CSE 169",
+        "units": "(4)",
+        "description": "Advanced graphics focusing on the programming techniques involved in computer animation. Algorithms and approaches for both character animation and physically based animation. Particular subjects may include skeletons, skinning, key framing, facial animation, inverse kinematics, locomotion, motion capture, video game animation, particle systems, rigid bodies, clothing, and hair. Recommended preparation: An understanding of linear algebra.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+169",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 167 or consent of instructor. "
+        ]
+    },
+    "cse170": {
+        "id": "cse170",
+        "name": "Introduction to Human-Computer Interaction Design",
+        "nameShort": "CSE 170",
+        "units": "(4)",
+        "description": "Introduces fundamental methods and principles for designing, implementing, and evaluating user interfaces. Topics: user-centered design, rapid prototyping, experimentation, direct manipulation, cognitive principles, visual design, social software, software tools. Learn by doing: Work with a team on a quarter-long design project. Cross-listed with COGS 120. Recommended preparation: Basic familiarity with HTML.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+170",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 11 or CSE 8A or CSE 7."
+        ]
+    },
+    "cse181": {
+        "id": "cse181",
+        "name": "Molecular Sequence Analysis",
+        "nameShort": "CSE 181",
+        "units": "(4)",
+        "description": "This course covers the analysis of nucleic acid and protein sequences, with an emphasis on the application of algorithms to biological problems. Topics include sequence alignments, database searching, comparative genomics, and phylogenetic and clustering analyses. Pairwise alignment, multiple alignment, DNS sequencing, scoring functions, fast database search, comparative genomics, clustering, phylogenetic trees, gene finding/DNA statistics.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+181",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176, CSE 101 or Math 188, BIMM 100 or Chem 114C. Bioinformatics majors only. CSE 181 is cross-listed with BIMM 181 and BENG 181. "
+        ]
+    },
+    "cse182": {
+        "id": "cse182",
+        "name": "Biological Databases",
+        "nameShort": "CSE 182",
+        "units": "(4)",
+        "description": "This course provides an introduction to the features of biological data, how those data are organized efficiently in databases, and how existing data resources can be utilized to solve a variety of biological problems. Object oriented databases, data modeling and description. Survey of current biological database with respect to above, implementation of a database on a biological topic. Cross-listed with BIMM 182/BENG 182/Chem 182.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+182",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or Math 176. Bioinformatics majors only."
+        ]
+    },
+    "cse184": {
+        "id": "cse184",
+        "name": "Computational Molecular Biology",
+        "nameShort": "CSE 184",
+        "units": "(4)",
+        "description": "This advanced course covers the application of machine learning and modeling techniques to biological systems. Topics include gene structure, recognition of DNA and protein sequence patterns, classification, and protein structure prediction. Pattern discovery, Hidden Markov models/support victor machines/neural network/profiles. Protein structure prediction, functional characterization or proteins, functional genomics/proteomics, metabolic pathways/gene networks. Cross-listed with BIMM 184/BENG 184/Chem 184.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+184",
+        "addURL": "/",
+        "prereqs": [
+            "BIMM 181 or BENG 181 or CSE 181, BENG 182 or BIMM 182 or CSE 182 or CHEM 182. Bioinformatics majors only. "
+        ]
+    },
+    "cse190": {
+        "id": "cse190",
+        "name": "Topics\n\t\t  in Computer Science and Engineering",
+        "nameShort": "CSE 190",
+        "units": "(4)",
+        "description": "Topics of special interest in computer science and engineering. Topics may vary from quarter to quarter. May be repeated for credit with the consent of instructor.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+190",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. Department stamp required. "
+        ]
+    },
+    "cse191": {
+        "id": "cse191",
+        "name": "Seminar in CSE",
+        "nameShort": "CSE 191",
+        "units": "(1–4)",
+        "description": "A seminar course on topics of current interest. Students, as well as, the instructor will be actively involved in running the course/class. This course cannot be counted toward a technical elective.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+191",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. Department stamp required.  "
+        ]
+    },
+    "cse192": {
+        "id": "cse192",
+        "name": "Senior Seminar in Computer Science and Engineering",
+        "nameShort": "CSE 192",
+        "units": "(1)",
+        "description": "The Senior Seminar Program is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in CSE (at the upper-division level). Topics will vary from quarter to quarter. Senior seminars may be taken for credit up to four times, with a change in topic, and permission of the department. Enrollment is limited to twenty students, with preference given to seniors. (P/NP grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+192",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing; department stamp required and consent of instructor."
+        ]
+    },
+    "cse195": {
+        "id": "cse195",
+        "name": "Teaching",
+        "nameShort": "CSE 195",
+        "units": "(4)",
+        "description": "Teaching and tutorial assistance in a CSE course under the supervision of the instructor. (P/NP grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+195",
+        "addURL": "/",
+        "prereqs": [
+            "consent of the department chair. Department stamp required. "
+        ]
+    },
+    "cse197": {
+        "id": "cse197",
+        "name": "Field\n\t\t  Study in Computer Science and Engineering",
+        "nameShort": "CSE 197",
+        "units": "(4, 8, 12, or 16)",
+        "description": "Directed study and research at laboratories away from the campus. (P/NP grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+197",
+        "addURL": "/",
+        "prereqs": [
+            "consent of the instructor and approval of the department. Department stamp required. "
+        ]
+    },
+    "cse198": {
+        "id": "cse198",
+        "name": "Directed Group Study",
+        "nameShort": "CSE 198",
+        "units": "(2 or 4)",
+        "description": "Computer science and engineering topics whose study involves reading and discussion by a small group of students under the supervision of a faculty member. (P/NP grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+198",
+        "addURL": "/",
+        "prereqs": [
+            "consent of the instructor. Department stamp required. "
+        ]
+    },
+    "cse199": {
+        "id": "cse199",
+        "name": "Independent Study for Undergraduates",
+        "nameShort": "CSE 199",
+        "units": "(2 or 4)",
+        "description": "Independent reading or research by special arrangement with a faculty member. (P/NP grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+199",
+        "addURL": "/",
+        "prereqs": [
+            "consent of the instructor. Department stamp required. "
+        ]
+    },
+    "cse199H": {
+        "id": "cse199H",
+        "name": "CSE Honors Thesis Research for Undergraduates",
+        "nameShort": "CSE 199H",
+        "units": "(4)",
+        "description": "Undergraduate research for completing an honors project under the supervision of a CSE faculty member. May be taken across multiple quarters. Students should enroll for a letter grade. May be taken for credit three times.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+199H",
+        "addURL": "/",
+        "prereqs": [
+            "Admission to the CSE department honors program. Consent of the instructor. Department stamp required."
+        ]
+    },
+    "cse200": {
+        "id": "cse200",
+        "name": "Computability and Complexity",
+        "nameShort": "CSE 200",
+        "units": "(4)",
+        "description": " ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+200",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cse202": {
+        "id": "cse202",
+        "name": "Algorithm Design and Analysis",
+        "nameShort": "CSE 202",
+        "units": "(4)",
+        "description": "Computability review, including halting problem, decidable sets, r.e. sets, many-one reductions; TIME(t(n)), SPACE(s(n)) and general relations between these classes; L, P, PSPACE, NP; NP—completeness; hierarchy theorems; RP, BPP.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+202",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 105 or equivalent. "
+        ]
+    },
+    "cse203A": {
+        "id": "cse203A",
+        "name": "Advanced Algorithms",
+        "nameShort": "CSE 203A",
+        "units": "(4)",
+        "description": "The basic techniques for the design and analysis of algorithms. Divide-and-conquer, dynamic programming, data structures, graph search, algebraic problems, randomized algorithms, lower bounds, probabilistic analysis, parallel algorithms.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+203A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 101 or equivalent. "
+        ]
+    },
+    "cse205A": {
+        "id": "cse205A",
+        "name": "Logic in Computer Science",
+        "nameShort": "CSE 205A",
+        "units": "(4)",
+        "description": "Modern advances in design and analysis of algorithms. Exact syllabus varies. Topics include approximation, randomized algorithms, probabilistic analysis, heuristics, online algorithms, competitive analysis, models of memory hierarchy, parallel algorithms, number-theoretic algorithms, cryptanalysis, computational geometry, computational biology, network algorithms, VLSI CAD algorithms.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+205A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 202. "
+        ]
+    },
+    "cse206A": {
+        "id": "cse206A",
+        "name": "Lattice Algorithms and Applications",
+        "nameShort": "CSE 206A",
+        "units": "(4)",
+        "description": "(Formerly CSE 208D) Mathematical logic as a tool in computer science. Propositional logic, resolution, first-order logic, completeness and incompleteness theorems with computational viewpoint, finite model theory, descriptive complexity, logic programming, nonmonotonic reasoning, temporal logic. Applications to databases, automatic theorem proving, program verification, and distributed systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+206A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 200 or consent of instructor. "
+        ]
+    },
+    "cse207": {
+        "id": "cse207",
+        "name": "Modern Cryptography",
+        "nameShort": "CSE 207",
+        "units": "(4)",
+        "description": "(Formerly CSE 207C) Introduction to the algorithmic theory of point lattices (aka algorithmic geometry of numbers), and some of its most important applications in cryptography and cryptanalysis. Topics usually include: LLL basis reduction algorithm, cryptanalysis of broadcast RSA, hardness of approximating lattice problems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+207",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 202, CSE 200, or concurrent. "
+        ]
+    },
+    "cse208": {
+        "id": "cse208",
+        "name": "Advanced Cryptography",
+        "nameShort": "CSE 208",
+        "units": "(4)",
+        "description": "Private and public key cryptography, introduction to reduction based proofs of security, concrete security, block ciphers, pseudorandom functions and generators, symmetric encryption, asymmetric encryption, computational number theory, RSA and discrete log systems, message authentication, digital signatures, key distribution and key management.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+208",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 202 or consent of instructor. "
+        ]
+    },
+    "cse209A": {
+        "id": "cse209A",
+        "name": "Topics/Seminar in Algorithms, Complexity,\n\t\t\t\t  and Logic",
+        "nameShort": "CSE 209A",
+        "units": "(1–4)",
+        "description": "Zero-knowledge, secure computation, session-key distribution, protocols, electronic payment, one-way functions, trapdoor permutations, pseudorandom bit generators, hardcore bits.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+209A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 202, CSE 200, and CSE 207 or consent of instructor. "
+        ]
+    },
+    "cse209B": {
+        "id": "cse209B",
+        "name": "Topics/Seminar in Cryptography",
+        "nameShort": "CSE 209B",
+        "units": "(1–4)",
+        "description": "Topics of special interest in algorithms, complexity, and logic to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+209B",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse210": {
+        "id": "cse210",
+        "name": "Principles of Software Engineering",
+        "nameShort": "CSE 210",
+        "units": "(4)",
+        "description": "Topics of special interest in cryptography to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+210",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse211": {
+        "id": "cse211",
+        "name": "Software Testing and Analysis",
+        "nameShort": "CSE 211",
+        "units": "(4)",
+        "description": "(Formerly CSE 264A.) General principles in modern software engineering. Both theoretical and practical topics are covered. Theoretical topics include proofs of correctness, programming language semantics, and theory of testing. Practical topics include structured programming, modularization techniques, design of languages for reliable programming, and software tools.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+211",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100, 131A, 120, or consent of instructor. "
+        ]
+    },
+    "cse216": {
+        "id": "cse216",
+        "name": "Research Topics in Human-Computer Interaction",
+        "nameShort": "CSE 216",
+        "units": "(4)",
+        "description": "Survey of testing and analysis methods. Introduction to advanced topics in area as well as traditional production methods. Topics include inspections and reviews, formal analysis, verification and validation standards, nonstatistical testing, statistical-testing and reliability models, coverage methods, testing and analysis tools, and organization management and planning. Methods special to special development approaches such as object-oriented testing will also be described.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+216",
+        "addURL": "/",
+        "prereqs": [
+            "undergraduate major in computer science or extensive industrial experience. "
+        ]
+    },
+    "cse218": {
+        "id": "cse218",
+        "name": "Advanced\n\t\t  Topics in Software Engineering",
+        "nameShort": "CSE 218",
+        "units": "(4)",
+        "description": "Prepares students to conduct original HCI research by reading and discussing seminal and cutting-edge research papers. Topics include design, social software, input techniques, mobile, and ubiquitous computing. Student pairs perform a quarter-long mini research project that leverages campus research efforts. Cross-listed with COGS 230.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+218",
+        "addURL": "/",
+        "prereqs": [
+            "none."
+        ]
+    },
+    "cse219": {
+        "id": "cse219",
+        "name": "Design at Large",
+        "nameShort": "CSE 219",
+        "units": "(1)",
+        "description": "This course will cover a current topic in software engineering in depth. Topics in the past have included software tools, impacts of programming language design, and software system structure. (S/U grades permitted.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+219",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse221": {
+        "id": "cse221",
+        "name": "Operating Systems",
+        "nameShort": "CSE 221",
+        "units": "(4)",
+        "description": "New societal challenges, cultural values, and technological opportunities are changing design—and vice versa. The seminar explores this increased scale, real-world engagement, and disruptive impact. Invited speakers from UC San Diego and beyond share cutting-edge research on interaction, design, and learning. Cross-listed with COGS 229. (S/U grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+221",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse222A": {
+        "id": "cse222A",
+        "name": "Computer Communication Networks",
+        "nameShort": "CSE 222A",
+        "units": "(4)",
+        "description": "Operating system structures, concurrent computation models, scheduling, synchronization mechanisms, address spaces, memory management protection and security, buffering, streams, data-copying reduction techniques, file systems, naming, caching, disk organization, mapped files, remote file systems, case studies of major operating systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+222A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 120 and 121, or consent of instructor. "
+        ]
+    },
+    "cse222B": {
+        "id": "cse222B",
+        "name": "Internet Algorithmics",
+        "nameShort": "CSE 222B",
+        "units": "(4)",
+        "description": "(Formerly CSE 222.) Computer communication network concepts, protocols, and architectures, with an emphasis on an analysis of algorithms, protocols, and design methodologies. Topics will include layering, error control, flow control, congestion control, switching and routing, quality of service management, mobility, naming, security, and selected contemporary topics.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+222B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 123A or consent of instructor. "
+        ]
+    },
+    "cse223A": {
+        "id": "cse223A",
+        "name": "Principles of Distributed Computing",
+        "nameShort": "CSE 223A",
+        "units": "(4)",
+        "description": "(Formerly CSE 228H.) Techniques for speeding up Internet implementations, including system restructuring, new algorithms, and hardware innovations. Topics include: models for protocols, systems and hardware; efficiency principles; applying these principles to deriving techniques for efficient implementation of common endnode and router functions.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+223A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 123A or CSE 222A, or consent of instructor. "
+        ]
+    },
+    "cse223B": {
+        "id": "cse223B",
+        "name": "Distributed Computing and Systems",
+        "nameShort": "CSE 223B",
+        "units": "(4)",
+        "description": "(Formerly CSE 223.) Logical and physical time, snapshot protocols, failure models, replication strategies, consensus and reliable broadcast, self-stabilization, atomic commit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+223B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 221 or consent of instructor. "
+        ]
+    },
+    "cse227": {
+        "id": "cse227",
+        "name": "Computer Security",
+        "nameShort": "CSE 227",
+        "units": "(4)",
+        "description": "Efficient primitives for distributed operating systems and high-performance network servers, including concurrent and event-driven server architectures, remote procedure calls, and load shedding. Distributed naming, directory, and storage services, replication for fault tolerance, and security in distributed systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+227",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 221, CSE 222A, or consent of instructor. "
+        ]
+    },
+    "cse229A": {
+        "id": "cse229A",
+        "name": "Topics/Seminar in Computer Systems",
+        "nameShort": "CSE 229A",
+        "units": "(1–4)",
+        "description": "Security and threat models, risk analysis, authentication and authorization, auditing, operating systems security, access control mechanisms, protection mechanisms, distributed systems/network security, security architecture, electronic commerce security mechanisms, security evaluation.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+229A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 221 or consent of instructor. "
+        ]
+    },
+    "cse229B": {
+        "id": "cse229B",
+        "name": "Topics/Seminar\n\t\t  in Networks and Communication",
+        "nameShort": "CSE 229B",
+        "units": "(1–4)",
+        "description": "Discussion on problems of current research interest in computer systems. Possible areas of focus include: distributed computing, computational grid, operating systems, fault-tolerant computing, storage systems, system services for the World Wide Web. Topics to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+229B",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse229C": {
+        "id": "cse229C",
+        "name": "Topics/Seminar in Computer Security",
+        "nameShort": "CSE 229C",
+        "units": "(1–4)",
+        "description": "Discussion on problems of current research interest in computer networks and communication. Possible areas of focus include: wide-area networking, wireless networks, the Internet, computational grid, operating systems, fault-tolerant computing, storage systems. Topics to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+229C",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse230": {
+        "id": "cse230",
+        "name": "Principles of Programming Languages",
+        "nameShort": "CSE 230",
+        "units": "(4)",
+        "description": "Discussion on problems of current research interest in computer security. Topics to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+230",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse231": {
+        "id": "cse231",
+        "name": "Advanced Compiler Design",
+        "nameShort": "CSE 231",
+        "units": "(4)",
+        "description": "(Formerly CSE 273.) Functional versus imperative programming. Type systems and polymorphism; the ML language. Higher order functions, lazy evaluation. Abstract versus concrete syntax, structural and well-founded induction. The lambda calculus, reduction strategies, combinators. Denotational semantics, elementary domain theory.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+231",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 130 or equivalent, or consent of instructor. "
+        ]
+    },
+    "cse232": {
+        "id": "cse232",
+        "name": "Principles of Database Systems",
+        "nameShort": "CSE 232",
+        "units": "(4)",
+        "description": "(Formerly CSE 264C.) Advanced material in\n\t\t\t\t  programming languages and translator systems. Topics include compilers,\n\t\t\t\t  code optimization, and debugging interpreters.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+232",
+        "addURL": "/",
+        "prereqs": [
+            "CSE\n\t\t\t\t  100, 131A–B, or consent of instructor. "
+        ]
+    },
+    "cse232B": {
+        "id": "cse232B",
+        "name": "Database System Implementation",
+        "nameShort": "CSE 232B",
+        "units": "(4)",
+        "description": "(Formerly CSE 264D.) Database models including relational, hierarchic, and network approaches. Implementation of databases including query languages and system architectures.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+232B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 100 or consent of instructor. "
+        ]
+    },
+    "cse233": {
+        "id": "cse233",
+        "name": "Database Theory",
+        "nameShort": "CSE 233",
+        "units": "(4)",
+        "description": "A hands-on approach to the principles of databases implementation. Algebraic rewriters/optimizers, query processors, triggers. Beyond centralized relational databases.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+233",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 232. "
+        ]
+    },
+    "cse237A": {
+        "id": "cse237A",
+        "name": "Introduction to Embedded Computing",
+        "nameShort": "CSE 237A",
+        "units": "(4)",
+        "description": "Theory of databases. Theory of query languages, dependency theory, deductive databases, incomplete information, complex objects, object-oriented databases, and more. Connections to logic and complexity theory including finite model theory and descriptive complexity.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+237A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 200. "
+        ]
+    },
+    "cse237B": {
+        "id": "cse237B",
+        "name": "Software for Embedded Systems",
+        "nameShort": "CSE 237B",
+        "units": "(4)",
+        "description": "Embedded system technologies including processors, DSP, memory, and software. System interfacing basics, communication strategies, sensors, and actuators. Mobile and wireless technology in embedded systems. Using predesigned hardware and software components. Design case studies in wireless, multimedia, and/or networking domains.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+237B",
+        "addURL": "/",
+        "prereqs": [
+            "basic courses in digital hardware, algorithms and data structures, elementary calculus, and probability; or consent of instructor. "
+        ]
+    },
+    "cse237C": {
+        "id": "cse237C",
+        "name": "Validation\n\t\t  and Testing of Embedded Systems",
+        "nameShort": "CSE 237C",
+        "units": "(4)",
+        "description": "Embedded computing elements, device interfaces,\n\t\t\t\t  time-critical IO handling. Embedded software design under size, performance,\n\t\t\t\t  and reliability constraints. Software timing and functional validation.\n\t\t\t\t  Programming methods and compilation for embeddable software. Embedded runtime\n\t\t\t\t  systems. Case studies of real-time software systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+237C",
+        "addURL": "/",
+        "prereqs": [
+            "CSE\n\t\t\t\t  237A; or basic courses in programming, algorithms and data structures,\n\t\t\t\t  elementary calculus, discrete math, computer architecture; or consent of\n\t\t\t\t  instructor. "
+        ]
+    },
+    "cse237D": {
+        "id": "cse237D",
+        "name": "Design\n\t\t  Automation and Prototyping for Embedded Systems",
+        "nameShort": "CSE 237D",
+        "units": "(4)",
+        "description": "Embedded system building blocks including\n\t\t\t\t  IP cores. Cosimulation. Formal verification using model checking. Verification\n\t\t\t\t  environments. Test challenges in core integration: compliance, feature,\n\t\t\t\t  random, and collision testing. Core access and test integration. Interface-based\n\t\t\t\t  verification and standards.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+237D",
+        "addURL": "/",
+        "prereqs": [
+            "CSE\n\t\t\t\t  237A; or basic courses in algorithms and data structures, elementary calculus,\n\t\t\t\t  discrete math, symbolic logic, computer architecture; or consent of instructor. "
+        ]
+    },
+    "cse239A": {
+        "id": "cse239A",
+        "name": "Topics/Seminar in Databases",
+        "nameShort": "CSE 239A",
+        "units": "(1–4)",
+        "description": "System representation and modeling. Abstract and language models. Simulation as a modeling activity. Computational and hw/sw system prototypes. System analysis using models. Constraint and interface modeling. Behavioral compilation and synthesis.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+239A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 237A; or basic courses in digital logic design, algorithms and data structures, elementary calculus, discrete math, symbolic logic, computer architecture; or consent of instructor. "
+        ]
+    },
+    "cse240A": {
+        "id": "cse240A",
+        "name": "Principles of Computer Architecture",
+        "nameShort": "CSE 240A",
+        "units": "(4)",
+        "description": "Discussion on problems of current research\n\t\t\t\t  interest in databases. Possible areas of focus include: core database issues,\n\t\t\t\t  data management on the web, data integration, new database models and applications,\n\t\t\t\t  formal methods in databases. Topics to be presented by faculty and students\n\t\t\t\t  under faculty direction. Topics vary from quarter to quarter. May be repeated\n\t\t\t\t  for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+240A",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse240B": {
+        "id": "cse240B",
+        "name": "Parallel Computer Architecture",
+        "nameShort": "CSE 240B",
+        "units": "(4)",
+        "description": "(Formerly CSE 240.) This course will cover fundamental concepts in computer architecture. Topics include instruction set architecture, pipelining, pipeline hazards, bypassing, dynamic scheduling, branch prediction, superscalar issue, memory-hierarchy design, advanced cache architectures, and multiprocessor architecture issues.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+240B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 141 or consent of instructor. "
+        ]
+    },
+    "cse240C": {
+        "id": "cse240C",
+        "name": "Advanced Microarchitecture",
+        "nameShort": "CSE 240C",
+        "units": "(4)",
+        "description": "This course covers advanced topics in parallel computer architecture, including on-chip and off-chip interconnection networks, cache coherence, cache consistency, hardware multithreading, multi-core and tiled architectures. It incorporates the latest research and development on parallel architectures and compilation techniques for those architectures. CSE 240A recommended.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+240C",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing. "
+        ]
+    },
+    "cse240D": {
+        "id": "cse240D",
+        "name": "Application Specific Processors",
+        "nameShort": "CSE 240D",
+        "units": "(4)",
+        "description": "This course covers advanced topics in computer architecture. It incorporates the latest research and development on topics such as branch prediction, instruction-level parallelism, cache hierarchy design, speculative multithreading, reliable architectures, and power-management techniques. CSE 240A recommended.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+240D",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing. "
+        ]
+    },
+    "cse241A/ece260B": {
+        "id": "cse241A/ece260B",
+        "name": "VLSI Integration of Computing Circuitry",
+        "nameShort": "CSE 241A",
+        "units": "(4)",
+        "description": "This course covers advanced topics in design concepts and implementation principles of application specific processors, including embedded system design principles and application specific processors, application specific instruction set processors, domain specific processor architectures, embedded memories and dynamically customizable processors. CSE 240A recommended.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+241A",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing. "
+        ]
+    },
+    "cse242A": {
+        "id": "cse242A",
+        "name": "Integrated Circuit Layout Automation",
+        "nameShort": "CSE 242A",
+        "units": "(4)",
+        "description": "VLSI integrated-circuit building blocks of computing systems, and their implementation. Computer-aided design and performance simulations, design exercises and projects. Devices, standard cells and interconnects, clocking, power/ground distribution, arithmetic modules, memories. Methodologies and tradeoffs in system implementation.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+242A",
+        "addURL": "/",
+        "prereqs": [
+            "layout (CSE 165 or ECE 260A) and logic design (CSE 140 or ECE 111), or consent of instructor. "
+        ]
+    },
+    "cse243A": {
+        "id": "cse243A",
+        "name": "Introduction\n\t\t  to Synthesis Methodologies in VLSI CAD",
+        "nameShort": "CSE 243A",
+        "units": "(4)",
+        "description": "Couplings among timing, circuits and spatial embedding in nanometer-scale CMOS design. The role, and key problems, of physical layout in IC implementation. Example topics: RTL-to-GDSII methodologies, analyses and estimations, partitioning, floor planning, placement, routing, special net routing, cell generation, compaction.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+243A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 241A or consent of instructor. "
+        ]
+    },
+    "cse244A": {
+        "id": "cse244A",
+        "name": "VLSI Test",
+        "nameShort": "CSE 244A",
+        "units": "(4)",
+        "description": "Hardware software co-design, architectural level synthesis, control synthesis and optimization, scheduling, binding, register and bus sharing, interconnect design, module selection, combinational logic optimization, state minimization, state encoding, and retiming.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+244A",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse245": {
+        "id": "cse245",
+        "name": "Computer\n\t\t  Aided Circuit Simulation and Verification",
+        "nameShort": "CSE 245",
+        "units": "(4)",
+        "description": "Design for test, testing economics, defects, failures and faults, fault models, fault simulation, automatic test pattern generation, functional testing, memory, PLA, FPGA, microprocessor test, and fault diagnosis.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+245",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse247": {
+        "id": "cse247",
+        "name": "Application Specific and Reconfigurable Computer Architecture",
+        "nameShort": "CSE 247",
+        "units": "(4)",
+        "description": "This course is about the computer algorithms, techniques, and theory used in the simulation and verification of electrical circuits.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+247",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 241A or consent of instructor. "
+        ]
+    },
+    "cse248": {
+        "id": "cse248",
+        "name": "Algorithmic and Optimization Foundations for VLSI CAD",
+        "nameShort": "CSE 248",
+        "units": "(4)",
+        "description": "This course covers architecture concepts used to tailor processors to a specific application or sets of applications. It covers Field-Programmable Gate Arrays (FPGAs), various forms of Application Specific Integrated Circuit (ASIC) designs, Application Specific Integrated Processors (ASIP), and augmenting customizable VHDL cores.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+248",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 241A or consent of instructor. "
+        ]
+    },
+    "cse249A": {
+        "id": "cse249A",
+        "name": "Topics/Seminar\n\t\t  in Computer Architecture",
+        "nameShort": "CSE 249A",
+        "units": "(1–4)",
+        "description": "Algorithmic techniques and optimization frameworks for large-scale, difficult optimizations. Primal-dual multicommodity flow approximations, approximations for geometric and graph Steiner formulations, continuous placement optimization, heuristics for Boolean satisfiability, multilevel methods, semidefinite programming, and application to other formulations (e.g., scheduling).",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+249A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 241A or CSE 242A, or consent of instructor. "
+        ]
+    },
+    "cse249B": {
+        "id": "cse249B",
+        "name": "Topics/Seminar in VLSI",
+        "nameShort": "CSE 249B",
+        "units": "(1–4)",
+        "description": "Topics of special interest in computer architecture to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+249B",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse249C": {
+        "id": "cse249C",
+        "name": "Topics/Seminar in CAD",
+        "nameShort": "CSE 249C",
+        "units": "(1–4)",
+        "description": "Topics of special interest in VLSI to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+249C",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse250A": {
+        "id": "cse250A",
+        "name": "Principles of Artificial Intelligence: Probabilistic Reasoning and Learning ",
+        "nameShort": "CSE 250A",
+        "units": "(4)",
+        "description": "Topics of special interest in CAD to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+250A",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse250B": {
+        "id": "cse250B",
+        "name": "Principles of Artificial Intelligence: Learning Algorithms ",
+        "nameShort": "CSE 250B",
+        "units": "(4)",
+        "description": "Methods based on probability theory for reasoning and learning under uncertainty. Content may include directed and undirected probabilistic graphical models, exact and approximate inference, latent variables, expectation-maximization, hidden Markov models, Markov decision processes, applications to vision, robotics, speech, and/or text. Recommended preparation: CSE 103 or similar course.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+250B",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing in CSE or consent of instructor."
+        ]
+    },
+    "cse250C": {
+        "id": "cse250C",
+        "name": "Machine Learning Theory",
+        "nameShort": "CSE 250C",
+        "units": "(4)",
+        "description": "Algorithms for supervised and unsupervised learning from data. Content may include maximum likelihood; log-linear models, including logistic regression and conditional random fields; nearest neighbor methods; kernel methods; decision trees; ensemble methods; optimization algorithms; topic models; neural networks; and backpropagation.\n\t\t\t\tRecommended preparation: CSE 103 or similar course.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+250C",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing or consent of instructor. "
+        ]
+    },
+    "cse252A": {
+        "id": "cse252A",
+        "name": "Computer Vision I",
+        "nameShort": "CSE 252A",
+        "units": "(4)",
+        "description": "Theoretical foundations of machine learning. Topics include concentration of measure, the PAC model, uniform convergence bounds, and VC dimension. Possible topics include online learning, learning with expert advice, multiarmed bandits, and boosting. Recommended preparation: CSE 103 and CSE 101 or similar course.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+252A",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing or consent of instructor."
+        ]
+    },
+    "cse252B": {
+        "id": "cse252B",
+        "name": "Computer Vision II",
+        "nameShort": "CSE 252B",
+        "units": "(4)",
+        "description": "Comprehensive introduction to computer vision\n\t\t\t\t  providing broad coverage including low-level vision (image\n\t\t\t\t  formation, photometry, color, image feature detection), inferring 3-D properties\n\t\t\t\t  from images (shape-from shading, stereo vision, motion interpretation)\n\t\t\t\t  and object recognition. Companion to CSE 252B covering complementary topics.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+252B",
+        "addURL": "/",
+        "prereqs": [
+            "Math\n\t\t\t\t  10D and Math 20A–F or equivalent. "
+        ]
+    },
+    "cse252C": {
+        "id": "cse252C",
+        "name": "Selected Topics in Vision and Learning",
+        "nameShort": "CSE 252C",
+        "units": "(1–4)",
+        "description": "Comprehensive introduction to computer vision\n\t\t\t\t  providing focused coverage of multiview geometry, structure\n\t\t\t\t  from motion, image segmentation, motion segmentation, texture analysis\n\t\t\t\t  and recognition, object detection, and image-based rendering. Companion\n\t\t\t\t  to CSE 252A covering complementary topics.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+252C",
+        "addURL": "/",
+        "prereqs": [
+            "Math\n\t\t\t\t  10D and Math 20A–F or equivalent. "
+        ]
+    },
+    "cse254": {
+        "id": "cse254",
+        "name": "Statistical Learning",
+        "nameShort": "CSE 254",
+        "units": "(4)",
+        "description": "Selected topics in computer vision and statistical pattern recognition, with an emphasis on recent developments. Possible topics include: grouping and segmentation, object recognition and tracking, multiple view geometry, kernel-based methods, dimensionality reduction, and mixture models.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+254",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 252 or equivalent and CSE 250B or equivalent. "
+        ]
+    },
+    "cse255": {
+        "id": "cse255",
+        "name": "Data Mining and Predictive Analytics",
+        "nameShort": "CSE 255",
+        "units": "(4) ",
+        "description": "Learning algorithms based on statistics. Possible topics include minimum-variance unbiased estimators, maximum likelihood estimation, likelihood ratio tests, resampling methods, linear logistic regression, feature selection, regularization, dimensionality reduction, manifold detection. An upper-division undergraduate course on probability and statistics such as Math 183 or 186, or any graduate course on statistics, pattern recognition, or machine learning is recommended.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+255",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing. "
+        ]
+    },
+    "cse256/ling256": {
+        "id": "cse256/ling256",
+        "name": "\t\t  Statistical Natural Language Processing",
+        "nameShort": "CSE 256",
+        "units": "(4)",
+        "description": "Learning methods for applications. Content may include data preparation, regression and classification algorithms, support vector machines, random forests, class imbalance, overfitting, decision theory, recommender systems and collaborative filtering, text mining, analyzing social networks and social media, protecting privacy, A/B testing. Recommended preparation: CSE 103 or similar.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+256",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing or consent of instructor."
+        ]
+    },
+    "cse258A": {
+        "id": "cse258A",
+        "name": "Cognitive Modeling",
+        "nameShort": "CSE 258A",
+        "units": "(4)",
+        "description": "Introduction to modern statistical approaches to natural language processing: part-of-speech tagging, word-sense disambiguation and parsing, using Markov models, hidden Markov models and probabilistic context-free grammars. Recommended: one of LIGN 165, LIGN 245, CSE 151, CSE 250A, CSE 254.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+258A",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing or consent of instructor."
+        ]
+    },
+    "cse259": {
+        "id": "cse259",
+        "name": "Seminar in Artificial Intelligence",
+        "nameShort": "CSE 259",
+        "units": "(1)",
+        "description": "Connectionist models and a sampling of other cognitive modeling techniques. Models of language processing, memory, sequential processes, and vision. Areas covered may vary depending on student and faculty interests. Can be repeated for credit. CSE 151 or CSE 250B or CSE 253 or CSE 254, or equivalent experience recommended.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+259",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing."
+        ]
+    },
+    "cse259C": {
+        "id": "cse259C",
+        "name": "Topics/Seminar in Machine Learning",
+        "nameShort": "CSE 259C",
+        "units": "(1–4)",
+        "description": "A weekly meeting featuring local (and occasional external) speakers discussing their current research in Artificial Intelligence Neural Networks, and Genetic Algorithms. (S/U grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+259C",
+        "addURL": "/",
+        "prereqs": [
+            "none. "
+        ]
+    },
+    "cse260": {
+        "id": "cse260",
+        "name": "Parallel Computation",
+        "nameShort": "CSE 260",
+        "units": "(4)",
+        "description": "Topics of special interest in machine learning to be presented by faculty and students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+260",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor."
+        ]
+    },
+    "cse262": {
+        "id": "cse262",
+        "name": "System\n\t\t  Support for Applications of Parallel Computation",
+        "nameShort": "CSE 262",
+        "units": "(4)",
+        "description": "(Formerly CSE 274A.) This course provides an overview of parallel hardware, algorithms, models, and software. Topics include Flynn’s taxonomy, interconnection networks, memory organization, a survey of commercially available multiprocessors, parallel algorithm paradigms and complexity criteria, parallel programming environments and tools for parallel debugging, language specification, mapping, performance, etc.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+262",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing or consent of instructor. "
+        ]
+    },
+    "cse272": {
+        "id": "cse272",
+        "name": "Advanced Image Synthesis",
+        "nameShort": "CSE 272",
+        "units": "(4)",
+        "description": "This course will explore design of software support for applications of parallel computation. Topics include: programming languages, run time support, portability, and load balancing. The course will terminate in a project.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+272",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse274": {
+        "id": "cse274",
+        "name": "Selected Topics in Graphics",
+        "nameShort": "CSE 274",
+        "units": "(2–4)",
+        "description": "Computer graphics techniques for creating realistic images. Topics include ray tracing, global illumination, subsurface scattering, and participating media. CSE 168 or equivalent recommended.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+274",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cse280A": {
+        "id": "cse280A",
+        "name": "Algorithms in Computational Biology",
+        "nameShort": "CSE 280A",
+        "units": "(4)",
+        "description": "Selected topics in computer graphics, with an emphasis on recent developments. Possible topics include computer animation, shape modeling and analysis, image synthesis, appearance modeling, and real-time rendering. CSE 168 or CSE 169 recommended.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+280A",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing or consent of instructor."
+        ]
+    },
+    "cse282/beng202": {
+        "id": "cse282/beng202",
+        "name": "Bioinformatics II: Sequence and Structure Analysis—Methods and Applications",
+        "nameShort": "CSE 282",
+        "units": "(4)",
+        "description": "(Formerly CSE 206B.) The course focuses on algorithmic aspects of modern bioinformatics and covers the following topics: computational gene hunting, sequencing, DNA arrays, sequence comparison, pattern discovery in DNA, genome rearrangements, molecular evolution, computational proteomics, and others.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+282",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 202 preferred or consent of instructor."
+        ]
+    },
+    "cse283/beng203": {
+        "id": "cse283/beng203",
+        "name": "\t\t  Bioinformatics III: Functional Genomics",
+        "nameShort": "CSE 283",
+        "units": "(4)",
+        "description": "(Formerly CSE 257A/BENG 202.) Introduction to methods for sequence analysis. Applications to genome and proteome sequences. Protein structure, sequence-structure analysis.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+283",
+        "addURL": "/",
+        "prereqs": [
+            "Pharm 201 or consent of instructor. "
+        ]
+    },
+    "cse290": {
+        "id": "cse290",
+        "name": "Seminar\n\t\t  in Computer Science and Engineering",
+        "nameShort": "CSE 290",
+        "units": "(1–4)",
+        "description": "Annotating genomes, characterizing functional genes, profiling, reconstructing pathways.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+290",
+        "addURL": "/",
+        "prereqs": [
+            "Pharm 201, BENG 202/CSE 282, or consent of instructor. "
+        ]
+    },
+    "cse291": {
+        "id": "cse291",
+        "name": "Topics\n\t\t  in Computer Science and Engineering",
+        "nameShort": "CSE 291",
+        "units": "(1–4)",
+        "description": "(Formerly CSE 280A.) A seminar course in which topics of special interest in computer science and engineering will be presented by staff members and graduate students under faculty direction. Topics vary from quarter to quarter. May be repeated for credit. (S/U grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+291",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. (Offered as faculty resources permit.) "
+        ]
+    },
+    "cse292": {
+        "id": "cse292",
+        "name": "Faculty Research Seminar",
+        "nameShort": "CSE 292",
+        "units": "(1)",
+        "description": "Topics of special interest in computer science and engineering. Topics may vary from quarter to quarter. May be taken for credit nine times with the consent of instructor.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+292",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. (S/U grades permitted.) (Offered as faculty resources permit.) "
+        ]
+    },
+    "cse293": {
+        "id": "cse293",
+        "name": "Special\n\t\t  Project in Computer Science and Engineering",
+        "nameShort": "CSE 293",
+        "units": "(1–12)",
+        "description": "(Formerly CSE 282.) Computer science and engineering faculty will present one-hour seminars of the current research work in their areas of interest.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+293",
+        "addURL": "/",
+        "prereqs": [
+            "CSE graduate status. "
+        ]
+    },
+    "cse294": {
+        "id": "cse294",
+        "name": "Research Meeting in CSE",
+        "nameShort": "CSE 294",
+        "units": "(2)",
+        "description": "The student will conceive, design, and execute a project in computer science under the direction of a faculty member. The project will typically include a large programming or hardware design task, but other types of projects are possible.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+294",
+        "addURL": "/",
+        "prereqs": [
+            "CSE graduate student status. (CS 75, 76, 77, 78, 79, 80, 81) (S/U grades only.) "
+        ]
+    },
+    "cse298": {
+        "id": "cse298",
+        "name": "Independent Study",
+        "nameShort": "CSE 298",
+        "units": "(1–16)",
+        "description": "Advanced study and analysis of active research in computer science and computer engineering. Discussion of current research and literature in the research specialty of the staff member teaching the course.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+298",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse299": {
+        "id": "cse299",
+        "name": "Research",
+        "nameShort": "CSE 299",
+        "units": "(1–16)",
+        "description": "Open to properly qualified graduate students who wish to pursue a problem through advanced study under the direction of a member of the staff. (S/U grades only.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+299",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. "
+        ]
+    },
+    "cse500": {
+        "id": "cse500",
+        "name": "Teaching Assistantship",
+        "nameShort": "CSE 500",
+        "units": "(2–4)",
+        "description": "Research.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+500",
+        "addURL": "/",
+        "prereqs": [
+            "consent of faculty. "
+        ]
+    },
+    "cse599": {
+        "id": "cse599",
+        "name": "Teaching Methods in Computer Science",
+        "nameShort": "CSE 599",
+        "units": "(2)",
+        "description": "A course in which teaching assistants are aided in learning proper teaching methods by means of supervision of their work by the faculty: handling of discussions, preparation and grading of examinations and other written exercises, and student relations. May be used to meet teaching experience requirement for candidates for the PhD degree. Number of units for credit depends on number of hours devoted to class or section assistance.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=CSE+599",
+        "addURL": "/",
+        "prereqs": [
+            "graduate standing and consent of instructor. "
+        ]
+    },
+    "cogs1": {
+        "id": "cogs1",
+        "name": "Introduction to Cognitive Science",
+        "nameShort": "COGS 1",
+        "units": "(4)",
+        "description": "A team-taught course highlighting development of the field and the broad range of topics covered in the major. Example topics include addiction, analogy, animal cognition, human-computer interaction, language, neuroimaging, neural networks, reasoning, robots, and real-world applications. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+1",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs3": {
+        "id": "cogs3",
+        "name": "Introduction to Computing",
+        "nameShort": "COGS 3",
+        "units": "(4)",
+        "description": "A practical introduction to computers. Designed for undergraduates in the social sciences. Topics include: basic operations of personal computers (MAC, PC), UNIX, word processing, e-mail, spreadsheets, and creating web pages using the World Wide Web. No previous background in computing required. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+3",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs8": {
+        "id": "cogs8",
+        "name": "Hands-on Computing",
+        "nameShort": "COGS 8",
+        "units": "(4)",
+        "description": "Introductory-level course that will give students insight into the fundamental concepts of algorithmic thinking and design. The course will provide the students with first-person, hands-on experience programming a web crawler and simple physical robots. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+8",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs9": {
+        "id": "cogs9",
+        "name": "Introduction to Data Science",
+        "nameShort": "COGS 9",
+        "units": "(4)",
+        "description": "Concepts of data and its role in science will be introduced, as well as the ideas behind data-mining, text-mining, machine learning, and graph theory, and how scientists and companies are leveraging those methods to uncover new insights into human cognition.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+9",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs10": {
+        "id": "cogs10",
+        "name": "Cognitive Consequences of Technology",
+        "nameShort": "COGS 10",
+        "units": "(4)",
+        "description": "The role of cognition and computation in the development of state-of-the art technologies such as human computational interaction in aviation, air traffic control, medical diagnosis, robotics and telerobotics, and the design and engineering of cognitive artifacts. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+10",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs11": {
+        "id": "cogs11",
+        "name": "Minds and Brains",
+        "nameShort": "COGS 11",
+        "units": "(4)",
+        "description": "How damaged and normal brains influence the way humans solve problems, remember or forget, pay attention to things; how they affect our emotions, and the way we use language in daily life. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+11",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs12": {
+        "id": "cogs12",
+        "name": "Language, Culture, and Cognition",
+        "nameShort": "COGS 12",
+        "units": "(4)",
+        "description": "Do people who speak different languages think differently? Does learning new languages change the way you think? Are some thoughts unthinkable without language? Course will bring together ideas and findings from psychology, linguistics, anthropology, neuroscience, and philosophy.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+12",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs14A": {
+        "id": "cogs14A",
+        "name": "Introduction to Research Methods",
+        "nameShort": "COGS 14A",
+        "units": "(4)",
+        "description": "Introduction to the scientific method. Methods of knowledge acquisition, research questions, hypotheses, operational definitions, variables, control. Observation, levels of measurement, reliability, validity. Experimentation and design: between-groups, within-subjects, quasi-experimental, factorial, single-subject. Correlational and observational studies. Ethics in research.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+14A",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs14B": {
+        "id": "cogs14B",
+        "name": "Introduction to Statistical Analysis",
+        "nameShort": "COGS 14B",
+        "units": "(4)",
+        "description": "Introduction to descriptive and inferential statistics. Tables, graphs, measures of central tendency and variability. Distributions, Z-scores, correlation, regression. Probability, sampling, logic of inferential statistics, hypothesis testing, decision theory. T-test, one and two-way Anova, nonparametric tests (Chi-square).",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+14B",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 14A."
+        ]
+    },
+    "cogs15": {
+        "id": "cogs15",
+        "name": "What the *#!?: An Uncensored Introduction to Language",
+        "nameShort": "COGS 15",
+        "units": "(4)",
+        "description": "This course uses the study of swearing to introduce topics in language: how children learn it, why it changes over time, and how people pronounce and understand it. Students who believe they could be offended by the study of swearing and other taboo language might not find this course appropriate for them.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+15",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs17": {
+        "id": "cogs17",
+        "name": "Neurobiology of Cognition",
+        "nameShort": "COGS 17",
+        "units": "(4)",
+        "description": "Introduction to the organization and functions of the nervous system. Topics include molecular, cellular, developmental, systems, and behavioral neurobiology. Specifically, structure and function of neurons, peripheral and central nervous systems, sensory, motor, and control systems, learning and memory mechanisms. (Students may not receive credit for both Biology 12 and Cognitive Science 17. This course fulfills general-education requirements for Marshall and Roosevelt Colleges as well as Warren by petition.) ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+17",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs87": {
+        "id": "cogs87",
+        "name": "Freshman Seminar",
+        "nameShort": "COGS 87",
+        "units": "(1)",
+        "description": "The Freshman Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. Freshman Seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering freshmen. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+87",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs90": {
+        "id": "cogs90",
+        "name": "Undergraduate Seminar",
+        "nameShort": "COGS 90",
+        "units": "(1)",
+        "description": "Special topics in cognitive science are discussed. P/NP grades only. (May be repeated when topics vary.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+90",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs91": {
+        "id": "cogs91",
+        "name": "SCANS Presents",
+        "nameShort": "COGS 91",
+        "units": "(1)",
+        "description": "The department faculty and the Students for Cognitive and Neurosciences (SCANS) offer this seminar exploring issues in cognitive science. It includes informal faculty research presentations, investigations of topics not covered in the curriculum, and discussions on graduate school and careers. (May be repeated when topics vary.) ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+91",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs92": {
+        "id": "cogs92",
+        "name": "Resiliency in the Face of Adversity",
+        "nameShort": "COGS 92",
+        "units": "(2)",
+        "description": "Psychological resiliency will be addressed both scientifically and pragmatically. Students will explore the way cognitive and behavioral factors contribute to one’s ability to cope with the stresses of life and emerge from them stronger than before. P/NP only. (Will not be offered in 2014–15.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+92",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs99": {
+        "id": "cogs99",
+        "name": "Independent Study",
+        "nameShort": "COGS 99",
+        "units": "(2 or 4)",
+        "description": "Independent literature or laboratory research by arrangement with and under direction of a Department of Cognitive Science faculty member.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+99",
+        "addURL": "/",
+        "prereqs": [
+            "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form.\t\t\t\t"
+        ]
+    },
+    "cogs101A": {
+        "id": "cogs101A",
+        "name": "Sensation and Perception",
+        "nameShort": "COGS 101A",
+        "units": "(4)",
+        "description": "An introduction to the experimental study of cognition with a focus on sensation and perception.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+101A",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 1. "
+        ]
+    },
+    "cogs101B": {
+        "id": "cogs101B",
+        "name": "Learning, Memory, and Attention",
+        "nameShort": "COGS 101B",
+        "units": "(4)",
+        "description": "A survey of the experimental study of learning, memory, and attention. Topics include conditioning, automaticity, divided attention, memory systems, and the nature of mental representation.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+101B",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 1. Recommended: Cognitive Science 101A. "
+        ]
+    },
+    "cogs101C": {
+        "id": "cogs101C",
+        "name": "Language",
+        "nameShort": "COGS 101C",
+        "units": "(4)",
+        "description": "An introduction to structure of natural language, and to the cognitive processes that underline its acquisition, comprehension, and production. This course covers findings from linguistics, computer science, psychology, and cognitive neuroscience to provide an integrated perspective on human language abilities.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+101C",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 1 and 14A. "
+        ]
+    },
+    "cogs102A": {
+        "id": "cogs102A",
+        "name": "Distributed Cognition",
+        "nameShort": "COGS 102A",
+        "units": "(4)",
+        "description": "Cognitive processes extend beyond the boundaries of the person to include the environment, artifacts, social interactions, and culture. Major themes include the philosophy and history of cognitive science, the role of artifacts in human cognition, and theories of socially distributed, embodied, and extended cognition.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+102A",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 1 and Cognitive Science 14A. "
+        ]
+    },
+    "cogs102B": {
+        "id": "cogs102B",
+        "name": "Cognitive Ethnography",
+        "nameShort": "COGS 102B",
+        "units": "(4)",
+        "description": "This course examines memory, reasoning, language understanding, learning, and planning directly in everyday, real-world settings. The course work includes projects in which students make observations of real-world activity and analyze their cognitive significance. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+102B",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 102A. "
+        ]
+    },
+    "cogs102C": {
+        "id": "cogs102C",
+        "name": "Cognitive Design Studio",
+        "nameShort": "COGS 102C",
+        "units": "(6)",
+        "description": "This is a project-based course focused on the process of cognitive design. Students work in teams to design and evaluate a prototype application or redesign an existing system. Three hours of lecture and two hours of design laboratory.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+102C",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 102B or consent of instructor. "
+        ]
+    },
+    "cogs107A": {
+        "id": "cogs107A",
+        "name": "Neuroanatomy and Physiology",
+        "nameShort": "COGS 107A",
+        "units": "(4)",
+        "description": "This first course in the sequence focuses on principles of brain organization, from neurons to circuits to functional networks. It explores developmental plasticity, neuronal connectivity, cellular communication, complex signaling, and how these various dimensions form functional brain systems.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+107A",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive\n\t\t\t    Science 1 or Cognitive Science 17. "
+        ]
+    },
+    "cogs107B": {
+        "id": "cogs107B",
+        "name": "Systems Neuroscience",
+        "nameShort": "COGS 107B",
+        "units": "(4)",
+        "description": "This course focuses on the electrical dynamics of neurons and how their patterns relate to perception, thought, and action. Neural activity patterns underlying vision, touch, audition, proprioception, and head orientation are examined in detail. Also examined are motor control, sleep/wake state production, action planning, learning, memory, attention, spatial cognition and function of the cerebellum, basal ganglia, and hippocampus.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+107B",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive\n\t\t\t    Science 107A. "
+        ]
+    },
+    "cogs107C": {
+        "id": "cogs107C",
+        "name": "Cognitive Neuroscience",
+        "nameShort": "COGS 107C",
+        "units": "(4)",
+        "description": "This course reviews research investigating the neural bases for human mental processes, including processing of affective, social, linguistic, and visuospatial information, as well as memory, attention, and executive functions. Also discussed are brain development and brain aging, and the nature of intelligence and creativity.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+107C",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 107B and its prerequisites. "
+        ]
+    },
+    "cogs109": {
+        "id": "cogs109",
+        "name": "Modeling and Data Analysis",
+        "nameShort": "COGS 109",
+        "units": "(4)",
+        "description": "Exposure to the basic computational methods useful throughout cognitive science. Computing basic statistics, modeling learning individuals, evolving populations, communicating agents, and corpus-based linguistics will be considered.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+109",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 14B and Mathematics 20F and CSE 7 or CSE 11 or CSE 8A or consent of instructor. "
+        ]
+    },
+    "cogs110": {
+        "id": "cogs110",
+        "name": "The Developing Mind",
+        "nameShort": "COGS 110",
+        "units": "(4)",
+        "description": "(Cross-listed with HDP 121.)\n                    This course examines changes in thinking and perceiving the\n                    physical and social world from birth through childhood. Evidence\n                    of significant changes in encoding information, forming mental\n                    representations, and solving problems is culled from psychological\n                    research, cross-cultural studies, and cognitive science.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+110",
+        "addURL": "/",
+        "prereqs": [
+            "HDP\n                    1 or Cognitive Science 1."
+        ]
+    },
+    "cogs115": {
+        "id": "cogs115",
+        "name": "Neurological Development and Cognitive Change",
+        "nameShort": "COGS 115",
+        "units": "(4)",
+        "description": "This course provides an overview of neurological\n\t\t\t\t  development and explores the relations between physiological\n\t\t\t\t  change and the experience for the child from the prenatal period\n\t\t\t\t  through adolescence.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+115",
+        "addURL": "/",
+        "prereqs": [
+            "BILD\n\t\t\t\t  10, or Cognitive Science 17, or HDP 110. "
+        ]
+    },
+    "cogs118A": {
+        "id": "cogs118A",
+        "name": "Natural Computation I",
+        "nameShort": "COGS 118A",
+        "units": "(4)",
+        "description": "This course is one part of a two-course foundation that forms a rigorous introduction to machine learning and computational modeling of biological intelligence. Natural Computation I and II are independent courses that may be taken in either order. Topics in Natural Computation I may include Bayesian inference, regression, graphical models, sampling, hidden Markov model, decision theory, information theory, reinforcement learning, and some application areas.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+118A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 11 or CSE 8B and Mathematics 20F and Mathematics 20E and Mathematics 180A, or consent of instructor. "
+        ]
+    },
+    "cogs118B": {
+        "id": "cogs118B",
+        "name": "Natural Computation II",
+        "nameShort": "COGS 118B",
+        "units": "(4)",
+        "description": "This course is one part of a two-course foundation that forms a rigorous introduction to machine learning and computational modeling of biological intelligence. Natural Computation I and II are independent courses that may be taken in either order. Topics in Natural Computation II may include: maximum likelihood estimation, bayesian parameter estimation, clustering, self-organized maps, principal component analysis, neural networks, support vector machines, and some application areas.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+118B",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 11 or CSE 8B and Mathematics 20F and Mathematics H20E and Mathematics 180A or consent of instructor. "
+        ]
+    },
+    "cogs119": {
+        "id": "cogs119",
+        "name": "Programming for Experimental Research",
+        "nameShort": "COGS 119",
+        "units": "(4)",
+        "description": "This course will help students in the behavioral sciences (cognitive science, psychology, linguistics, neuroscience, and related fields) learn how to program experiments and analyze and present data.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+119",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 14B and Mathematics 20F and CSE 7."
+        ]
+    },
+    "cogs120": {
+        "id": "cogs120",
+        "name": "Interaction Design ",
+        "nameShort": "COGS 120",
+        "units": "(5)",
+        "description": "(Cross-listed with CSE 170.) Introduces fundamental methods and principles for designing, implementing, and evaluating user interfaces. Topics: user-centered design, rapid prototyping, experimentation, direct manipulation, cognitive principles, visual design, social software, software tools. Learn by doing: work with a team on a quarter-long design project. Recommended preparation: basic familiarity with HTML.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+120",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 8A or CSE 11."
+        ]
+    },
+    "cogs121": {
+        "id": "cogs121",
+        "name": "Human Computer Interaction Programming Studio",
+        "nameShort": "COGS 121",
+        "units": "(4)",
+        "description": "This course covers fundamentals of user interface design and implementation of web-based systems. A major component is completion of a substantial programming project in which students work together in small teams.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+121",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 120 and CSE 8B or CSE 11. "
+        ]
+    },
+    "cogs143": {
+        "id": "cogs143",
+        "name": "Animal Cognition",
+        "nameShort": "COGS 143",
+        "units": "(4)",
+        "description": "Review of historical perspectives: introspectionist, behaviorist, and cognitivist models. Examination of how perceptual and motor constraints and ecological demands yield species-specific differences in cognitive repertoire. Contemporary issues in the comparative study of the evolution of human cognition.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+143",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing. "
+        ]
+    },
+    "cogs151": {
+        "id": "cogs151",
+        "name": "Analogy and Conceptual Systems",
+        "nameShort": "COGS 151",
+        "units": "(4)",
+        "description": "Human thought and meaning are deeply tied to the capacity for mapping conceptual domains onto each other, inducing common schemas and performing mental simulation. This course examines major aspects of this cognitive activity including metaphor, conceptual blending, and embodied cognition.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+151",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing."
+        ]
+    },
+    "cogs152": {
+        "id": "cogs152",
+        "name": "Cognitive Foundations of Mathematics",
+        "nameShort": "COGS 152",
+        "units": "(4)",
+        "description": "How the human mind/brain creates mathematics: embodiment, innovation, and creativity. The emergence and power of abstract concepts, such as infinity, infinitesimals, imaginary numbers, or zero. Cognitive approaches that connect mathematics to human thought in general.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+152",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 1 or Philosophy 1 or Psychology 1 or Education Studies (20 or 30 or 31); upper-division standing. "
+        ]
+    },
+    "cogs153": {
+        "id": "cogs153",
+        "name": "Language Comprehension",
+        "nameShort": "COGS 153",
+        "units": "(4)\n\t\t\t    ",
+        "description": "The processes and representations involved in understanding language—processing words, syntax, semantics, and discourse—are examined in light of evidence from both psychological experiments and computer simulations.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+153",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing."
+        ]
+    },
+    "cogs154": {
+        "id": "cogs154",
+        "name": "Communication Disorders in Children and Adults",
+        "nameShort": "COGS 154",
+        "units": "(4)",
+        "description": "Neural bases of language use in normal adults, and neural bases of language and communication development in normal children. Evidence on the language and communication deficits in adults (especially aphasia and dementia) and children (specific language impairment, focal brain injury, retardation, and autism).",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+154",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing. "
+        ]
+    },
+    "cogs155": {
+        "id": "cogs155",
+        "name": "Gesture and Cognition",
+        "nameShort": "COGS 155",
+        "units": "(4)",
+        "description": "Spontaneous gestures and their relationship\n\t\t\t\t  to speech, cognition, brain, and culture. The course covers, among others,\n\t\t\t\t  gesture and language development, gesture and conceptual systems, speech-gesture\n\t\t\t\t  coproduction and its brain bases, evolution of language, and gestural\n\t\t\t\t  behavior in special populations.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+155",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division\n\t\t\t\t  standing."
+        ]
+    },
+    "cogs156": {
+        "id": "cogs156",
+        "name": "Language Development",
+        "nameShort": "COGS 156",
+        "units": "(4)",
+        "description": "A comprehensive survey of theory, method and research findings\n                  on language development in children ranging from the earliest\n                  stages of speech perception and communication at birth to refinements\n                  in narrative discourse and conventional fluency through middle\n                  childhood and adolescence.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+156",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing\n                  and background in development psychology and/or linguistics\n                  is recommended."
+        ]
+    },
+    "cogs157": {
+        "id": "cogs157",
+        "name": "Music and the Mind",
+        "nameShort": "COGS 157",
+        "units": "(4)",
+        "description": "Explores how humans (and other species) process music, including pitch, meter, emotion, motor aspects, links to language, brain activity. Students should have experience reading musical notation.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+157",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 101A or Cognitive Science 101B or Cognitive Science 101C."
+        ]
+    },
+    "cogs160": {
+        "id": "cogs160",
+        "name": "Upper-Division Seminar on Special Topics",
+        "nameShort": "COGS 160",
+        "units": "(4)",
+        "description": "Special topics in cognitive science are discussed. (May be repeated when topics vary.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+160",
+        "addURL": "/",
+        "prereqs": [
+            "department approval. "
+        ]
+    },
+    "cogs163": {
+        "id": "cogs163",
+        "name": "Metabolic Disorders of the Brain",
+        "nameShort": "COGS 163",
+        "units": "(4)",
+        "description": "Research is showing that cellular metabolic processes are mediating normal and abnormal brain function. For example, neurocognitive disorders often co-occur with metabolic disturbances, such as insulin resistance, diabetes, and obesity. An understanding of these mechanisms will provide insight to new treatments for cognitive and neurological disorders. The course will cover topics on the role of abnormal cellular structure, genetic, epigenetic and pathogenic influences on synaptic signaling.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+163",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing."
+        ]
+    },
+    "cogs164": {
+        "id": "cogs164",
+        "name": "Neurobiology of Motivation",
+        "nameShort": "COGS 164",
+        "units": "(4)",
+        "description": "This course will address principles of motivation, valuation, and reward, spanning a large territory of topics, from rules of synaptic learning to classroom learning. Recommended preparation: courses in basic biology, physiology, Cognitive Science 107A or 107B or 107C, or courses in education.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+164",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing."
+        ]
+    },
+    "cogs169": {
+        "id": "cogs169",
+        "name": "Genetic Information for Behavior: From Single Cells to Mammals",
+        "nameShort": "COGS 169",
+        "units": "(4)",
+        "description": "Behavior draws on a wide range of genes acting as a complex source of information. Model organisms—bacteria, Paramecium, C. elegans, Drosophila, and mice—have provided insight into how genes influence both innate and learned behaviors.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+169",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 1 and 107A or permission of instructor."
+        ]
+    },
+    "cogs171": {
+        "id": "cogs171",
+        "name": "Mirror Neuron System",
+        "nameShort": "COGS 171",
+        "units": "(4)",
+        "description": "This class will examine the neuroanatomy, physiology, and functional correlates of the human mirror neuron system and its putative role in social cognition, e.g., action understanding, empathy, and theory of mind. We will examine the developmental, neuroimaging, electrophysiological, as well as clinical evidence, for and against this hypothesis.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+171",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing."
+        ]
+    },
+    "cogs172": {
+        "id": "cogs172",
+        "name": "Brain Disorders and Cognition",
+        "nameShort": "COGS 172",
+        "units": "(4)",
+        "description": "A review of the patterns of impaired and intact cognitive abilities present in brain-damaged patients in terms of damage to one or more components of a model of normal cognitive functioning. (Cognitive science majors may not receive elective credit for both Psychology 139 and Cognitive Science 172.)",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+172",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 107A. "
+        ]
+    },
+    "cogs174": {
+        "id": "cogs174",
+        "name": "Drugs: Brain, Mind, and Culture",
+        "nameShort": "COGS 174",
+        "units": "(4)",
+        "description": "This course explores how drugs interact with the brain/mind and culture. It covers evolutionary and historical perspectives, brain chemistry, pharmacology, expectancies and placebo effects, and models of addiction. It also provides a biopsychosocial survey of commonly used and abused substances.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+174",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing."
+        ]
+    },
+    "cogs175": {
+        "id": "cogs175",
+        "name": "The Neuropsychological Basis of Alternate States of Consciousness",
+        "nameShort": "COGS 175",
+        "units": "(4)",
+        "description": "This course will review the literature that correlates brain rhythms in the human EEG with aspects of cognition, behavioral states, neuropsycho-pharmacology, and psychopathology in order to understand the psychological and neurophysiological underpinnings of these experiences.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+175",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 101A or Cognitive Science 107A. "
+        ]
+    },
+    "cogs176": {
+        "id": "cogs176",
+        "name": "From Sleep to Attention",
+        "nameShort": "COGS 176",
+        "units": "(4)",
+        "description": "This course will combine an examination of the neural character of quiet and active sleep states and their potential functions with an examination of the different mechanisms by which the brain mediates attention to specific features of the world.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+176",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 107B."
+        ]
+    },
+    "cogs177": {
+        "id": "cogs177",
+        "name": "Space and Time in the Brain",
+        "nameShort": "COGS 177",
+        "units": "(4)",
+        "description": "The course examines features of neural dynamics that map spatial and temporal relationships. Lectures will cover interval timing, mapping of item-to-observer position, mapping of observer-to-world position, and the conjunction of spatial and temporal coding in hippocampus.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+177",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 107B."
+        ]
+    },
+    "cogs178": {
+        "id": "cogs178",
+        "name": "Genes, Brains, and Behavior",
+        "nameShort": "COGS 178",
+        "units": "(4)",
+        "description": "Evidence for genetic mediation of behavioral and neural differences, mechanisms that may mediate these effects, and the roles of the environment and experience are discussed.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+178",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 107A and 107B or consent of instructor."
+        ]
+    },
+    "cogs179": {
+        "id": "cogs179",
+        "name": "Electrophysiology of Cognition",
+        "nameShort": "COGS 179",
+        "units": "(4)",
+        "description": "Survey the theory and practice of using electrical\n\t\t\t\t  recordings (event-related brain potentials) to study cognition and behavior\n\t\t\t\t  including attention, language, mental chronometry, memory, and plasticity.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+179",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive\n\t\t\t    Science 107A or Psychology 106; Cognitive Science 101A or Psychology 105."
+        ]
+    },
+    "cogs180": {
+        "id": "cogs180",
+        "name": "Neural Coding in Sensory Systems",
+        "nameShort": "COGS 180",
+        "units": "(4)",
+        "description": "This course covers recent advances in the understanding of common neural mechanisms and computational principles underlying the brain’s ability to process multiple sources of sensory information—vision, audition, olfaction, touch, and equilibrioception—and translate them into actions.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+180",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 1, Cognitive Science 14B, Cognitive Science 101A, and Cognitive Science 109. "
+        ]
+    },
+    "cogs184": {
+        "id": "cogs184",
+        "name": "Modeling the Evolution of Cognition",
+        "nameShort": "COGS 184",
+        "units": "(4)",
+        "description": "This interdisciplinary course integrates data on evolutionary theory, hominid prehistory, primate behavior, comparative neuro-anatomy, cognitive development, and collaboration. After lectures, readings, discussions, and Museum of Man tour, students generate a detailed timeline of five million years of human cognitive evolution.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+184",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 17, or 107A, or 107B, or 107C."
+        ]
+    },
+    "cogs185": {
+        "id": "cogs185",
+        "name": "Advanced Machine Learning Methods",
+        "nameShort": "COGS 185",
+        "units": "(4)",
+        "description": "This course is an advanced seminar and project course that follows the Natural Computation courses. Advanced and new machine learning methods will be discussed and used.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+185",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 118B or Cognitive Science 118A."
+        ]
+    },
+    "cogs187A": {
+        "id": "cogs187A",
+        "name": "Usability and Information Architecture ",
+        "nameShort": "COGS 187A",
+        "units": "(6)",
+        "description": "Examines the cognitive basis of successful web and multimedia design. Topics: information architecture, navigation, usability, graphic layout, transaction design, and how to understand user interaction.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+187A",
+        "addURL": "/",
+        "prereqs": [
+            "CSE 7. "
+        ]
+    },
+    "cogs187B": {
+        "id": "cogs187B",
+        "name": "Practicum in Professional Web Design ",
+        "nameShort": "COGS 187B",
+        "units": "(4)",
+        "description": "This course follows up on the basics of multimedia design taught in Cognitive Science 187A. Students will probe more deeply into selective topics, such as animation, navigation, graphical display of information, and narrative coherence. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+187B",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 187A or consent of instructor. "
+        ]
+    },
+    "cogs188": {
+        "id": "cogs188",
+        "name": "AI Algorithm and Social Language",
+        "nameShort": "COGS 188",
+        "units": "(4)  ",
+        "description": "This class will cover latest machine learning and text analysis algorithm. Such algorithms have become important in the area of data collected from the Internet and for the analysis for social network activities such as Twitter posts, E-mails, blogs, etc.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+188",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 109 or Cognitive Science 118A or Cognitive Science 118B. "
+        ]
+    },
+    "cogs189": {
+        "id": "cogs189",
+        "name": "Brain Computer Interfaces",
+        "nameShort": "COGS 189",
+        "units": "(4)",
+        "description": "This course will discuss signal processing, pattern recognition algorithms, and human-computer interaction issues in EEG-based brain-computer interfaces. Other types of brain-computer interfaces will also be discussed.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+189",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive Science 118B or Cognitive Science 118A or Cognitive Science 109.  "
+        ]
+    },
+    "cogs190A": {
+        "id": "cogs190A",
+        "name": "Pre-Honors Project in Cognitive Science",
+        "nameShort": "COGS 190A",
+        "units": "(4)",
+        "description": "This course prepares students for the Cognitive\n\t\t\t\t  Science Honors Program. The aim is to refine the research project and to\n\t\t\t\t  teach students what a successfully written proposal entails. Students may\n\t\t\t\t  be admitted to the Honors Program contingent upon completion and progress\n\t\t\t\t  in the course. See “Cognitive\n\t\t\t\t  Science Honors Program” section for more\n\t\t\t\t  information. Course should be taken for a letter grade.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+190A",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division\n\t\t\t    standing; instructor and department approval. "
+        ]
+    },
+    "cogs190B": {
+        "id": "cogs190B",
+        "name": "Honors Studies in Cognitive Science",
+        "nameShort": "COGS 190B",
+        "units": "(4)",
+        "description": "This course will allow cognitive science honors\n\t\t\t\t  students to explore advanced issues in the field of cognitive science research.\n\t\t\t\t  It will also provide the opportunity to develop a thesis on the topic of\n\t\t\t\t  their choice and begin work under faculty supervision. See “Cognitive\n\t\t\t\t  Science Honors Program” section for more\n\t\t\t\t  information.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+190B",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive\n\t\t\t\t  Science 190A and formal admittance to the Cognitive Science Honors Program;\n\t\t\t    department stamp. "
+        ]
+    },
+    "cogs190C": {
+        "id": "cogs190C",
+        "name": "Honors Thesis in Cognitive Science",
+        "nameShort": "COGS 190C",
+        "units": "(4)",
+        "description": "This course will provide honors candidates\n\t\t\t\t  an opportunity to complete the research on and preparation\n\t\t\t\t  of an honors thesis under close faculty supervision. Oral presentation\n\t\t\t\t  of student’s\n\t\t\t\t  thesis is required to receive honors; additionally, student\n\t\t\t\t  must receive grade of A– or better in 190B and 190C to receive honors. See “Cognitive\n\t\t\t\t  Science Honors Program” section for more\n\t\t\t\t  information.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+190C",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive\n\t\t\t\t  Science 190B with grade of A– or better and formal admittance\n\t\t\t    to the Cognitive Science Honors Program."
+        ]
+    },
+    "cogs190D": {
+        "id": "cogs190D",
+        "name": "Preparation for Thesis Presentation",
+        "nameShort": "COGS 190D",
+        "units": "(1)",
+        "description": "This course is affiliated with the honors program (190A-B-C) and is required of honors students during spring quarter. Its aim is to prepare students to present research results to an audience. Emphasis will be on the oral presentation (organization, wording, graphics), but there will also be some discussion about written research reports. Seminar style format with occasional short lectures wherein students will practice oral presentations and provide constructive criticism to each other.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+190D",
+        "addURL": "/",
+        "prereqs": [
+            "must be concurrently enrolled in 190B or 190C. "
+        ]
+    },
+    "cogs195": {
+        "id": "cogs195",
+        "name": "Instructional Apprenticeship in Cognitive Science",
+        "nameShort": "COGS 195",
+        "units": "(4)",
+        "description": "Students, under the direction of the instructor, lead laboratory or discussion sections, attend lectures, and meet regularly with the instructor to help prepare course materials and grade papers and exams. Applications must be submitted to and approved by the department. P/NP grades only. May be taken for credit three times.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+195",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing; 3.0 GPA; instructor and department approval."
+        ]
+    },
+    "cogs198": {
+        "id": "cogs198",
+        "name": "Directed Group Study",
+        "nameShort": "COGS 198",
+        "units": "(2 or 4)",
+        "description": "This independent study course is for small groups of advanced students who wish to complete a one- quarter reading or research project under the mentorship of a faculty member. Students should contact faculty whose research interests them to discuss possible projects. P/NP grades only. May be taken for credit three times.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+198",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing; 2.5 GPA; consent of instructor and department approval. "
+        ]
+    },
+    "cogs199": {
+        "id": "cogs199",
+        "name": "Special Project",
+        "nameShort": "COGS 199",
+        "units": "(2 or 4)",
+        "description": "This independent study course is for individual, advanced students who wish to complete a one- quarter reading or research project under the mentorship of a faculty member. Students should contact faculty whose research interests them to discuss possible projects. P/NP grades only. May be taken for credit three times. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+199",
+        "addURL": "/",
+        "prereqs": [
+            "upper-division standing; 2.5 GPA; consent of instructor and department approval. "
+        ]
+    },
+    "cogs200": {
+        "id": "cogs200",
+        "name": "Cognitive Science Seminar",
+        "nameShort": "COGS 200",
+        "units": "(4)",
+        "description": "This seminar emphasizes the conceptual basis of cognitive science, including representation, processing mechanisms, language, and the role of interaction among individuals, culture, and the environment. Current developments in each field are considered as they relate to issues in cognitive science. (May be repeated for credit.) ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+200",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs201": {
+        "id": "cogs201",
+        "name": "Systems Neuroscience",
+        "nameShort": "COGS 201",
+        "units": "(4)",
+        "description": "This course surveys the development of symbolic and connectionist models of cognition. Selected readings from the late 1940s to the present are covered. Topics include: Turing machines, information theory, computational complexity, search, learning, symbolic artificial intelligence, and neural networks. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+201",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs202": {
+        "id": "cogs202",
+        "name": "Cognitive Science Foundations: Computational Modeling of Cognition",
+        "nameShort": "COGS 202",
+        "units": "(4)",
+        "description": "Surveys a variety of theoretical and methodological approaches to the study of human cognition. Topics include language structure, language processing, concepts and categories, knowledge representation, analogy and metaphor, reasoning, planning and action, problem solving, learning and expertise, and emotion. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+202",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs203": {
+        "id": "cogs203",
+        "name": "Cognitive Science Foundations: Theories and Methods in the Study of Cognitive Phenomena",
+        "nameShort": "COGS 203",
+        "units": "(4)",
+        "description": "This course is taken to focus the students’ development of a thesis topic and research proposal. Students prepare an outline of thesis proposal and make an oral public presentation of the proposed topic prior to the end of the third year. S/U only. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+203",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs205": {
+        "id": "cogs205",
+        "name": "Introduction to Thesis Research",
+        "nameShort": "COGS 205",
+        "units": "(4)",
+        "description": "This sequence is an intensive research project. Students under faculty mentorship perform a thorough analysis of the problem and the literature, carry out original studies, and prepare oral and written presentations. Students should aim for a report of publishable quality. Letter grade required. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+205",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs210ABC": {
+        "id": "cogs210ABC",
+        "name": "Introduction to Research",
+        "nameShort": "COGS 210A-B-C",
+        "units": "(4-4-4)",
+        "description": "Issues in design, implementation, and evaluation of research in cognitive science are discussed. Students will present and comment on their own research projects in progress. Discussions also include presentations of research to various audiences, abstracts, reviews, grant process, and scientific ethics. Letter grade required. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+210A-B-C",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs211ABC": {
+        "id": "cogs211ABC",
+        "name": "\t\t  Research Methods in Cognitive Science",
+        "nameShort": "COGS 211A-B-C",
+        "units": "(2-2-2)",
+        "description": "An applied hands-on programming course that focuses on the design, implementation and analysis of experiments. Topics include experiment design, stimulus presentation, response collection, file manipulation, data analysis, display, and presentation. Course work includes both team and individual projects. Graduate students who have not programmed at all should speak with the professor beforehand.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+211A-B-C",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs219": {
+        "id": "cogs219",
+        "name": "Programming for Behavioral Sciences",
+        "nameShort": "COGS 219",
+        "units": "(4)",
+        "description": "This seminar surveys current research in information visualization with the goal of preparing students to do original research. The focus is on the cognitive aspects of information design, dynamic representations, and computational techniques. Topics vary each time course is offered. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+219",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs220": {
+        "id": "cogs220",
+        "name": "Information Visualization",
+        "nameShort": "COGS 220",
+        "units": "(4)",
+        "description": "This course is designed to open the doors for students who are interested in learning about the fundamental principles of visual perception and important applications of computer vision.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+220",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs225": {
+        "id": "cogs225",
+        "name": "Visual Computing",
+        "nameShort": "COGS 225",
+        "units": "(4)",
+        "description": "(Cross-listed with CSE 219.) New societal challenges, cultural values, and technological opportunities are changing design—and vice versa. The seminar explores this increased scale, real-world engagement, and disruptive impact. Invited speakers from UC San Diego and beyond share cutting-edge research on interaction, design, and learning. S/U grades only. May be taken for credit ninety-nine times.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+225",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs229": {
+        "id": "cogs229",
+        "name": "Design at Large",
+        "nameShort": "COGS 229",
+        "units": "(1)",
+        "description": "(Cross-listed with CSE 216.) Prepares students to conduct original HCI research by reading and discussing seminal and cutting-edge research papers. Topics include design, social software, input techniques, mobile, and ubiquitous computing. Student pairs perform a quarter-long mini research project that leverages campus research efforts. Letter grades only.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+229",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs230": {
+        "id": "cogs230",
+        "name": "Topics in Human-Computer Interaction",
+        "nameShort": "COGS 230",
+        "units": "(4)",
+        "description": "This course focuses on aspects of individual and socially distributed cognition. Empirical examples are drawn from natural and experimental settings that presuppose, tacitly or explicitly, socially distributed knowledge among participants. The class examines the way locally managed, pragmatic conditions influence how decisions are framed. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+230",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs234": {
+        "id": "cogs234",
+        "name": "Distributed Cognition",
+        "nameShort": "COGS 234",
+        "units": "(4)",
+        "description": "(Same as Linguistics 238.) Basic concepts, empirical findings, and recent developments in cognitive and functional linguistics. Language viewed dynamically in relation to conceptualization, discourse, meaning construction, and cognitive processing. (As topics vary, may be repeated for credit.) ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+234",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs238": {
+        "id": "cogs238",
+        "name": "Topics in Cognitive Linguistics",
+        "nameShort": "COGS 238",
+        "units": "(1–4)",
+        "description": "(Same as Neurosciences 241.) This course will cover ethical issues that arise in academia, including: dishonesty, plagiarism, attribution, sexual misconduct, etc. We will also discuss ‘survival’ issues, including job hunting, grant preparation, journal reviews, writing letters of recommendation, mentoring, etc. S/U only. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+238",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs241": {
+        "id": "cogs241",
+        "name": "Ethics and Survival Skills in Academia",
+        "nameShort": "COGS 241",
+        "units": "(3)",
+        "description": "This course provides a rigorous treatment of hypothesis testing, statistical inference, model fitting, and exploratory data analysis techniques used in the cognitive and neural sciences. Students will acquire an understanding of mathematical foundations and hands-on experience in applying these methods using Matlab. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+241",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs243": {
+        "id": "cogs243",
+        "name": "Statistical Inference and Data Analysis",
+        "nameShort": "COGS 243",
+        "units": "(2 or 4)",
+        "description": "Empirical investigation of the nature of mathematics. How the human mind/brain creates abstract concepts, such as infinity, infinitesimals, imaginary numbers, or zero: embodiment, creativity, and history. Cognitive approaches that connect mathematics to human thought in general.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+243",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs252": {
+        "id": "cogs252",
+        "name": "Cognitive Science of Mathematics",
+        "nameShort": "COGS 252",
+        "units": "(4)",
+        "description": "This course explores current issues in the study of meaning and its interaction with other areas of cognitive science. The focus is on cognitive semantics, pragmatics, and meaning construction in general. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+252",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs253": {
+        "id": "cogs253",
+        "name": "Semantics and Cognition",
+        "nameShort": "COGS 253",
+        "units": "(4)",
+        "description": "Specific topics in cognitive science are discussed. (May be repeated when topics vary.) ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+253",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs260": {
+        "id": "cogs260",
+        "name": "Seminar on Special Topics",
+        "nameShort": "COGS 260",
+        "units": "(1–4)",
+        "description": "The discovery of mirror neurons in the monkey brain raised the possibility that “mirroring” constitutes instances of mental simulation. In this seminar, we will examine the neural basis of social cognition and specifically the relationship between mirroring processes and cognition.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+260",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs277": {
+        "id": "cogs277",
+        "name": "Mirroring in Social Cognition",
+        "nameShort": "COGS 277",
+        "units": "(4)",
+        "description": "Evidence for the heritability and for the association of genetic variants with behavioral and neural phenotypes will be reviewed. Integrative models of gene-environment interaction will be discussed. Guest faculty will describe their own work in this area.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+277",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs278": {
+        "id": "cogs278",
+        "name": "Genetics and Individuality",
+        "nameShort": "COGS 278",
+        "units": "(4)",
+        "description": "(Cross-listed\n\t\t\t\t  with NEU 279) This course surveys the theory and practice of using recordings\n\t\t\t\t  of electrical and magnetic activity of the brain to study cognition and\n\t\t\t\t  behavior. It explores what brain waves reveal about normal and abnormal\n\t\t\t\t  perception, processing, decision making, memory, preparation, and comprehension.\n\t\t\t\t  Graduate students will be required to do additional readings for the material\n\t\t\t\t  each week (different for each grad) and to present orally (as well as in\n\t\t\t\t  a written page) a critical analysis of the readings.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+278",
+        "addURL": "/",
+        "prereqs": [
+            "Cognitive\n\t\t\t\t  Science 107A or Psychology 106; Cognitive Science 101A or Psychology 105. "
+        ]
+    },
+    "cogs279": {
+        "id": "cogs279",
+        "name": "Electrophysiology of Cognition",
+        "nameShort": "COGS 279",
+        "units": "(4)",
+        "description": "Laboratory rotations provide students with experience in the various experimental methods used in cognitive science.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+279",
+        "addURL": "/",
+        "prereqs": [
+            "consent of instructor. S/U only. "
+        ]
+    },
+    "cogs290": {
+        "id": "cogs290",
+        "name": "Cognitive Science Laboratory Rotation",
+        "nameShort": "COGS 290",
+        "units": "(2)",
+        "description": "Students engage in discussions of reading of recent research in an area designated and directed by the instructor and also participate in the design and execution of original research. Students are expected to demonstrate oral and written competence in presenting original research.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+290",
+        "addURL": "/",
+        "prereqs": [
+            "consent of the instructor and departmental approval. (May be repeated for credit.) "
+        ]
+    },
+    "cogs291": {
+        "id": "cogs291",
+        "name": "Laboratory Research",
+        "nameShort": "COGS 291",
+        "units": "(1–4)",
+        "description": "Students study and research selected topics under the direction of a member of the faculty. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+291",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs298": {
+        "id": "cogs298",
+        "name": "Directed Independent Study",
+        "nameShort": "COGS 298",
+        "units": "(1–12)",
+        "description": "Students are provided directed research on their dissertation topic by faculty advisors. ",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+298",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs299": {
+        "id": "cogs299",
+        "name": "Thesis Research",
+        "nameShort": "COGS 299",
+        "units": "(1–12)",
+        "description": "This practicum for graduate students provides experience in teaching undergraduate cognitive science courses. S/U only.",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+299",
+        "addURL": "/",
+        "prereqs": [
+            "none"
+        ]
+    },
+    "cogs500": {
+        "id": "cogs500",
+        "name": "Teaching Apprenticeship",
+        "nameShort": "COGS 500",
+        "units": "(1–4)",
+        "description": "",
+        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=COGS+500",
+        "addURL": "/",
+        "prereqs": []
+    }
 }
