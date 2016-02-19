@@ -26,7 +26,7 @@ function validateLogin(e) {
 
 
 /**************************** NAV BUTTON CONTROLS ********************************/
-function showRequirements(e) {
+/*function showRequirements(e) {
     e.preventDefault();
 
     $.ajax({
@@ -45,7 +45,7 @@ function showRequirements(e) {
             console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
         }
     });
-}
+}*/
 
 function showPlanner(e) {
     e.preventDefault();
@@ -77,11 +77,6 @@ function showDepartments(e) {
             // Update displayed content
             $(".main-content").html(response);
 
-            $('#logo').hide();
-            $('.back-btn').show();
-            backBtnFunction = showPlanner;
-            $('.back-btn')[0].addEventListener('click', backBtnFunction);
-
             // Link all departments to the proper next page
             $.each( $('.department-list ul li'), function(index, elem) {
                 elem.addEventListener('click', showDeptClasses);
@@ -103,7 +98,6 @@ function showDeptClasses(e) {
         'url': '/parts/course-listing/' + /^[a-z]+/.exec(e.srcElement.id)[0],
         'success': function(response)
         {
-            backBtnFunction = showDepartments;
             $(".main-content").html(response);
             $.each( $('.course-list ul li'), function(index, elem) {
                 elem.addEventListener('click', showCourseDescription);
@@ -127,7 +121,6 @@ function showCourseDescription(e) {
         'url': '/parts/course-description/'+ e.srcElement.id,
         'success': function(response)
         {
-            $('.back-btn')[0].addEventListener('click', showDeptClasses);
             $(".main-content").html(response);
             $(".course-description .add")[0].addEventListener('click', showQuarterSelection);
         },
