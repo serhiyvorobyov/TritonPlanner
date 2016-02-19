@@ -100,9 +100,10 @@ function showDeptClasses(e) {
 
     $.ajax({
         'type': 'GET',
-        'url': '/parts/course-listing/' + e.srcElement.id,
+        'url': '/parts/course-listing/' + /^[a-z]+/.exec(e.srcElement.id)[0],
         'success': function(response)
         {
+            backBtnFunction = showDepartments;
             $(".main-content").html(response);
             $.each( $('.course-list ul li'), function(index, elem) {
                 elem.addEventListener('click', showCourseDescription);
@@ -126,6 +127,7 @@ function showCourseDescription(e) {
         'url': '/parts/course-description/'+ e.srcElement.id,
         'success': function(response)
         {
+            $('.back-btn')[0].addEventListener('click', showDeptClasses);
             $(".main-content").html(response);
             $(".course-description .add")[0].addEventListener('click', showQuarterSelection);
         },
@@ -142,14 +144,13 @@ function showCourseDescription(e) {
 function showQuarterSelection(e) {
     e.preventDefault();
 
-    
-
     $.ajax({
         'type': 'GET',
         'url': '/parts/choose-quarter/'+e.srcElement.parentNode.id,
         'success': function(response)
         {
             $(".main-content").html(response);
+            $('.past').hide();
             $.each($(".addToQuarter"), function(index, elem) {elem.addEventListener('click', addClass)});
         },
         'error': function(jqXHR, textStatus, errorThrown)

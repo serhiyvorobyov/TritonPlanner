@@ -180,3 +180,8 @@ color: white !important;
     overflow-y: scroll;
 }
 
+.course-list, .course-description {
+    height: 504px;
+    overflow-y: scroll;
+}
+
