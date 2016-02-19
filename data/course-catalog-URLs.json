@@ -1,0 +1,12 @@
+{
+  "catalog": [
+    {
+      "dept": "cogs",
+      "URL": "http://ucsd.edu/catalog/courses/COGS.html"
+    },
+    {
+      "dept": "cse",
+      "URL": "http://ucsd.edu/catalog/courses/CSE.html"
+    }
+  ]
+}
