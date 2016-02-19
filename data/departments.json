@@ -1,8 +1,8 @@
 {
   "departments": [
     {
-      "id": "mgt",
-      "name": "Management Science"
+      "id": "cogs",
+      "name": "Cognitive Science"
     },
     {
       "id": "cse",

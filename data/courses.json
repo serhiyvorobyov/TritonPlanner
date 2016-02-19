@@ -1,28 +1,4 @@
 {
-    "mgt18": {
-        "id": "mgt18",
-        "name": "MGT 18: Managing Diverse Teams",
-        "nameShort": "MGT 18",
-        "units": 4,
-        "description": "This is a cool course.",
-        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=TDMV+2",
-        "addURL": "/",
-        "prereqs": [
-            "none"
-        ]
-    },
-    "mgt45": {
-        "id": "mgt45",
-        "name": "MGT 45: Principles of Accounting",
-        "nameShort": "MGT 45",
-        "units": 4,
-        "description": "This is a cool course.",
-        "evalsURL": "http://cape.ucsd.edu/responses/Results.aspx?courseNumber=MGT+45",
-        "addURL": "/",
-        "prereqs": [
-            "none"
-        ]
-    },
     "cse3": {
         "id": "cse3",
         "name": "Fluency in Information Technology",

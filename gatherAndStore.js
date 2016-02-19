@@ -7,11 +7,13 @@
     // Data
     var URLsArray = require('./data/course-catalog-URLs.json').catalog;
     var courseData = require('./data/courses.json');
+    var deptCourses = require('./data/dept-courses.json');
 
     // Variables
     var department;
     var url;
     var $;
+    var deptCoursesTemplate;
 
     var i;
     var length = URLsArray.length;
@@ -50,6 +52,12 @@
                         prereqs: []
                     };
 
+                    deptCoursesTemplate = {
+                        "id": "",
+                        "name": "",
+                        "units": ""
+                    };
+
                     // Course number may not have department in front it so must insert one.
                     var classId =
                         courseNumbers[0].split(' ').length > 1 ?
@@ -80,6 +88,12 @@
                     json.name = courseName.split('.')[1].split(" (")[0].substr(1); // Grab title up to the units
                     json.units = courseName.split('.')[1].substr(courseUnits);
 
+                    deptCoursesTemplate.id = json.id;
+                    deptCoursesTemplate.name = json.nameShort+" : "+json.name;
+                    deptCoursesTemplate.units = json.units;
+
+                    deptCourses[department].push(deptCoursesTemplate);
+
                     deptClasses.push(json);
                 });
 
@@ -106,6 +120,13 @@
             }
 
             fs.writeFile('./data/courses.json', JSON.stringify(courseData, null, 4), function(err) {
+                if(!err) {
+                    console.log("You've successfully updated courses.json with the most current classes and descriptions!");
+                } else {
+                    console.log(err);
+                }
+            });
+            fs.writeFile('./data/dept-courses.json', JSON.stringify(deptCourses, null, 4), function(err) {
                 if(!err) {
                     console.log("You've successfully updated courses.json with the most current classes and descriptions!");
                 } else {

@@ -1,46 +1,6 @@
 <div class="calendar-views">
 
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active">
-            <a href="#quarter" aria-controls="home" role="tab" data-toggle="tab">Current Quarter</a>
-        </li>
-        <li role="presentation">
-            <a href="#year" aria-controls="profile" role="tab" data-toggle="tab">Current Year</a>
-        </li>
-        <li role="presentation">
-            <a href="#all-years" aria-controls="messages" role="tab" data-toggle="tab">All Years</a>
-        </li>
-
-    </ul>
-
-    <!-- Tab panes -->
-    <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="quarter">
-            {{#each currQuarter}}
-                <div>
-                    <h1 style="text-align: center;">{{Q}} {{year}}</h1>
-                    <ul style="list-style-type: none; text-align: center; padding-left: 0;">
-                        {{#each classes}}
-                            <li>{{this}}</li>
-                        {{/each}}
-                    </ul>
-                </div>
-            {{/each}}
-        </div>
-        <div role="tabpanel" class="tab-pane" id="year">
-            {{#each currYear}}
-                <div class="{{qState}}">
-                    <h3 style="text-align: center;">{{Q}} {{year}}</h3>
-                    <ul style="list-style-type: none; text-align: center; padding-left: 0;">
-                        {{#each classes}}
-                            <li>{{this}}</li>
-                        {{/each}}
-                    </ul>
-                </div>
-            {{/each}}
-        </div>
-        <div role="tabpanel" class="tab-pane" id="all-years">
+    <div role="tabpanel" class="tab-pane" id="all-years">
             <div class="container">
                 {{#each quarters}}
                     <div class="col-xs-4 {{qState}}">
@@ -54,6 +14,5 @@
                 {{/each}}
             </div>
         </div>
-    </div>
 
 </div>

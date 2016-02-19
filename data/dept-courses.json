@@ -1,37 +1,1201 @@
 {
-	"mgt": [
+    "cogs": [
         {
-          "id": "mgt18",
-          "name": "MGT 18: Managing Diverse Teams",
-          "units": 4
+            "id": "cogs1",
+            "name": "COGS 1 : Introduction to Cognitive Science",
+            "units": "(4)"
         },
         {
-          "id": "mgt45",
-          "name": "MGT 45: Principles of Accounting",
-          "units": 4
+            "id": "cogs3",
+            "name": "COGS 3 : Introduction to Computing",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs8",
+            "name": "COGS 8 : Hands-on Computing",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs9",
+            "name": "COGS 9 : Introduction to Data Science",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs10",
+            "name": "COGS 10 : Cognitive Consequences of Technology",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs11",
+            "name": "COGS 11 : Minds and Brains",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs12",
+            "name": "COGS 12 : Language, Culture, and Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs14A",
+            "name": "COGS 14A : Introduction to Research Methods",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs14B",
+            "name": "COGS 14B : Introduction to Statistical Analysis",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs15",
+            "name": "COGS 15 : What the *#!?: An Uncensored Introduction to Language",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs17",
+            "name": "COGS 17 : Neurobiology of Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs87",
+            "name": "COGS 87 : Freshman Seminar",
+            "units": "(1)"
+        },
+        {
+            "id": "cogs90",
+            "name": "COGS 90 : Undergraduate Seminar",
+            "units": "(1)"
+        },
+        {
+            "id": "cogs91",
+            "name": "COGS 91 : SCANS Presents",
+            "units": "(1)"
+        },
+        {
+            "id": "cogs92",
+            "name": "COGS 92 : Resiliency in the Face of Adversity",
+            "units": "(2)"
+        },
+        {
+            "id": "cogs99",
+            "name": "COGS 99 : Independent Study",
+            "units": "(2 or 4)"
+        },
+        {
+            "id": "cogs101A",
+            "name": "COGS 101A : Sensation and Perception",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs101B",
+            "name": "COGS 101B : Learning, Memory, and Attention",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs101C",
+            "name": "COGS 101C : Language",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs102A",
+            "name": "COGS 102A : Distributed Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs102B",
+            "name": "COGS 102B : Cognitive Ethnography",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs102C",
+            "name": "COGS 102C : Cognitive Design Studio",
+            "units": "(6)"
+        },
+        {
+            "id": "cogs107A",
+            "name": "COGS 107A : Neuroanatomy and Physiology",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs107B",
+            "name": "COGS 107B : Systems Neuroscience",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs107C",
+            "name": "COGS 107C : Cognitive Neuroscience",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs109",
+            "name": "COGS 109 : Modeling and Data Analysis",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs110",
+            "name": "COGS 110 : The Developing Mind",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs115",
+            "name": "COGS 115 : Neurological Development and Cognitive Change",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs118A",
+            "name": "COGS 118A : Natural Computation I",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs118B",
+            "name": "COGS 118B : Natural Computation II",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs119",
+            "name": "COGS 119 : Programming for Experimental Research",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs120",
+            "name": "COGS 120 : Interaction Design ",
+            "units": "(5)"
+        },
+        {
+            "id": "cogs121",
+            "name": "COGS 121 : Human Computer Interaction Programming Studio",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs143",
+            "name": "COGS 143 : Animal Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs151",
+            "name": "COGS 151 : Analogy and Conceptual Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs152",
+            "name": "COGS 152 : Cognitive Foundations of Mathematics",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs153",
+            "name": "COGS 153 : Language Comprehension",
+            "units": "(4)\n\t\t\t    "
+        },
+        {
+            "id": "cogs154",
+            "name": "COGS 154 : Communication Disorders in Children and Adults",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs155",
+            "name": "COGS 155 : Gesture and Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs156",
+            "name": "COGS 156 : Language Development",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs157",
+            "name": "COGS 157 : Music and the Mind",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs160",
+            "name": "COGS 160 : Upper-Division Seminar on Special Topics",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs163",
+            "name": "COGS 163 : Metabolic Disorders of the Brain",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs164",
+            "name": "COGS 164 : Neurobiology of Motivation",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs169",
+            "name": "COGS 169 : Genetic Information for Behavior: From Single Cells to Mammals",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs171",
+            "name": "COGS 171 : Mirror Neuron System",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs172",
+            "name": "COGS 172 : Brain Disorders and Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs174",
+            "name": "COGS 174 : Drugs: Brain, Mind, and Culture",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs175",
+            "name": "COGS 175 : The Neuropsychological Basis of Alternate States of Consciousness",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs176",
+            "name": "COGS 176 : From Sleep to Attention",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs177",
+            "name": "COGS 177 : Space and Time in the Brain",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs178",
+            "name": "COGS 178 : Genes, Brains, and Behavior",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs179",
+            "name": "COGS 179 : Electrophysiology of Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs180",
+            "name": "COGS 180 : Neural Coding in Sensory Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs184",
+            "name": "COGS 184 : Modeling the Evolution of Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs185",
+            "name": "COGS 185 : Advanced Machine Learning Methods",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs187A",
+            "name": "COGS 187A : Usability and Information Architecture ",
+            "units": "(6)"
+        },
+        {
+            "id": "cogs187B",
+            "name": "COGS 187B : Practicum in Professional Web Design ",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs188",
+            "name": "COGS 188 : AI Algorithm and Social Language",
+            "units": "(4)  "
+        },
+        {
+            "id": "cogs189",
+            "name": "COGS 189 : Brain Computer Interfaces",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs190A",
+            "name": "COGS 190A : Pre-Honors Project in Cognitive Science",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs190B",
+            "name": "COGS 190B : Honors Studies in Cognitive Science",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs190C",
+            "name": "COGS 190C : Honors Thesis in Cognitive Science",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs190D",
+            "name": "COGS 190D : Preparation for Thesis Presentation",
+            "units": "(1)"
+        },
+        {
+            "id": "cogs195",
+            "name": "COGS 195 : Instructional Apprenticeship in Cognitive Science",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs198",
+            "name": "COGS 198 : Directed Group Study",
+            "units": "(2 or 4)"
+        },
+        {
+            "id": "cogs199",
+            "name": "COGS 199 : Special Project",
+            "units": "(2 or 4)"
+        },
+        {
+            "id": "cogs200",
+            "name": "COGS 200 : Cognitive Science Seminar",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs201",
+            "name": "COGS 201 : Systems Neuroscience",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs202",
+            "name": "COGS 202 : Cognitive Science Foundations: Computational Modeling of Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs203",
+            "name": "COGS 203 : Cognitive Science Foundations: Theories and Methods in the Study of Cognitive Phenomena",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs205",
+            "name": "COGS 205 : Introduction to Thesis Research",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs210ABC",
+            "name": "COGS 210A-B-C : Introduction to Research",
+            "units": "(4-4-4)"
+        },
+        {
+            "id": "cogs211ABC",
+            "name": "COGS 211A-B-C : \t\t  Research Methods in Cognitive Science",
+            "units": "(2-2-2)"
+        },
+        {
+            "id": "cogs219",
+            "name": "COGS 219 : Programming for Behavioral Sciences",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs220",
+            "name": "COGS 220 : Information Visualization",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs225",
+            "name": "COGS 225 : Visual Computing",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs229",
+            "name": "COGS 229 : Design at Large",
+            "units": "(1)"
+        },
+        {
+            "id": "cogs230",
+            "name": "COGS 230 : Topics in Human-Computer Interaction",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs234",
+            "name": "COGS 234 : Distributed Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs238",
+            "name": "COGS 238 : Topics in Cognitive Linguistics",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cogs241",
+            "name": "COGS 241 : Ethics and Survival Skills in Academia",
+            "units": "(3)"
+        },
+        {
+            "id": "cogs243",
+            "name": "COGS 243 : Statistical Inference and Data Analysis",
+            "units": "(2 or 4)"
+        },
+        {
+            "id": "cogs252",
+            "name": "COGS 252 : Cognitive Science of Mathematics",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs253",
+            "name": "COGS 253 : Semantics and Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs260",
+            "name": "COGS 260 : Seminar on Special Topics",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cogs277",
+            "name": "COGS 277 : Mirroring in Social Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs278",
+            "name": "COGS 278 : Genetics and Individuality",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs279",
+            "name": "COGS 279 : Electrophysiology of Cognition",
+            "units": "(4)"
+        },
+        {
+            "id": "cogs290",
+            "name": "COGS 290 : Cognitive Science Laboratory Rotation",
+            "units": "(2)"
+        },
+        {
+            "id": "cogs291",
+            "name": "COGS 291 : Laboratory Research",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cogs298",
+            "name": "COGS 298 : Directed Independent Study",
+            "units": "(1–12)"
+        },
+        {
+            "id": "cogs299",
+            "name": "COGS 299 : Thesis Research",
+            "units": "(1–12)"
+        },
+        {
+            "id": "cogs500",
+            "name": "COGS 500 : Teaching Apprenticeship",
+            "units": "(1–4)"
         }
     ],
     "cse": [
-      {
-        "id": "cse8A",
-        "name": "CSE 8A: Introduction To Computer Science: Java I",
-        "units": 4
-      },
-      {
-        "id": "cse8B",
-        "name": "CSE 8B: Introduction To Computer Science: Java II",
-        "units": 4
-      },
-      {
-        "id": "cse12",
-        "name": "CSE 12: Basic Data Structures and Object Oriented Design",
-        "units": 4
-      },
-      {
-        "id": "cse15L",
-        "name": "CSE 15L: Software Tools and Techniques Lab",
-        "units": 2
-      }
+        {
+            "id": "cse3",
+            "name": "CSE 3 : Fluency in Information Technology",
+            "units": "(4)"
+        },
+        {
+            "id": "cse4GS",
+            "name": "CSE 4GS : Mathematical Beauty in Rome",
+            "units": "(4)"
+        },
+        {
+            "id": "cse6GS",
+            "name": "CSE 6GS : Mathematical Beauty in Rome Lab",
+            "units": "(4)\t\t\t\t"
+        },
+        {
+            "id": "cse5A",
+            "name": "CSE 5A : Introduction to Programming I",
+            "units": "(4)"
+        },
+        {
+            "id": "cse7",
+            "name": "CSE 7 : Introduction to Programming with Matlab",
+            "units": "(4)"
+        },
+        {
+            "id": "cse8A",
+            "name": "CSE 8A : Introduction to Computer Science: Java I",
+            "units": "(4)"
+        },
+        {
+            "id": "cse8B",
+            "name": "CSE 8B : Introduction to Computer Science: Java II",
+            "units": "(4)"
+        },
+        {
+            "id": "cse11",
+            "name": "CSE 11 : Introduction to Computer Science and Object-Oriented Programming: Java",
+            "units": "(4)"
+        },
+        {
+            "id": "cse12",
+            "name": "CSE 12 : Basic Data\n\t\t  Structures and Object-Oriented Design",
+            "units": "(4)"
+        },
+        {
+            "id": "cse15L",
+            "name": "CSE 15L : Software Tools and Techniques Laboratory",
+            "units": "(2)"
+        },
+        {
+            "id": "cse20",
+            "name": "CSE 20 : Discrete Mathematics",
+            "units": "(4)"
+        },
+        {
+            "id": "cse21",
+            "name": "CSE 21 : Mathematics for Algorithms and Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse30",
+            "name": "CSE 30 : Computer\n\t\t  Organization and Systems Programming",
+            "units": "(4)"
+        },
+        {
+            "id": "cse80",
+            "name": "CSE 80 : UNIX Lab",
+            "units": "(2)"
+        },
+        {
+            "id": "cse86",
+            "name": "CSE 86 : C++ for Java Programmers",
+            "units": "(2)"
+        },
+        {
+            "id": "cse87",
+            "name": "CSE 87 : Freshman Seminar",
+            "units": "(1)"
+        },
+        {
+            "id": "cse90",
+            "name": "CSE 90 : Undergraduate Seminar",
+            "units": "(1)"
+        },
+        {
+            "id": "cse91",
+            "name": "CSE 91 : Perspectives\n\t\t  in Computer Science and Engineering",
+            "units": "(2)"
+        },
+        {
+            "id": "cse99",
+            "name": "CSE 99 : Independent\n\t\t  Study in Computer Science and Engineering",
+            "units": "(4)"
+        },
+        {
+            "id": "cse100",
+            "name": "CSE 100 : Advanced Data Structures",
+            "units": "(4)"
+        },
+        {
+            "id": "cse101",
+            "name": "CSE 101 : Design and Analysis of Algorithms",
+            "units": "(4)"
+        },
+        {
+            "id": "cse103",
+            "name": "CSE 103 : A Practical\n\t\t  Introduction to Probability and Statistics",
+            "units": "(4)"
+        },
+        {
+            "id": "cse105",
+            "name": "CSE 105 : Theory of Computability",
+            "units": "(4)"
+        },
+        {
+            "id": "cse107",
+            "name": "CSE 107 : Introduction to Modern Cryptography",
+            "units": "(4)"
+        },
+        {
+            "id": "cse110",
+            "name": "CSE 110 : Software\n\t\t\t\t  Engineering",
+            "units": "(4)"
+        },
+        {
+            "id": "cse112",
+            "name": "CSE 112 : Advanced Software Engineering",
+            "units": "(4)"
+        },
+        {
+            "id": "cse118",
+            "name": "CSE 118 : Ubiquitous Computing",
+            "units": "(4)"
+        },
+        {
+            "id": "cse120",
+            "name": "CSE 120 : Principles\n\t\t  of Computer Operating Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse121",
+            "name": "CSE 121 : Operating\n\t\t  Systems: Architecture and Implementation",
+            "units": "(4)"
+        },
+        {
+            "id": "cse123",
+            "name": "CSE 123 : Computer Networks",
+            "units": "(4)"
+        },
+        {
+            "id": "cse124",
+            "name": "CSE 124 : Networked Services",
+            "units": "(4)"
+        },
+        {
+            "id": "cse125",
+            "name": "CSE 125 : Software\n\t\t  System Design and Implementation",
+            "units": "(4)"
+        },
+        {
+            "id": "cse127",
+            "name": "CSE 127 : Introduction to Computer Security",
+            "units": "(4)"
+        },
+        {
+            "id": "cse130",
+            "name": "CSE 130 : Programming\n\t\t  Languages: Principles and Paradigms",
+            "units": "(4)"
+        },
+        {
+            "id": "cse131",
+            "name": "CSE 131 : Compiler Construction",
+            "units": "(4)"
+        },
+        {
+            "id": "cse132A",
+            "name": "CSE 132A : Database System Principles",
+            "units": "(4)"
+        },
+        {
+            "id": "cse132B",
+            "name": "CSE 132B : Database Systems Applications",
+            "units": "(4)"
+        },
+        {
+            "id": "cse134B",
+            "name": "CSE 134B : Web Client Languages",
+            "units": "(4)"
+        },
+        {
+            "id": "cse135",
+            "name": "CSE 135 : Server-side Web Applications",
+            "units": "(4)"
+        },
+        {
+            "id": "cse140",
+            "name": "CSE 140 : Components\n\t\t  and Design Techniques for Digital Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse140L",
+            "name": "CSE 140L : Digital Systems Laboratory",
+            "units": "(2)"
+        },
+        {
+            "id": "cse141",
+            "name": "CSE 141 : Introduction to Computer Architecture",
+            "units": "(4)"
+        },
+        {
+            "id": "cse141L",
+            "name": "CSE 141L : Project in Computer Architecture",
+            "units": "(2)"
+        },
+        {
+            "id": "cse143",
+            "name": "CSE 143 : Microelectronic System Design",
+            "units": "(4)"
+        },
+        {
+            "id": "cse144",
+            "name": "CSE 144 : Computer-Aided Design of VLSI Circuits",
+            "units": "(4)"
+        },
+        {
+            "id": "cse145",
+            "name": "CSE 145 : Embedded System Design Project",
+            "units": "(4)"
+        },
+        {
+            "id": "cse148",
+            "name": "CSE 148 : Advanced\n\t\t  Processor Architecture Design Project",
+            "units": "(4)"
+        },
+        {
+            "id": "cse150",
+            "name": "CSE 150 : Introduction\n\t\t  to Artificial Intelligence: Search and Reasoning",
+            "units": "(4)"
+        },
+        {
+            "id": "cse151",
+            "name": "CSE 151 : Introduction\n\t\t  to Artificial Intelligence: Statistical Approaches",
+            "units": "(4)"
+        },
+        {
+            "id": "cse152",
+            "name": "CSE 152 : Introduction to Computer Vision",
+            "units": "(4)"
+        },
+        {
+            "id": "cse153",
+            "name": "CSE 153 : Cognitive Modeling",
+            "units": "(4)"
+        },
+        {
+            "id": "cse160",
+            "name": "CSE 160 : Introduction to Parallel Computing",
+            "units": "(4)"
+        },
+        {
+            "id": "cse164",
+            "name": "CSE 164 : GPU Programming",
+            "units": "(4)"
+        },
+        {
+            "id": "cse165",
+            "name": "CSE 165 : 3D User Interaction",
+            "units": "(4)"
+        },
+        {
+            "id": "cse166",
+            "name": "CSE 166 : Image Processing",
+            "units": "(4)"
+        },
+        {
+            "id": "cse167",
+            "name": "CSE 167 : Computer Graphics",
+            "units": "(4)"
+        },
+        {
+            "id": "cse168",
+            "name": "CSE 168 : Computer Graphics II: Rendering",
+            "units": "(4)"
+        },
+        {
+            "id": "cse169",
+            "name": "CSE 169 : Computer Animation",
+            "units": "(4)"
+        },
+        {
+            "id": "cse170",
+            "name": "CSE 170 : Introduction to Human-Computer Interaction Design",
+            "units": "(4)"
+        },
+        {
+            "id": "cse181",
+            "name": "CSE 181 : Molecular Sequence Analysis",
+            "units": "(4)"
+        },
+        {
+            "id": "cse182",
+            "name": "CSE 182 : Biological Databases",
+            "units": "(4)"
+        },
+        {
+            "id": "cse184",
+            "name": "CSE 184 : Computational Molecular Biology",
+            "units": "(4)"
+        },
+        {
+            "id": "cse190",
+            "name": "CSE 190 : Topics\n\t\t  in Computer Science and Engineering",
+            "units": "(4)"
+        },
+        {
+            "id": "cse191",
+            "name": "CSE 191 : Seminar in CSE",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse192",
+            "name": "CSE 192 : Senior Seminar in Computer Science and Engineering",
+            "units": "(1)"
+        },
+        {
+            "id": "cse195",
+            "name": "CSE 195 : Teaching",
+            "units": "(4)"
+        },
+        {
+            "id": "cse197",
+            "name": "CSE 197 : Field\n\t\t  Study in Computer Science and Engineering",
+            "units": "(4, 8, 12, or 16)"
+        },
+        {
+            "id": "cse198",
+            "name": "CSE 198 : Directed Group Study",
+            "units": "(2 or 4)"
+        },
+        {
+            "id": "cse199",
+            "name": "CSE 199 : Independent Study for Undergraduates",
+            "units": "(2 or 4)"
+        },
+        {
+            "id": "cse199H",
+            "name": "CSE 199H : CSE Honors Thesis Research for Undergraduates",
+            "units": "(4)"
+        },
+        {
+            "id": "cse200",
+            "name": "CSE 200 : Computability and Complexity",
+            "units": "(4)"
+        },
+        {
+            "id": "cse202",
+            "name": "CSE 202 : Algorithm Design and Analysis",
+            "units": "(4)"
+        },
+        {
+            "id": "cse203A",
+            "name": "CSE 203A : Advanced Algorithms",
+            "units": "(4)"
+        },
+        {
+            "id": "cse205A",
+            "name": "CSE 205A : Logic in Computer Science",
+            "units": "(4)"
+        },
+        {
+            "id": "cse206A",
+            "name": "CSE 206A : Lattice Algorithms and Applications",
+            "units": "(4)"
+        },
+        {
+            "id": "cse207",
+            "name": "CSE 207 : Modern Cryptography",
+            "units": "(4)"
+        },
+        {
+            "id": "cse208",
+            "name": "CSE 208 : Advanced Cryptography",
+            "units": "(4)"
+        },
+        {
+            "id": "cse209A",
+            "name": "CSE 209A : Topics/Seminar in Algorithms, Complexity,\n\t\t\t\t  and Logic",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse209B",
+            "name": "CSE 209B : Topics/Seminar in Cryptography",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse210",
+            "name": "CSE 210 : Principles of Software Engineering",
+            "units": "(4)"
+        },
+        {
+            "id": "cse211",
+            "name": "CSE 211 : Software Testing and Analysis",
+            "units": "(4)"
+        },
+        {
+            "id": "cse216",
+            "name": "CSE 216 : Research Topics in Human-Computer Interaction",
+            "units": "(4)"
+        },
+        {
+            "id": "cse218",
+            "name": "CSE 218 : Advanced\n\t\t  Topics in Software Engineering",
+            "units": "(4)"
+        },
+        {
+            "id": "cse219",
+            "name": "CSE 219 : Design at Large",
+            "units": "(1)"
+        },
+        {
+            "id": "cse221",
+            "name": "CSE 221 : Operating Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse222A",
+            "name": "CSE 222A : Computer Communication Networks",
+            "units": "(4)"
+        },
+        {
+            "id": "cse222B",
+            "name": "CSE 222B : Internet Algorithmics",
+            "units": "(4)"
+        },
+        {
+            "id": "cse223A",
+            "name": "CSE 223A : Principles of Distributed Computing",
+            "units": "(4)"
+        },
+        {
+            "id": "cse223B",
+            "name": "CSE 223B : Distributed Computing and Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse227",
+            "name": "CSE 227 : Computer Security",
+            "units": "(4)"
+        },
+        {
+            "id": "cse229A",
+            "name": "CSE 229A : Topics/Seminar in Computer Systems",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse229B",
+            "name": "CSE 229B : Topics/Seminar\n\t\t  in Networks and Communication",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse229C",
+            "name": "CSE 229C : Topics/Seminar in Computer Security",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse230",
+            "name": "CSE 230 : Principles of Programming Languages",
+            "units": "(4)"
+        },
+        {
+            "id": "cse231",
+            "name": "CSE 231 : Advanced Compiler Design",
+            "units": "(4)"
+        },
+        {
+            "id": "cse232",
+            "name": "CSE 232 : Principles of Database Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse232B",
+            "name": "CSE 232B : Database System Implementation",
+            "units": "(4)"
+        },
+        {
+            "id": "cse233",
+            "name": "CSE 233 : Database Theory",
+            "units": "(4)"
+        },
+        {
+            "id": "cse237A",
+            "name": "CSE 237A : Introduction to Embedded Computing",
+            "units": "(4)"
+        },
+        {
+            "id": "cse237B",
+            "name": "CSE 237B : Software for Embedded Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse237C",
+            "name": "CSE 237C : Validation\n\t\t  and Testing of Embedded Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse237D",
+            "name": "CSE 237D : Design\n\t\t  Automation and Prototyping for Embedded Systems",
+            "units": "(4)"
+        },
+        {
+            "id": "cse239A",
+            "name": "CSE 239A : Topics/Seminar in Databases",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse240A",
+            "name": "CSE 240A : Principles of Computer Architecture",
+            "units": "(4)"
+        },
+        {
+            "id": "cse240B",
+            "name": "CSE 240B : Parallel Computer Architecture",
+            "units": "(4)"
+        },
+        {
+            "id": "cse240C",
+            "name": "CSE 240C : Advanced Microarchitecture",
+            "units": "(4)"
+        },
+        {
+            "id": "cse240D",
+            "name": "CSE 240D : Application Specific Processors",
+            "units": "(4)"
+        },
+        {
+            "id": "cse241A/ece260B",
+            "name": "CSE 241A : VLSI Integration of Computing Circuitry",
+            "units": "(4)"
+        },
+        {
+            "id": "cse242A",
+            "name": "CSE 242A : Integrated Circuit Layout Automation",
+            "units": "(4)"
+        },
+        {
+            "id": "cse243A",
+            "name": "CSE 243A : Introduction\n\t\t  to Synthesis Methodologies in VLSI CAD",
+            "units": "(4)"
+        },
+        {
+            "id": "cse244A",
+            "name": "CSE 244A : VLSI Test",
+            "units": "(4)"
+        },
+        {
+            "id": "cse245",
+            "name": "CSE 245 : Computer\n\t\t  Aided Circuit Simulation and Verification",
+            "units": "(4)"
+        },
+        {
+            "id": "cse247",
+            "name": "CSE 247 : Application Specific and Reconfigurable Computer Architecture",
+            "units": "(4)"
+        },
+        {
+            "id": "cse248",
+            "name": "CSE 248 : Algorithmic and Optimization Foundations for VLSI CAD",
+            "units": "(4)"
+        },
+        {
+            "id": "cse249A",
+            "name": "CSE 249A : Topics/Seminar\n\t\t  in Computer Architecture",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse249B",
+            "name": "CSE 249B : Topics/Seminar in VLSI",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse249C",
+            "name": "CSE 249C : Topics/Seminar in CAD",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse250A",
+            "name": "CSE 250A : Principles of Artificial Intelligence: Probabilistic Reasoning and Learning ",
+            "units": "(4)"
+        },
+        {
+            "id": "cse250B",
+            "name": "CSE 250B : Principles of Artificial Intelligence: Learning Algorithms ",
+            "units": "(4)"
+        },
+        {
+            "id": "cse250C",
+            "name": "CSE 250C : Machine Learning Theory",
+            "units": "(4)"
+        },
+        {
+            "id": "cse252A",
+            "name": "CSE 252A : Computer Vision I",
+            "units": "(4)"
+        },
+        {
+            "id": "cse252B",
+            "name": "CSE 252B : Computer Vision II",
+            "units": "(4)"
+        },
+        {
+            "id": "cse252C",
+            "name": "CSE 252C : Selected Topics in Vision and Learning",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse254",
+            "name": "CSE 254 : Statistical Learning",
+            "units": "(4)"
+        },
+        {
+            "id": "cse255",
+            "name": "CSE 255 : Data Mining and Predictive Analytics",
+            "units": "(4) "
+        },
+        {
+            "id": "cse256/ling256",
+            "name": "CSE 256 : \t\t  Statistical Natural Language Processing",
+            "units": "(4)"
+        },
+        {
+            "id": "cse258A",
+            "name": "CSE 258A : Cognitive Modeling",
+            "units": "(4)"
+        },
+        {
+            "id": "cse259",
+            "name": "CSE 259 : Seminar in Artificial Intelligence",
+            "units": "(1)"
+        },
+        {
+            "id": "cse259C",
+            "name": "CSE 259C : Topics/Seminar in Machine Learning",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse260",
+            "name": "CSE 260 : Parallel Computation",
+            "units": "(4)"
+        },
+        {
+            "id": "cse262",
+            "name": "CSE 262 : System\n\t\t  Support for Applications of Parallel Computation",
+            "units": "(4)"
+        },
+        {
+            "id": "cse272",
+            "name": "CSE 272 : Advanced Image Synthesis",
+            "units": "(4)"
+        },
+        {
+            "id": "cse274",
+            "name": "CSE 274 : Selected Topics in Graphics",
+            "units": "(2–4)"
+        },
+        {
+            "id": "cse280A",
+            "name": "CSE 280A : Algorithms in Computational Biology",
+            "units": "(4)"
+        },
+        {
+            "id": "cse282/beng202",
+            "name": "CSE 282 : Bioinformatics II: Sequence and Structure Analysis—Methods and Applications",
+            "units": "(4)"
+        },
+        {
+            "id": "cse283/beng203",
+            "name": "CSE 283 : \t\t  Bioinformatics III: Functional Genomics",
+            "units": "(4)"
+        },
+        {
+            "id": "cse290",
+            "name": "CSE 290 : Seminar\n\t\t  in Computer Science and Engineering",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse291",
+            "name": "CSE 291 : Topics\n\t\t  in Computer Science and Engineering",
+            "units": "(1–4)"
+        },
+        {
+            "id": "cse292",
+            "name": "CSE 292 : Faculty Research Seminar",
+            "units": "(1)"
+        },
+        {
+            "id": "cse293",
+            "name": "CSE 293 : Special\n\t\t  Project in Computer Science and Engineering",
+            "units": "(1–12)"
+        },
+        {
+            "id": "cse294",
+            "name": "CSE 294 : Research Meeting in CSE",
+            "units": "(2)"
+        },
+        {
+            "id": "cse298",
+            "name": "CSE 298 : Independent Study",
+            "units": "(1–16)"
+        },
+        {
+            "id": "cse299",
+            "name": "CSE 299 : Research",
+            "units": "(1–16)"
+        },
+        {
+            "id": "cse500",
+            "name": "CSE 500 : Teaching Assistantship",
+            "units": "(2–4)"
+        },
+        {
+            "id": "cse599",
+            "name": "CSE 599 : Teaching Methods in Computer Science",
+            "units": "(2)"
+        }
     ]
-
 }

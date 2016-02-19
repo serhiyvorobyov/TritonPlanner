@@ -162,7 +162,7 @@ color: white !important;
 }
 
 #all-years .container, #year .container {
-    max-height: 463px;
+    max-height: 504px;
     overflow-y: scroll;
 }
 
