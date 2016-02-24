@@ -189,3 +189,12 @@ color: white !important;
     margin-bottom: 0;
 }
 
+.show-quarter .class {
+    height: 42px;
+}
+
+.show-quarter ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+

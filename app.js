@@ -60,6 +60,7 @@ app.get('/parts/show-quarter/:quarter', show_quarter.view);
 // Validate login
 app.post('/planner', login.validate);
 app.post('/parts/add-class/:choosenQuarter/:choosenClass', add_class.view);
+app.post('/parts/rm-class-from-quarter/:quarter/:className', show_quarter.delete);
 
 
 http.createServer(app).listen(app.get('port'), function() {

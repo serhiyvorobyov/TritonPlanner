@@ -185,6 +185,8 @@ function showClickedQuarter(e) {
         'success': function(response)
         {
             $(".main-content").html(response);
+            $('.class-del').click( deleteClass );
+            $('.class-mv').click( moveClass );
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {
@@ -193,6 +195,26 @@ function showClickedQuarter(e) {
     });
 }
 
+function deleteClass(e) {
+    var className = e.toElement.parentNode.children[0].innerHTML;
+    var currentQuarter = document.getElementsByTagName('h1')[1].id;
 
+    $.ajax({
+        'type': 'POST',
+        'url': '/parts/rm-class-from-quarter/'+ currentQuarter +'/'+className,
+        'success': function(response)
+        {
+            $(".main-content").html(response);
+        },
+        'error': function(jqXHR, textStatus, errorThrown)
+        {
+            console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+        }
+    });
+}
+
+function moveClass(e) {
+
+}
 
 

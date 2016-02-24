@@ -1,11 +1,11 @@
-<div class="container">
-    <h1>{{Q}} {{year}}</h1>
+<div class="container show-quarter">
+    <h1 id="{{id}}">{{Q}} {{year}}</h1>
     <ul>
         {{#each classes}}
-            <li>
-                {{this}}
-                <div id="class-del" class="btn btn-danger pull-right">Delete</div>
-                <div id="class-mv" class="btn btn-info pull-right">Move</div>
+            <li class="class">
+                <span>{{this}}</span>
+                <div class="class-del btn btn-danger pull-right">Delete</div>
+                <div class="class-mv btn btn-info pull-right">Move</div>
             </li>
         {{/each}}
     </ul>
