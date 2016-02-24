@@ -135,10 +135,6 @@ color: white !important;
     border-top: 1px solid #444444;
 }
 
-.main-content {
-    padding-top: 10px;
-}
-
 .back-btn {
     display: none;
     float: left;
@@ -149,7 +145,7 @@ color: white !important;
 
 #all-years h5, #year h3, #quarter h1 {
     background-color: rgba(0,0,0,0.7);
-    padding: 4px;
+    padding: 10px;
     color: white;
     margin-bottom: 0;
     text-align: center;
@@ -183,5 +179,13 @@ color: white !important;
 .course-list, .course-description {
     height: 504px;
     overflow-y: scroll;
+}
+
+.quarter {
+    padding: 1.5px 3px;
+}
+
+.quarter ul {
+    margin-bottom: 0;
 }
 

@@ -1,18 +1,21 @@
 <div class="calendar-views">
 
     <div role="tabpanel" class="tab-pane" id="all-years">
-            <div class="container">
-                {{#each quarters}}
-                    <div class="col-xs-4 {{qState}}">
-                        <h5>{{Q}}<br/>{{year}}</h5>
-                        <ul>
-                            {{#each classes}}
-                                <li>{{this}}</li>
-                            {{/each}}
-                        </ul>
-                    </div>
-                {{/each}}
-            </div>
+        <div class="container">
+            {{#each quarters}}
+                <div class="quarter col-xs-4 {{qState}}">
+                    <h5 id="{{id}}">{{Q}}<br/>{{year}}</h5>
+                    <ul>
+                        {{#each classes}}
+                            <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                {{#ifThird @index }}
+                    <div class="clearfix"></div>
+                {{/ifThird}}
+            {{/each}}
         </div>
+    </div>
 
 </div>

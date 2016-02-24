@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>{{Q}} {{year}}</h1>
+    <ul>
+        {{#each classes}}
+            <li>
+                {{this}}
+                <div id="class-del" class="btn btn-danger pull-right">Delete</div>
+                <div id="class-mv" class="btn btn-info pull-right">Move</div>
+            </li>
+        {{/each}}
+    </ul>
+</div>

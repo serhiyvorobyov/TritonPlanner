@@ -1,7 +1,6 @@
 /**
  * Created by Seiji on 1/28/2016.
  */
-var backBtnFunction;
 
 /****************************** LOGIN CONTROLS **********************************/
 function validateLogin(e) {
@@ -56,8 +55,7 @@ function showPlanner(e) {
         'success': function(response)
         {
             $(".main-content").html(response);
-            $('#logo').show();
-            $('.back-btn').hide();
+            $('.quarter').click( showClickedQuarter );
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {
@@ -158,13 +156,32 @@ function showQuarterSelection(e) {
  */
 function addClass(e) {
     e.preventDefault();
-console.log(e);
+
     var choosenClass = $('.choosenClass')[0].innerHTML;
     //var quarterArr = e.srcElement.parentNode.parentNode.parentNode.childNodes[1].innerHTML.split('<br>');
 
     $.ajax({
         'type': 'POST',
         'url': '/parts/add-class/'+e.srcElement.parentNode.id+'/'+choosenClass,
+        'success': function(response)
+        {
+            $(".main-content").html(response);
+            $('.quarter').click( showClickedQuarter );
+        },
+        'error': function(jqXHR, textStatus, errorThrown)
+        {
+            console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+        }
+    });
+}
+
+function showClickedQuarter(e) {
+    e.preventDefault();
+    //var quarterArr = e.srcElement.parentNode.parentNode.parentNode.childNodes[1].innerHTML.split('<br>');
+
+    $.ajax({
+        'type': 'GET',
+        'url': '/parts/show-quarter/'+e.toElement.id,
         'success': function(response)
         {
             $(".main-content").html(response);
@@ -175,7 +192,6 @@ console.log(e);
         }
     });
 }
-
 
 
 
