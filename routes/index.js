@@ -7,6 +7,7 @@ var year = new Date().getFullYear();
 var month = new Date().getMonth();
 var currYear = [];
 var currQuarter = [];
+var futureQuarters = [];
 
 // Grab all of the quarters in the current year
 var i;
@@ -16,12 +17,12 @@ for( i=0; i < length; i++ ) {
         (data.quarters[i].year == year-1 && data.quarters[i].Q !== "Fall") )
     {
         data.quarters[i].qState = "past";
-    }
-
-    if( (data.quarters[i].year == year && data.quarters[i].Q !== "Fall") ||
+    } else if( (data.quarters[i].year == year && data.quarters[i].Q !== "Fall") ||
         (data.quarters[i].year == year-1 && data.quarters[i].Q === "Fall")    )
     {
         currYear.push(data.quarters[i]);
+    } else {
+        futureQuarters.push(data.quarters[i]);
     }
 }
 
@@ -41,6 +42,7 @@ for( i=0; i < length; i++ ) {
 
 data.currYear = currYear;
 data.currQuarter = currQuarter;
+data.plannableQuarters = currYear.concat(futureQuarters);
 
 exports.view = function(req, res) {
     res.render('index', data);
