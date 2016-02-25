@@ -92,6 +92,7 @@
                     deptCoursesTemplate.name = json.nameShort+" : "+json.name;
                     deptCoursesTemplate.units = json.units;
 
+                    console.log(department);
                     deptCourses[department].push(deptCoursesTemplate);
 
                     deptClasses.push(json);

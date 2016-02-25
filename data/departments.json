@@ -1,12 +1,148 @@
 {
   "departments": [
     {
+      "id": "aip",
+      "name": "Academic Internship Program"
+    },
+    {
+      "id": "aasm",
+      "name": "African American Studies"
+    },
+    {
+      "id": "anth",
+      "name": "Anthropology"
+    },
+    {
+      "id": "audl",
+      "name": "Audiology"
+    },
+    {
+      "id": "beng",
+      "name": "Bioengineering "
+    },
+    {
+      "id": "bioi",
+      "name": "Bioinformatics"
+    },
+    {
+      "id": "biol",
+      "name": "Biological Sciences"
+    },
+    {
+      "id": "biom",
+      "name": "Biomedical Sciences"
+    },
+    {
+      "id": "chem",
+      "name": "Chemistry and Biochemistry"
+    },
+    {
+      "id": "chin",
+      "name": "Chinese Studies"
+    },
+    {
+      "id": "clin",
+      "name": "Clinical Psychology"
+    },
+    {
+      "id": "clre",
+      "name": "Clinical Research"
+    },
+    {
       "id": "cogs",
       "name": "Cognitive Science"
     },
     {
-      "id": "cse",
-      "name": "Computer Science"
+      "id": "comm",
+      "name": "Communication"
+    },
+    {
+      "id": "cgs",
+      "name": "Critical Gender Studies"
+    },
+    {
+      "id": "cat",
+      "name": "Culture, Art, and Technology"
+    },
+    {
+      "id": "doc",
+      "name": "Dimensions of Culture"
+    },
+    {
+      "id": "econ",
+      "name": "Economics"
+    },
+    {
+      "id": "eds",
+      "name": "Education Studies"
+    },
+    {
+      "id": "erc",
+      "name": "Eleanor Roosevelt College"
+    },
+    {
+      "id": "ece",
+      "name": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "mae",
+      "name": "Mechanical and Aerospace Engineering"
+    },
+    {
+      "id": "nano",
+      "name": "NanoEngineering"
+    },
+    {
+      "id": "se",
+      "name": "Structural Engineering"
+    },
+    {
+      "id": "envr",
+      "name": "Environmental Studies"
+    },
+    {
+      "id": "esys",
+      "name": "Environmental Systems"
+    },
+    {
+      "id": "ethn",
+      "name": "Ethnic Studies"
+    },
+    {
+      "id": "fmph",
+      "name": "Family Medicine and Public Health"
+    },
+    {
+      "id": "film",
+      "name": "Film Studies"
+    },
+    {
+      "id": "ghp",
+      "name": "Global Health Program"
+    },
+    {
+      "id": "gps",
+      "name": "Global Policy and Strategy"
+    },
+    {
+      "id": "hlaw",
+      "name": "Health Policy and Law"
+    },
+    {
+      "id": "hist",
+      "name": "History"
+    },
+    {
+      "id": "hdp",
+      "name": "Human Development Program"
+    },
+    {
+      "id": "hr",
+      "name": "Human Rights"
+    },
+    {
+      "id": "hum",
+      "name": "Humanities"
     }
   ]
 }
