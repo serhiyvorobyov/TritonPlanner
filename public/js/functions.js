@@ -158,11 +158,11 @@ function addClass(e) {
     e.preventDefault();
 
     var choosenClass = $('.choosenClass')[0].innerHTML;
-    //var quarterArr = e.srcElement.parentNode.parentNode.parentNode.childNodes[1].innerHTML.split('<br>');
+    var choosenQuarter = e.srcElement.parentNode.id;
 
     $.ajax({
         'type': 'POST',
-        'url': '/parts/add-class/'+e.srcElement.parentNode.id+'/'+choosenClass,
+        'url': '/parts/add-class/'+choosenQuarter+'/'+choosenClass,
         'success': function(response)
         {
             $(".main-content").html(response);
@@ -195,7 +195,7 @@ function showClickedQuarter(e) {
     });
 }
 
-function deleteClass(e) {
+function deleteClass(e, stepOne) {
     var className = e.toElement.parentNode.children[0].innerHTML;
     var currentQuarter = document.getElementsByTagName('h1')[1].id;
 
@@ -204,7 +204,11 @@ function deleteClass(e) {
         'url': '/parts/rm-class-from-quarter/'+ currentQuarter +'/'+className,
         'success': function(response)
         {
-            $(".main-content").html(response);
+            if( !stepOne ) {
+                $(".main-content").html(response);
+                $('.class-del').click( deleteClass );
+                $('.class-mv').click( moveClass );
+            }
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {
@@ -214,7 +218,24 @@ function deleteClass(e) {
 }
 
 function moveClass(e) {
+    var className = e.toElement.parentNode.children[0].innerHTML;
+    className = className.split(' ')[0].toLowerCase() + className.split(' ')[1];
+    deleteClass( e, true );
 
+    $.ajax({
+        'type': 'GET',
+        'url': '/parts/choose-quarter/'+className,
+        'success': function(response)
+        {
+            $(".main-content").html(response);
+            $('.past').hide();
+            $.each($(".addToQuarter"), function(index, elem) {elem.addEventListener('click', addClass)});
+        },
+        'error': function(jqXHR, textStatus, errorThrown)
+        {
+            console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+        }
+    });
 }
 
 
