@@ -176,7 +176,7 @@ color: white !important;
     overflow-y: scroll;
 }
 
-.course-list, .course-description {
+.course-list, .course-description, .department-list {
     height: 504px;
     overflow-y: scroll;
 }

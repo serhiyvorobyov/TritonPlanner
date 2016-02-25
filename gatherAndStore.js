@@ -6,23 +6,27 @@
 
     // Data
     var URLsArray = require('./data/course-catalog-URLs.json').catalog;
-    var courseData = require('./data/courses.json');
-    var deptCourses = require('./data/dept-courses.json');
+
 
     // Variables
     var department;
     var url;
     var $;
     var deptCoursesTemplate;
+    var deptCourses = {};
+    var courseData = {};
 
     var i;
     var length = URLsArray.length;
     for( i=0; i<length; i++ ) {
         //console.log(URLsArray);
-        url = URLsArray[i].URL;
+        url = URLsArray[i];
 
         // Be careful. This is an asynchronous call.
         request(url, function (err, res, body) {
+            var urlArr = res.request.uri.href.split('/');
+            department = urlArr[urlArr.length-1].replace(/.html/, '').toLowerCase();
+
             if (!err && res.statusCode == 200) {
                 $ = cheerio.load(body);
                 var deptClasses = [];
@@ -32,15 +36,13 @@
                 var courseUnits;
                 var courseParts;
 
-                // The next element after the heading (upper/lower div) is an <a> element to support anchors.
-                // I am grabbing the very first one to determine which department we are in.
-                department = $('.course-subhead-1').next().attr('name').replace(/[^a-zA-Z]/, '');
+                deptCourses[department] = [];
 
                 // Grab all of the course titles
                 $('.course-name').each(function(i, elem) {
                     courseName = $(this).text();
                     courseNumbers = courseName.split('.')[0].split("/"); // In the case: COURSE/COURSE
-                    courseUnits = courseName.split('.')[1].indexOf("(");
+                    courseUnits = courseName.split('.')[1] ? courseName.split('.')[1].indexOf("(") : "";
                     json = {
                         id: "",
                         name: "",
@@ -85,14 +87,13 @@
 
                     // Merge courses together if there are multiple
                     json.id = courseNumbers[1] ? courseNumbers.join('/'): courseNumbers[0];
-                    json.name = courseName.split('.')[1].split(" (")[0].substr(1); // Grab title up to the units
-                    json.units = courseName.split('.')[1].substr(courseUnits);
+                    json.name = courseName.split('.')[1] ? courseName.split('.')[1].split(" (")[0].substr(1) : ""; // Grab title up to the units
+                    json.units = courseName.split('.')[1] ? courseName.split('.')[1].substr(courseUnits) : "";
 
                     deptCoursesTemplate.id = json.id;
                     deptCoursesTemplate.name = json.nameShort+" : "+json.name;
                     deptCoursesTemplate.units = json.units;
 
-                    console.log(department);
                     deptCourses[department].push(deptCoursesTemplate);
 
                     deptClasses.push(json);
@@ -113,9 +114,6 @@
                 for( j=0; j<lengthDeptArr; j++ ) {
                     courseData[deptClasses[j].id] = deptClasses[j];
                 }
-
-                console.log(deptClasses);
-
             } else {
                 console.log("Issue with request...");
             }

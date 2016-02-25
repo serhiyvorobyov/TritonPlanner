@@ -1,160 +1,43 @@
 {
   "catalog": [
-    {
-      "dept": "aip",
-      "URL": "http://ucsd.edu/catalog/courses/AIP.html"
-    },
-    {
-      "dept": "cogs",
-      "URL": "http://ucsd.edu/catalog/courses/COGS.html"
-    },
-    {
-      "dept": "cse",
-      "URL": "http://ucsd.edu/catalog/courses/CSE.html"
-    },
-    {
-      "dept": "aasm",
-      "URL": "http://ucsd.edu/catalog/courses/AASM.html"
-    },
-    {
-      "dept": "anth",
-      "URL": "http://ucsd.edu/catalog/courses/ANTH.html"
-    },
-    {
-      "dept": "audl",
-      "URL": "http://ucsd.edu/catalog/courses/AUDL.html"
-    },
-    {
-      "dept": "bioi",
-      "URL": "http://ucsd.edu/catalog/courses/BIOI.html"
-    },
-    {
-      "dept": "biol",
-      "URL": "http://ucsd.edu/catalog/courses/BIOL.html"
-    },
-    {
-      "dept": "biom",
-      "URL": "http://ucsd.edu/catalog/courses/BIOM.html"
-    },
-    {
-      "dept": "chem",
-      "URL": "http://ucsd.edu/catalog/courses/CHEM.html"
-    },
-    {
-      "dept": "chin",
-      "URL": "http://ucsd.edu/catalog/courses/CHIN.html"
-    },
-    {
-      "dept": "clin",
-      "URL": "http://ucsd.edu/catalog/courses/CLIN.html"
-    },
-    {
-      "dept": "clre",
-      "URL": "http://ucsd.edu/catalog/courses/CLRE.html"
-    },
-    {
-      "dept": "comm",
-      "URL": "http://ucsd.edu/catalog/courses/COMM.html"
-    },
-    {
-      "dept": "cont",
-      "URL": "http://ucsd.edu/catalog/courses/CONT.html"
-    },
-    {
-      "dept": "cgs",
-      "URL": "http://ucsd.edu/catalog/courses/CGS.html"
-    },
-    {
-      "dept": "cat",
-      "URL": "http://ucsd.edu/catalog/courses/CAT.html"
-    },
-    {
-      "dept": "doc",
-      "URL": "http://ucsd.edu/catalog/courses/DOC.html"
-    },
-    {
-      "dept": "econ",
-      "URL": "http://ucsd.edu/catalog/courses/ECON.html"
-    },
-    {
-      "dept": "eds",
-      "URL": "http://ucsd.edu/catalog/courses/EDS.html"
-    },
-    {
-      "dept": "erc",
-      "URL": "http://ucsd.edu/catalog/courses/ERC.html"
-    },
-    {
-      "dept": "beng",
-      "URL": "http://ucsd.edu/catalog/courses/BENG.html"
-    },
-    {
-      "dept": "ece",
-      "URL": "http://ucsd.edu/catalog/courses/ECE.html"
-    },
-    {
-      "dept": "mae",
-      "URL": "http://ucsd.edu/catalog/courses/MAE.html"
-    },
-    {
-      "dept": "nano",
-      "URL": "http://ucsd.edu/catalog/courses/NANO.html"
-    },
-    {
-      "dept": "se",
-      "URL": "http://ucsd.edu/catalog/courses/SE.html"
-    },
-    {
-      "dept": "envr",
-      "URL": "http://ucsd.edu/catalog/courses/ENVR.html"
-    },
-    {
-      "dept": "se",
-      "URL": "http://ucsd.edu/catalog/courses/SE.html"
-    },
-    {
-      "dept": "esys",
-      "URL": "http://ucsd.edu/catalog/courses/ESYS.html"
-    },
-    {
-      "dept": "ethn",
-      "URL": "http://ucsd.edu/catalog/courses/ETHN.html"
-    },
-    {
-      "dept": "fmph",
-      "URL": "http://ucsd.edu/catalog/courses/FMPH.html"
-    },
-    {
-      "dept": "film",
-      "URL": "http://ucsd.edu/catalog/courses/FILM.html"
-    },
-    {
-      "dept": "ghp",
-      "URL": "http://ucsd.edu/catalog/courses/GHP.html"
-    },
-    {
-      "dept": "gps",
-      "URL": "http://ucsd.edu/catalog/courses/GPS.html"
-    },
-    {
-      "dept": "hlaw",
-      "URL": "http://ucsd.edu/catalog/courses/HLAW.html"
-    },
-    {
-      "dept": "hist",
-      "URL": "http://ucsd.edu/catalog/courses/HIST.html"
-    },
-    {
-      "dept": "hdp",
-      "URL": "http://ucsd.edu/catalog/courses/HDP.html"
-    },
-    {
-      "dept": "hr",
-      "URL": "http://ucsd.edu/catalog/courses/HR.html"
-    },
-    {
-      "dept": "hum",
-      "URL": "http://ucsd.edu/catalog/courses/HUM.html"
-    }
+    "http://ucsd.edu/catalog/courses/AIP.html",
+    "http://ucsd.edu/catalog/courses/COGS.html",
+    "http://ucsd.edu/catalog/courses/CSE.html",
+    "http://ucsd.edu/catalog/courses/AASM.html",
+    "http://ucsd.edu/catalog/courses/ANTH.html",
+    "http://ucsd.edu/catalog/courses/AUDL.html",
+    "http://ucsd.edu/catalog/courses/BIOI.html",
+    "http://ucsd.edu/catalog/courses/BIOL.html",
+    "http://ucsd.edu/catalog/courses/BIOM.html",
+    "http://ucsd.edu/catalog/courses/CHEM.html",
+    "http://ucsd.edu/catalog/courses/CHIN.html",
+    "http://ucsd.edu/catalog/courses/CLIN.html",
+    "http://ucsd.edu/catalog/courses/CLRE.html",
+    "http://ucsd.edu/catalog/courses/COMM.html",
+    "http://ucsd.edu/catalog/courses/CONT.html",
+    "http://ucsd.edu/catalog/courses/CGS.html",
+    "http://ucsd.edu/catalog/courses/CAT.html",
+    "http://ucsd.edu/catalog/courses/DOC.html",
+    "http://ucsd.edu/catalog/courses/ECON.html",
+    "http://ucsd.edu/catalog/courses/EDS.html",
+    "http://ucsd.edu/catalog/courses/ERC.html",
+    "http://ucsd.edu/catalog/courses/BENG.html",
+    "http://ucsd.edu/catalog/courses/ECE.html",
+    "http://ucsd.edu/catalog/courses/MAE.html",
+    "http://ucsd.edu/catalog/courses/NANO.html",
+    "http://ucsd.edu/catalog/courses/SE.html",
+    "http://ucsd.edu/catalog/courses/ENVR.html",
+    "http://ucsd.edu/catalog/courses/SE.html",
+    "http://ucsd.edu/catalog/courses/ESYS.html",
+    "http://ucsd.edu/catalog/courses/ETHN.html",
+    "http://ucsd.edu/catalog/courses/FMPH.html",
+    "http://ucsd.edu/catalog/courses/FILM.html",
+    "http://ucsd.edu/catalog/courses/GHP.html",
+    "http://ucsd.edu/catalog/courses/GPS.html",
+    "http://ucsd.edu/catalog/courses/HLAW.html",
+    "http://ucsd.edu/catalog/courses/HIST.html",
+    "http://ucsd.edu/catalog/courses/HDP.html",
+    "http://ucsd.edu/catalog/courses/HR.html",
+    "http://ucsd.edu/catalog/courses/HUM.html"
   ]
 }
