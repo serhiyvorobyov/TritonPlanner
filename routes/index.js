@@ -59,3 +59,7 @@ exports.chooseQuarter = function(req,res) {
 
     res.render('partials/choose-quarter', data);
 };
+
+exports.dashboard = function (req, res) {
+    res.render('index', data);
+}

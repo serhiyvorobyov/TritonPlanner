@@ -12,9 +12,10 @@
 
 <body>
     <header>
-        <a class="back-btn" href="/">Back</a>
+        
         <a href="/"><img id="logo" src="/images/TritonPlannerLogo.jpg"></a>
         <h1>
+            <a id="back-btn" href="/"><i class="glyphicon glyphicon-arrow-left"></i></a>
             <span>TritonPlanner</span>
         </h1>
 
@@ -33,6 +34,7 @@
         $('#add-class')[0].addEventListener('click', showDepartments);
         document.getElementById('logo').addEventListener('click', showPlanner);
         $('.quarter').click( showClickedQuarter );
+        $('#back-btn').hide();
     </script>
 
 </body>

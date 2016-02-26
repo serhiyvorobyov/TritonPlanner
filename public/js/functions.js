@@ -2,6 +2,8 @@
  * Created by Seiji on 1/28/2016.
  */
 
+var backButtonStack = [];
+
 /****************************** LOGIN CONTROLS **********************************/
 function validateLogin(e) {
     console.log("entering validation...");
@@ -55,6 +57,9 @@ function showPlanner(e) {
         'success': function(response)
         {
             $(".main-content").html(response);
+            backButtonStack = [];
+            $('#logo').show();
+            $('#back-btn').hide();
             $('.quarter').click( showClickedQuarter );
         },
         'error': function(jqXHR, textStatus, errorThrown)
@@ -67,19 +72,40 @@ function showPlanner(e) {
 function showDepartments(e) {
     e.preventDefault();
 
-    $.ajax({
-        'type': 'GET',
-        'url': '/parts/department-listing-view',
-        'success': function(response)
-        {
-            // Update displayed content
-            $(".main-content").html(response);
-
-            // Link all departments to the proper next page
+    function successCall(response) {
+        function linkClicks () {
             $.each( $('.department-list ul li'), function(index, elem) {
                 elem.addEventListener('click', showDeptClasses);
             });
-        },
+        }
+
+        backButtonStack.push({
+            "content": $(".main-content").html(),
+            "eventsLinker": linkClicks
+        });
+        $('#logo').hide();
+        $('#back-btn').show();
+        // Update displayed content
+        $(".main-content").html(response);
+
+        var ev = $._data($('#back-btn i')[0], 'events');
+        var checkEvent = ev && ev.click;
+        console.log(checkEvent);
+        if(!checkEvent) {
+            console.log('back button click registered');
+            $('#back-btn i').click( restorePreviousScreen );
+        }
+        
+        
+
+        // Link all departments to the proper next page
+        linkClicks();
+    }
+
+    $.ajax({
+        'type': 'GET',
+        'url': '/parts/department-listing-view',
+        'success': successCall,
         'error': function(jqXHR, textStatus, errorThrown)
         {
             console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
@@ -91,16 +117,27 @@ function showDepartments(e) {
 function showDeptClasses(e) {
     e.preventDefault();
 
-    $.ajax({
-        'type': 'GET',
-        'url': '/parts/course-listing/' + /^[a-z]+/.exec(e.srcElement.id)[0],
-        'success': function(response)
-        {
-            $(".main-content").html(response);
+    function successCall(response)
+    {
+        function linkClicks () {
             $.each( $('.course-list ul li'), function(index, elem) {
                 elem.addEventListener('click', showCourseDescription);
             });
-        },
+        }
+        backButtonStack.push({
+            "content": $(".main-content").html(),
+            "functionActivator": linkClicks
+        });
+        $(".main-content").html(response);
+
+        linkClicks();
+        
+    }
+
+    $.ajax({
+        'type': 'GET',
+        'url': '/parts/course-listing/' + /^[a-z]+/.exec(e.srcElement.id)[0],
+        'success': successCall,
         'error': function(jqXHR, textStatus, errorThrown)
         {
             console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
@@ -114,11 +151,14 @@ function showDeptClasses(e) {
 function showCourseDescription(e) {
     e.preventDefault();
 
+    
+
     $.ajax({
         'type': 'GET',
         'url': '/parts/course-description/'+ e.srcElement.id,
         'success': function(response)
         {
+            backButtonStack.push($(".main-content").html());
             $(".main-content").html(response);
             $(".course-description .add")[0].addEventListener('click', showQuarterSelection);
         },
@@ -135,11 +175,14 @@ function showCourseDescription(e) {
 function showQuarterSelection(e) {
     e.preventDefault();
 
+    
+
     $.ajax({
         'type': 'GET',
         'url': '/parts/choose-quarter/'+e.srcElement.parentNode.id,
         'success': function(response)
         {
+            backButtonStack.push($(".main-content").html());
             $(".main-content").html(response);
             $('.past').hide();
             $.each($(".addToQuarter"), function(index, elem) {elem.addEventListener('click', addClass)});
@@ -157,6 +200,8 @@ function showQuarterSelection(e) {
 function addClass(e) {
     e.preventDefault();
 
+    
+
     var choosenClass = $('.choosenClass')[0].innerHTML;
     var choosenQuarter = e.srcElement.parentNode.id;
 
@@ -165,6 +210,7 @@ function addClass(e) {
         'url': '/parts/add-class/'+choosenQuarter+'/'+choosenClass,
         'success': function(response)
         {
+            backButtonStack.push($(".main-content").html());
             $(".main-content").html(response);
             $('.quarter').click( showClickedQuarter );
         },
@@ -179,12 +225,17 @@ function showClickedQuarter(e) {
     e.preventDefault();
     //var quarterArr = e.srcElement.parentNode.parentNode.parentNode.childNodes[1].innerHTML.split('<br>');
 
+    
+
     $.ajax({
         'type': 'GET',
         'url': '/parts/show-quarter/'+e.toElement.id,
         'success': function(response)
         {
+            backButtonStack.push($(".main-content").html());
             $(".main-content").html(response);
+            $('#logo').hide();
+            $('#back-btn').show();
             $('.class-del').click( deleteClass );
             $('.class-mv').click( moveClass );
         },
@@ -208,7 +259,6 @@ function deleteClass(e, stepOne) {
         'success': function(response)
         {
             if( !stepOne ) {
-                $(".main-content").html(response);
                 $('.class-del').click( deleteClass );
                 $('.class-mv').click( moveClass );
             }
@@ -242,4 +292,19 @@ function moveClass(e) {
     });
 }
 
+function restorePreviousScreen(e) {
+    e.preventDefault();
+    console.log(backButtonStack);
 
+
+    if( backButtonStack.length > 0 ) {
+        var objBack = backButtonStack.pop();
+        $('.main-content').html( objBack.content );
+        objBack.eventsLinker.call(null);
+
+        if( backButtonStack.length == 0 ) {
+            $('#logo').show();
+            $('#back-btn').hide();
+        }
+    }
+}

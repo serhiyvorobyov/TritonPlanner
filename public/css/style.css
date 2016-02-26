@@ -198,3 +198,7 @@ color: white !important;
     padding-left: 0;
 }
 
+#back-btn i {
+    float: left;
+    transform: translate(10px, 10px);
+}

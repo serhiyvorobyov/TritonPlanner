@@ -22,5 +22,5 @@ exports.validate = function(req, res) {
         
     });
 
-    res.render('index', data);
+    res.redirect('/planner');
 }
