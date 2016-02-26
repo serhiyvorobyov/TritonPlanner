@@ -199,7 +199,10 @@ function deleteClass(e, stepOne) {
     var className = e.toElement.parentNode.children[0].innerHTML;
     var currentQuarter = document.getElementsByTagName('h1')[1].id;
 
-    $.ajax({
+    var confirmation = window.confirm("Are you sure you want to delete " + className + "?");
+
+    if( confirmation ) {
+        $.ajax({
         'type': 'POST',
         'url': '/parts/rm-class-from-quarter/'+ currentQuarter +'/'+className,
         'success': function(response)
@@ -215,6 +218,7 @@ function deleteClass(e, stepOne) {
             console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
         }
     });
+    }
 }
 
 function moveClass(e) {
