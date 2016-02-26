@@ -238,6 +238,7 @@ function showClickedQuarter(e) {
             $('#back-btn').show();
             $('.class-del').click( deleteClass );
             $('.class-mv').click( moveClass );
+            $('.class-add').click( showDepartments );
         },
         'error': function(jqXHR, textStatus, errorThrown)
         {
