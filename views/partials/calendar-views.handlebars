@@ -3,8 +3,8 @@
     <div role="tabpanel" class="tab-pane" id="all-years">
         <div class="container">
             {{#each plannableQuarters}}
-                <div class="quarter col-xs-4 {{qState}}">
-                    <h5 id="{{id}}">{{Q}}<br/>{{year}}</h5>
+                <div id="{{id}}" class="quarter col-xs-4 {{qState}}">
+                    <h5>{{Q}}<br/>{{year}}</h5>
                     <ul>
                         {{#each classes}}
                             <li>{{this}}</li>
@@ -15,6 +15,10 @@
                     <div class="clearfix"></div>
                 {{/ifThird}}
             {{/each}}
+            <div class="col-xs-4 new-quarter" style="opacity: 0.7">
+
+                <h5><!--<i class="glyphicon glyphicon-plus"></i><br/>-->Add a Quarter</h5>
+            </div>
         </div>
     </div>
 

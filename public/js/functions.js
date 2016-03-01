@@ -168,13 +168,13 @@ function addClass(e) {
 
 function showClickedQuarter(e) {
     e.preventDefault();
-    //var quarterArr = e.srcElement.parentNode.parentNode.parentNode.childNodes[1].innerHTML.split('<br>');
 
-    
+    // Either clicked on h5 or li within ul
+    var quarterID = e.toElement.parentNode.id || e.toElement.parentNode.parentNode.id;
 
     $.ajax({
         'type': 'GET',
-        'url': '/parts/show-quarter/'+e.toElement.id,
+        'url': '/parts/show-quarter/'+quarterID,
         'success': function(response)
         {
             backButtonStack.push($(".main-content").html());
@@ -190,10 +190,13 @@ function showClickedQuarter(e) {
 function deleteClass(e, stepOne) {
     var className = e.toElement.parentNode.children[0].innerHTML;
     var currentQuarter = document.getElementsByTagName('h1')[1].id;
+    var confirmation;
 
-    var confirmation = window.confirm("Are you sure you want to delete " + className + "?");
+    if( !stepOne || stepOne === undefined ) {
+        confirmation = window.confirm("Are you sure you want to delete " + className + " from this quarter?");
+    }
 
-    if( confirmation ) {
+    if( confirmation || stepOne ) {
         $.ajax({
         'type': 'POST',
         'url': '/parts/rm-class-from-quarter/'+ currentQuarter +'/'+className,
@@ -214,20 +217,24 @@ function deleteClass(e, stepOne) {
 function moveClass(e) {
     var className = e.toElement.parentNode.children[0].innerHTML;
     className = className.split(' ')[0].toLowerCase() + className.split(' ')[1];
-    deleteClass( e, false );
+    var confirmation = window.confirm("Are you sure you want to move " + className + " to another quarter?");
 
-    $.ajax({
-        'type': 'GET',
-        'url': '/parts/choose-quarter/'+className,
-        'success': function(response)
-        {
-            $(".main-content").html(response);
-        },
-        'error': function(jqXHR, textStatus, errorThrown)
-        {
-            console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
-        }
-    });
+    if( confirmation ) {
+        deleteClass( e, true );
+
+        $.ajax({
+            'type': 'GET',
+            'url': '/parts/choose-quarter/'+className,
+            'success': function(response)
+            {
+                $(".main-content").html(response);
+            },
+            'error': function(jqXHR, textStatus, errorThrown)
+            {
+                console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+            }
+        });
+    }
 }
 
 function restorePreviousScreen(e) {

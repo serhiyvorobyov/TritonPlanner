@@ -181,12 +181,20 @@ color: white !important;
     overflow-y: scroll;
 }
 
-.quarter {
+.quarter, .new-quarter {
     padding: 1.5px 3px;
 }
 
 .quarter ul {
     margin-bottom: 0;
+}
+
+.new-quarter h5 {
+    padding: 7px!important;
+    text-align: center;
+    background-color: white!important;
+    color: gray!important;
+    border: dotted!important;
 }
 
 .show-quarter .class {
