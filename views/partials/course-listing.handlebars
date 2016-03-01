@@ -6,3 +6,9 @@
         {{/each}}
     </ul>
 </div>
+
+<script>
+    $.each( $('.course-list ul li'), function(index, elem) {
+        elem.addEventListener('click', showCourseDescription);
+    });
+</script>

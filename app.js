@@ -48,7 +48,7 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Add routes here
-app.get('/', login.view);
+//app.get('/', login.view);
 app.get('/parts/course-description/:course', course_description.view);
 app.get('/parts/department-listing-view', department_listing.view);
 app.get('/parts/requirements-view', requirements.view);
@@ -56,7 +56,7 @@ app.get('/parts/planner-view', index.calendar);
 app.get('/parts/course-listing/:department', course_listing.mgt);
 app.get('/parts/choose-quarter/:choosenClass', index.chooseQuarter);
 app.get('/parts/show-quarter/:quarter', show_quarter.view);
-app.get('/planner', index.dashboard);
+app.get('/', index.dashboard);
 
 // Validate login
 app.post('/planner', login.validate);

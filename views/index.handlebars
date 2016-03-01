@@ -20,6 +20,11 @@
         </h1>
 
     </header>
+
+    <!--Issue when loading in the very beginning due to a partial importing a script that uses jquery.-->
+    <script src="/js/jquery-1.11.0.js"></script>
+    <script src="/js/functions.js"></script>
+
     <div class="main-content">
         {{> calendar-views}}
 
@@ -29,12 +34,23 @@
 
     {{> footer }}
     <script>
+        $('#back-btn').hide();
         //$('#requirements')[0].addEventListener('click', showRequirements);
         $('#planner')[0].addEventListener('click', showPlanner);
         $('#add-class')[0].addEventListener('click', showDepartments);
         document.getElementById('logo').addEventListener('click', showPlanner);
-        $('.quarter').click( showClickedQuarter );
-        $('#back-btn').hide();
+
+
+        // Register back button with the function that restores the correct screen
+        var ev = $._data($('#back-btn i')[0], 'events');
+        var checkEvent = ev && ev.click;
+        console.log(checkEvent);
+        if(!checkEvent) {
+            console.log('back button registered');
+            $('#back-btn i').click( restorePreviousScreen );
+        }
+
+        $('body').on('swipeleft', restorePreviousScreen);
     </script>
 
 </body>

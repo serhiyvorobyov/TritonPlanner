@@ -16,3 +16,8 @@
     {{/each}}
     <div class="choosenClass" style="display:none;">{{choosenClass}}</div>
 </div>
+
+<script>
+    $('.past').hide();
+    $.each($(".addToQuarter"), function(index, elem) {elem.addEventListener('click', addClass)});
+</script>

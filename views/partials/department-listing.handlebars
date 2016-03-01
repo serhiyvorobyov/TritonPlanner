@@ -6,3 +6,12 @@
         {{/each}}
     </ul>
 </div>
+
+<script>
+    $('#logo').hide();
+    $('#back-btn').show();
+    // Link all departments to the proper next page
+    $.each( $('.department-list ul li'), function(index, elem) {
+        elem.addEventListener('click', showDeptClasses);
+    });
+</script>
