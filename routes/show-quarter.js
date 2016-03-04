@@ -11,6 +11,17 @@ exports.view = function (req, res) {
     res.render('partials/show-quarter', userData.quarters[i]);
 };
 
+exports.view2 = function (req, res) {
+    var quarter = req.params.quarter;
+    var i;
+
+    for( i=0; i < userData.quarters.length; i++ ) {
+        if( userData.quarters[i].id == quarter ) break;
+    }
+
+    res.render('partials/show-quarter2', userData.quarters[i]);
+};
+
 exports.delete = function (req, res) {
     var quarter = req.params.quarter;
     var className = req.params.className;
