@@ -245,3 +245,8 @@ function restorePreviousScreen(e) {
         $('.main-content').html( backButtonStack.pop() );
     }
 }
+
+function registerAddQuarter(e) {
+    e.preventDefault();
+    console.log('new Quarter!');
+}
